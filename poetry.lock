@@ -1015,4 +1015,4 @@ pandas = ">=1.3.5"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1fa6d846f7f0a7f99dfff49b40acf6df8da0a9d492bd424449951b013fea8471"
+content-hash = "80673627c2d16a58098cdba49e6adee37a37331f153cb19abba44908a82b434d"

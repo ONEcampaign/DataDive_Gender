@@ -11,6 +11,7 @@ packages = [{include = "datadive_gender"}]
 python = "^3.10"
 pandas = "^1.5.3"
 bblocks = "^0.5.1"
+country-converter = "^0.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
