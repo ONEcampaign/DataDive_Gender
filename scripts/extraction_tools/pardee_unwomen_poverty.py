@@ -7,6 +7,7 @@ import pandas as pd
 import country_converter as coco
 
 from scripts.config import PATHS
+from scripts.logger import logger
 
 URL = "https://data.unwomen.org/sites/default/files/inline-files/Poverty-Estimates_new-release_210122.xlsx"
 
@@ -20,8 +21,12 @@ SHEETS = {
 def get_mapper(df: pd.DataFrame) -> dict:
     """Get a mapper from the variables sheet to map variable names and units
 
-    returns a dictionary with keys as 'variable_mapper' and 'units_mapper',
-    and mappers using variable codes as values
+    Args:
+        df (pd.DataFrame): dataframe to get mapper from
+
+    Returns:
+        dictionary with keys as 'variable_mapper' and 'units_mapper',
+        and mappers using variable codes as values
     """
 
     df = (
@@ -42,8 +47,17 @@ def get_mapper(df: pd.DataFrame) -> dict:
     }
 
 
-def clean_country_data(df, mapper):
-    """ """
+def clean_country_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame:
+    """Clean country data dataframe
+
+    Args:
+        df (pd.DataFrame): dataframe to clean
+        mapper (dict): mapper to map variable names and units
+
+    Returns:
+        clean dataframe with melted to create a year column
+        and a new column for region_name using country_converter
+    """
 
     cols = {"Sex": "sex", "Variable": "variable_code", "ISO Code": "iso_code"}
 
@@ -62,8 +76,16 @@ def clean_country_data(df, mapper):
     )
 
 
-def clean_region_data(df, mapper):
-    """ """
+def clean_region_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame
+    """Clean regional data dataframe
+    
+    Args:
+        df (pd.DataFrame): dataframe to clean
+        mapper (dict): mapper to map variable names and units
+    
+    Returns:
+        clean dataframe with melted to create a year column
+    """
 
     cols = {"Sex": "sex", "Variable": "variable_code", "Region": "region_name"}
 
@@ -82,7 +104,6 @@ def update_unwomen_pardee_poverty() -> None:
     """Pipeline to update UNwomen, Pardee poverty data
 
     Stored as a csv in raw_data/unwomen_pardee_poverty.csv
-
     """
 
     mapper = pd.read_excel(URL, sheet_name=SHEETS["variables"]).pipe(get_mapper)
@@ -98,3 +119,4 @@ def update_unwomen_pardee_poverty() -> None:
             ignore_index=True,
         ).to_csv(PATHS.raw_data / "unwomen_pardee_poverty.csv", index=False)
     )
+    logger.info("Updated unwomen_pardee_poverty.csv")
