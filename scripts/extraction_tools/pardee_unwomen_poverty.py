@@ -8,12 +8,13 @@ import country_converter as coco
 
 from scripts.config import PATHS
 
-URL = 'https://data.unwomen.org/sites/default/files/inline-files/Poverty-Estimates_new-release_210122.xlsx'
+URL = "https://data.unwomen.org/sites/default/files/inline-files/Poverty-Estimates_new-release_210122.xlsx"
 
-SHEETS = {'variables': 'Variable key and read me',
-          'regional_data': 'Regional Data',
-          'country_data': 'Country level data',
-          }
+SHEETS = {
+    "variables": "Variable key and read me",
+    "regional_data": "Regional Data",
+    "country_data": "Country level data",
+}
 
 
 def get_mapper(df: pd.DataFrame) -> dict:
@@ -23,50 +24,58 @@ def get_mapper(df: pd.DataFrame) -> dict:
     and mappers using variable codes as values
     """
 
-    df = (df
-          .dropna(subset='Description')
-          .rename(
-        columns={'Variable': 'variable_code', 'Description': 'variable_name', 'Unit': 'units'})
-          .set_index('variable_code')
-          )
+    df = (
+        df.dropna(subset="Description")
+        .rename(
+            columns={
+                "Variable": "variable_code",
+                "Description": "variable_name",
+                "Unit": "units",
+            }
+        )
+        .set_index("variable_code")
+    )
 
-    return {'variable_name': df.loc[:, 'variable_name'].to_dict(),
-            'units': df.loc[:, 'units'].to_dict()}
+    return {
+        "variable_name": df.loc[:, "variable_name"].to_dict(),
+        "units": df.loc[:, "units"].to_dict(),
+    }
 
 
 def clean_country_data(df, mapper):
     """ """
 
-    cols = {'Sex': 'sex', 'Variable': 'variable_code', 'ISO Code': 'iso_code'}
+    cols = {"Sex": "sex", "Variable": "variable_code", "ISO Code": "iso_code"}
 
-    return (df
-            .drop(columns=['Age', 'Scenario'])
-            .rename(columns=cols)
-            .assign(variable_name=lambda d: d.variable_code.map(mapper['variable_name']),
-                    units=lambda d: d.variable_code.map(mapper['units'])
-                    )
-            .assign(region_name=lambda d: coco.convert(d.iso_code, to='name_short'))
-            .melt(id_vars=list(cols.values()) + ['variable_name', 'units', 'region_name'],
-                  var_name='year')
-
-            )
+    return (
+        df.drop(columns=["Age", "Scenario"])
+        .rename(columns=cols)
+        .assign(
+            variable_name=lambda d: d.variable_code.map(mapper["variable_name"]),
+            units=lambda d: d.variable_code.map(mapper["units"]),
+        )
+        .assign(region_name=lambda d: coco.convert(d.iso_code, to="name_short"))
+        .melt(
+            id_vars=list(cols.values()) + ["variable_name", "units", "region_name"],
+            var_name="year",
+        )
+    )
 
 
 def clean_region_data(df, mapper):
     """ """
 
-    cols = {'Sex': 'sex', 'Variable': 'variable_code', 'Region': 'region_name'}
+    cols = {"Sex": "sex", "Variable": "variable_code", "Region": "region_name"}
 
-    return (df
-            .drop(columns=['Age', 'Scenario'])
-            .rename(columns=cols)
-            .assign(variable_name=lambda d: d.variable_code.map(mapper['variable_name']),
-                    units=lambda d: d.variable_code.map(mapper['units'])
-                    )
-            .melt(id_vars=list(cols.values()) + ['variable_name', 'units'],
-                  var_name='year')
-
-            )
+    return (
+        df.drop(columns=["Age", "Scenario"])
+        .rename(columns=cols)
+        .assign(
+            variable_name=lambda d: d.variable_code.map(mapper["variable_name"]),
+            units=lambda d: d.variable_code.map(mapper["units"]),
+        )
+        .melt(id_vars=list(cols.values()) + ["variable_name", "units"], var_name="year")
+    )
 
 
 def update_unwomen_pardee_poverty() -> None:
@@ -76,12 +85,16 @@ def update_unwomen_pardee_poverty() -> None:
 
     """
 
-    mapper = pd.read_excel(URL, sheet_name=SHEETS['variables']).pipe(get_mapper)
-    df_region = pd.read_excel(URL, sheet_name=SHEETS['regional_data'])
-    df_country = pd.read_excel(URL, sheet_name=SHEETS['country_data'])
+    mapper = pd.read_excel(URL, sheet_name=SHEETS["variables"]).pipe(get_mapper)
+    df_region = pd.read_excel(URL, sheet_name=SHEETS["regional_data"])
+    df_country = pd.read_excel(URL, sheet_name=SHEETS["country_data"])
 
-    (pd.concat([clean_region_data(df_region, mapper),
-                clean_country_data(df_country, mapper)],
-               ignore_index=True)
-     .to_csv(PATHS.raw_data / 'unwomen_pardee_poverty.csv', index=False)
-     )
+    (
+        pd.concat(
+            [
+                clean_region_data(df_region, mapper),
+                clean_country_data(df_country, mapper),
+            ],
+            ignore_index=True,
+        ).to_csv(PATHS.raw_data / "unwomen_pardee_poverty.csv", index=False)
+    )
