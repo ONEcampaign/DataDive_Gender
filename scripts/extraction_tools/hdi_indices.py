@@ -1,0 +1,1 @@
+"""Extract and format HDI indices"""
