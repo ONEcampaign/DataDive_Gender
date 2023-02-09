@@ -10,8 +10,8 @@ packages = [{include = "datadive_gender"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "^1.5.3"
-bblocks = {git = "https://github.com/ONEcampaign/bblocks.git"}
 country-converter = "^0.8.0"
+bblocks = "^1.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
