@@ -1,6 +1,7 @@
 """Extract and format HDI indices"""
 
 from bblocks.import_tools import hdr
+from scripts.config import PATHS
 
 
 def download_raw_hdi():
@@ -11,10 +12,10 @@ def download_raw_hdi():
     # save gii
     (hdr_data
      .get_data(hdr.available_indicators('gii'))
-     .to_csv('data/raw/hdi/hdr_gii.csv', index=False))
+     .to_csv(f'{PATHS.raw_data}/hdr_gii.csv', index=False))
 
     # save gdi
     (hdr_data
      .get_data(hdr.available_indicators('gdi'))
-     .to_csv('data/raw/hdi/hdr_gdi.csv', index=False))
+     .to_csv(f'{PATHS.raw_data}/hdr_gdi.csv', index=False))
 
