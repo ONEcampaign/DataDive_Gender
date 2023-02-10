@@ -5,10 +5,10 @@ import numpy as np
 import country_converter as coco
 from bblocks.dataframe_tools import add
 
-
 from scripts.config import PATHS
 
 GII = pd.read_csv(f'{PATHS.raw_data}/hdr_gii.csv')
+
 
 def _keep_only_indicator(df: pd.DataFrame, indicator: str, col: str = 'indicator'):
     """Helper function to filter dataframe keeping only selected indicator"""
@@ -16,8 +16,9 @@ def _keep_only_indicator(df: pd.DataFrame, indicator: str, col: str = 'indicator
     return df.loc[df[col] == indicator].reset_index(drop=True)
 
 
-def get_gii_regions_timeseries():
-    """ """
+def gii_regions_timeseries_chart() -> pd.DataFrame:
+    """Chart showing GII for regions over time"""
+
     regions = ['Arab States', 'Europe and Central Asia',
                'Latin America and the Caribbean', 'South Asia', 'World',
                'East Asia and the Pacific', 'Sub-Saharan Africa']
@@ -29,24 +30,38 @@ def get_gii_regions_timeseries():
             )
 
 
-def get_country_latest():
+def get_latest_for_countries(variable: str) -> pd.DataFrame:
     """ """
 
     return (GII
-     .pipe(_keep_only_indicator, 'gii', 'variable')
-     .dropna(subset = ['hdicode', 'value'])
-     .loc[lambda d: d.groupby('country')['year'].idxmax()]
-     .assign(continent = lambda d: coco.convert(d.iso3, to='continent'),
-             )
-     .pipe(add.add_population_column, 'iso3', 'ISO3')
-     )
+            .pipe(_keep_only_indicator, variable, 'variable')
+            .dropna(subset=['hdicode', 'value'])
+            .loc[lambda d: d.groupby('country')['year'].idxmax()]
+            .reset_index(drop=True)
+            )
 
-def histogram():
+
+def histogram_chart():
     """ """
 
-    b = np.array([0. , 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1. ])
-    d = {region: np.histogram(GII.loc[GII.continent == region, 'value'], bins = b)[0]
-         for region in GII.continent.unique()
-         }
+    bins = [0, 0.0001, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+    labels = {'0': 0,
+              '0.001-0.1': 0.05,
+              '0.1-0.2': 0.15,
+              '0.2-0.3': 0.25,
+              '0.3-0.4': 0.35,
+              '0.4-0.5': 0.45,
+              '0.5-0.6': 0.55,
+              '0.6-0.7': 0.65,
+              '0.7-0.8': 0.75,
+              '0.8-0.9': 0.85,
+              '0.9-1': 0.95}
 
-    return pd.DataFrame({**d, **{'bins': b[:-1]}}).melt(id_vars='bins')
+    return (get_latest_for_countries('gii')
+            .assign(continent=lambda d: coco.convert(d.iso3, to='continent'),
+                    binned=lambda d: pd.cut(d.value, bins=bins, labels=labels.keys(),
+                                            include_lowest=True)
+                    )
+            .groupby(['binned', 'continent']).size().reset_index(name='counts')
+            .assign(x_values=lambda d: d.binned.map(labels))
+            )
