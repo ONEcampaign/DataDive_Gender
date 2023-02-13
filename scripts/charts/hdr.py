@@ -1,7 +1,6 @@
 """ """
 
 import pandas as pd
-import numpy as np
 import country_converter as coco
 from bblocks.dataframe_tools import add
 
@@ -31,7 +30,12 @@ def gii_regions_timeseries_chart() -> pd.DataFrame:
 
 
 def get_latest_for_countries(variable: str) -> pd.DataFrame:
-    """ """
+    """Get a dataframe with latest values for countries for a given variable
+
+    Args:
+        variable: variable to get latest values for
+
+    """
 
     return (GII
             .pipe(_keep_only_indicator, variable, 'variable')
@@ -41,8 +45,8 @@ def get_latest_for_countries(variable: str) -> pd.DataFrame:
             )
 
 
-def histogram_chart():
-    """ """
+def histogram_chart() -> None:
+    """Create a curved histogram of Gender Inequality Index by continent"""
 
     bins = [0, 0.0001, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
     labels = {'0': 0,
@@ -57,11 +61,26 @@ def histogram_chart():
               '0.8-0.9': 0.85,
               '0.9-1': 0.95}
 
-    return (get_latest_for_countries('gii')
-            .assign(continent=lambda d: coco.convert(d.iso3, to='continent'),
-                    binned=lambda d: pd.cut(d.value, bins=bins, labels=labels.keys(),
-                                            include_lowest=True)
-                    )
-            .groupby(['binned', 'continent']).size().reset_index(name='counts')
-            .assign(x_values=lambda d: d.binned.map(labels))
-            )
+    (get_latest_for_countries('gii')
+     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'),
+             binned=lambda d: pd.cut(d.value, bins=bins, labels=labels.keys(),
+                                     include_lowest=True)
+             )
+     .groupby(['binned', 'continent'])
+     .size()
+     .reset_index(name='counts')
+     .assign(x_values=lambda d: d.binned.map(labels))
+     .to_csv(f'{PATHS.output}/hdr_gii_histogram_chart.csv', index=False)
+     )
+
+
+def gii_explorer_chart() -> None:
+    """Create a chart for the GII explorer scrolly"""
+
+    (get_latest_for_countries('gii')
+     # add female population)
+     .pipe(add.add_population_column, id_column='iso3', id_type='iso3')
+     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
+     .to_csv(f'{PATHS.output}/hdr_gii_explorer_chart.csv', index=False)
+     )
