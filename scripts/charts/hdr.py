@@ -45,8 +45,30 @@ def get_latest_for_countries(variable: str) -> pd.DataFrame:
             )
 
 
-def histogram_chart() -> None:
-    """Create a curved histogram of Gender Inequality Index by continent"""
+def chart_gii_explorer() -> None:
+    """Create a chart for the GII explorer scrolly"""
+
+    (get_latest_for_countries('gii')
+     # add female population)
+     .pipe(add.add_population_column, id_column='iso3', id_type='iso3')
+     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
+     .to_csv(f'{PATHS.output}/hdr_gii_explorer.csv', index=False)
+     )
+
+
+def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
+    """Create a curved histogram from a dataframe with 10 bins from 0-1
+
+    Args:
+        df: dataframe with values to bin
+        grouping: column to group by
+
+    Returns:
+        dataframe with binned values and counts
+
+
+    """
 
     bins = [0, 0.0001, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
     labels = {'0': 0,
@@ -61,26 +83,41 @@ def histogram_chart() -> None:
               '0.8-0.9': 0.85,
               '0.9-1': 0.95}
 
+    return (df
+            .assign(binned=lambda d: pd.cut(d.value, bins=bins, labels=labels.keys(),
+                                            include_lowest=True))
+            .groupby(['binned', grouping])
+            .size()
+            .reset_index(name='counts')
+            .assign(x_values=lambda d: d.binned.map(labels))
+            .pivot(index=['x_values', 'binned'], columns=grouping, values='counts')
+            .reset_index()
+            )
+
+
+def chart_histogram_continents() -> None:
+    """Create a curved histogram for GII by continent"""
+
     (get_latest_for_countries('gii')
-     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'),
-             binned=lambda d: pd.cut(d.value, bins=bins, labels=labels.keys(),
-                                     include_lowest=True)
-             )
-     .groupby(['binned', 'continent'])
-     .size()
-     .reset_index(name='counts')
-     .assign(x_values=lambda d: d.binned.map(labels))
-     .to_csv(f'{PATHS.output}/hdr_gii_histogram_chart.csv', index=False)
-     )
-
-
-def gii_explorer_chart() -> None:
-    """Create a chart for the GII explorer scrolly"""
-
-    (get_latest_for_countries('gii')
-     # add female population)
-     .pipe(add.add_population_column, id_column='iso3', id_type='iso3')
-     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
      .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
-     .to_csv(f'{PATHS.output}/hdr_gii_explorer_chart.csv', index=False)
+     .pipe(_histogram_chart, grouping='continent')
+     .to_csv(f'{PATHS.output}/hdr_gii_histogram_continents.csv', index=False)
      )
+
+
+def chart_histogram_income() -> None:
+    """Create a curved histogram for GII by income level"""
+
+    (get_latest_for_countries('gii')
+     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+     .pipe(_histogram_chart, grouping='income_level')
+     .reindex(columns=['x_values', 'binned', 'Low income',
+                       'Lower middle income', 'Upper middle income', 'High income'])
+     .to_csv(f'{PATHS.output}/hdr_gii_histogram_income.csv', index=False)
+     )
+
+
+def update_hdr_charts() -> None:
+    """Update all HDR charts"""
+
+    pass
