@@ -186,7 +186,7 @@ def update_hdr_charts() -> None:
 
     # gii explorer for map and bubble plot
     chart_gii_explorer()
-    
+
     # gii distribution
     chart_histogram_continents()
     chart_histogram_income()
