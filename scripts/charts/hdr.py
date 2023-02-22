@@ -117,7 +117,33 @@ def chart_histogram_income() -> None:
      )
 
 
+def chart_histogram_time_series():
+    """Create a curved histogram for GII by year for world and Africa"""
+
+    africa = (GII
+              .pipe(_keep_only_indicator, 'gii', 'variable')
+              .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
+              .loc[lambda d: d.continent == 'Africa']
+              .pipe(_histogram_chart, grouping='year')
+              .melt(id_vars=['x_values', 'binned'], var_name = 'year', value_name='Africa')
+              )
+
+    world = (GII
+             .pipe(_keep_only_indicator, 'gii', 'variable')
+             .pipe(_histogram_chart, grouping='year')
+             .melt(id_vars=['x_values', 'binned'], var_name = 'year', value_name='World')
+             )
+
+    (pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
+     .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
+     )
+
+
 def update_hdr_charts() -> None:
     """Update all HDR charts"""
 
-    pass
+    chart_gii_explorer()
+
+    chart_histogram_continents()
+    chart_histogram_income()
+    chart_histogram_time_series()
