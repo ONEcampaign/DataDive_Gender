@@ -125,13 +125,13 @@ def chart_histogram_time_series():
               .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
               .loc[lambda d: d.continent == 'Africa']
               .pipe(_histogram_chart, grouping='year')
-              .melt(id_vars=['x_values', 'binned'], var_name = 'year', value_name='Africa')
+              .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='Africa')
               )
 
     world = (GII
              .pipe(_keep_only_indicator, 'gii', 'variable')
              .pipe(_histogram_chart, grouping='year')
-             .melt(id_vars=['x_values', 'binned'], var_name = 'year', value_name='World')
+             .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='World')
              )
 
     (pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
@@ -139,11 +139,59 @@ def chart_histogram_time_series():
      )
 
 
+#  Education charts
+
+edu_ind = {'se_m': 'male', 'se_f': 'female'}
+
+
+def chart_education_connected_dot_ssa() -> None:
+    """Create a connected dot chart for GII education in SSA"""
+
+    ssa = {'code': 'ZZJ.SSA', 'name': 'Sub-Saharan Africa'}
+
+    (GII
+     .loc[
+         lambda d: (d.variable.isin(edu_ind)) & ((d.region == 'SSA') | (d.country == ssa['name']))]
+     .assign(sex=lambda d: d.variable.map(edu_ind))
+     .dropna(subset=['value'])
+     .loc[lambda d: d.groupby(['country', 'sex', 'iso3'])['year'].idxmax()]
+     .assign(country=lambda d: coco.convert(d.iso3, to='name_short', not_found=None))
+     .loc[:, ['country', 'year', 'sex', 'value']]
+     .replace({'country': {ssa['code']: ssa['name']}})
+     .reset_index(drop=True)
+     .to_csv(f'{PATHS.output}/hdr_education_connected_dot_ssa.csv', index=False)
+     )
+
+
+def chart_education_regions_time_series() -> None:
+    """Create a time series chart for GII education in regions"""
+
+    region_names = ['Arab States', 'East Asia and the Pacific', 'Europe and Central Asia',
+                    'Latin America and the Caribbean', 'South Asia',
+                    'Sub-Saharan Africa']
+
+    return (GII
+            .loc[lambda d: (d.variable.isin(edu_ind)) & (d.country.isin(region_names))]
+            .assign(sex=lambda d: d.variable.map(edu_ind))
+            .loc[:, ['country', 'value', 'year', 'sex']]
+            .pivot(index=['country', 'year'], columns='sex', values='value')
+            .reset_index()
+            .rename(columns={'country': 'region'})
+            .to_csv(f'{PATHS.output}/hdr_education_regions_time_series.csv', index=False)
+            )
+
+
 def update_hdr_charts() -> None:
     """Update all HDR charts"""
 
+    # gii explorer for map and bubble plot
     chart_gii_explorer()
 
+    # gii distribution
     chart_histogram_continents()
     chart_histogram_income()
     chart_histogram_time_series()
+
+    # education
+    chart_education_connected_dot_ssa()
+    chart_education_regions_time_series()

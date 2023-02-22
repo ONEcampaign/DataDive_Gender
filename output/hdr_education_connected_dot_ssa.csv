@@ -1,0 +1,87 @@
+country,year,sex,value
+Angola,2021,female,28.1639
+Angola,2021,male,51.54617
+Benin,2021,female,21.06531874
+Benin,2021,male,34.43517121
+Botswana,2021,female,91.28
+Botswana,2021,male,91.78
+Burkina Faso,2021,female,11.28843615
+Burkina Faso,2021,male,17.11972185
+Burundi,2021,female,7.799910319
+Burundi,2021,male,13.04688639
+Cabo Verde,2021,female,28.77587928
+Cabo Verde,2021,male,31.23702564
+Cameroon,2021,female,36.84196776
+Cameroon,2021,male,54.95841188
+Central African Republic,2021,female,13.94
+Central African Republic,2021,male,31.56
+Chad,2021,female,7.739064493
+Chad,2021,male,24.36999639
+Congo Republic,2021,female,47.98
+Congo Republic,2021,male,51.98
+DR Congo,2021,female,40.27580654
+DR Congo,2021,male,69.11574797
+Cote d'Ivoire,2021,female,23.87971266
+Cote d'Ivoire,2021,male,32.16237494
+Eswatini,2021,female,33.98
+Eswatini,2021,male,36.16
+Ethiopia,2021,female,9.137025833
+Ethiopia,2021,male,20.10887527
+Gabon,2021,female,67.2082324
+Gabon,2021,male,83.98536007
+Gambia,2021,female,29.91536713
+Gambia,2021,male,43.19478226
+Ghana,2021,female,57.9802799
+Ghana,2021,male,73.21096064
+Guinea,2021,female,7.151153164
+Guinea,2021,male,19.66277119
+Guinea-Bissau,2021,female,9.798909187
+Guinea-Bissau,2021,male,22.79538155
+Kenya,2021,female,31.07780546
+Kenya,2021,male,37.66723653
+Lesotho,2021,female,27.18479273
+Lesotho,2021,male,24.55728122
+Liberia,2021,female,20.76
+Liberia,2021,male,39.16
+Madagascar,2021,female,27.31361738
+Madagascar,2021,male,29.75999953
+Malawi,2021,female,21.30387863
+Malawi,2021,male,28.44226027
+Mali,2021,female,7.999770164
+Mali,2021,male,15.48596954
+Mauritania,2021,female,14.46704956
+Mauritania,2021,male,21.91646074
+Mauritius,2021,female,64.41497911
+Mauritius,2021,male,70.77324941
+Mozambique,2021,female,10.80922139
+Mozambique,2021,male,20.23368486
+Namibia,2021,female,41.50391738
+Namibia,2021,male,44.13780034
+Niger,2021,female,9.163241563
+Niger,2021,male,15.23277103
+Nigeria,2021,female,40.35792136
+Nigeria,2021,male,55.28503224
+Rwanda,2021,female,11.44769934
+Rwanda,2021,male,16.31111198
+Sao Tome and Principe,2021,female,39.87447381
+Sao Tome and Principe,2021,male,48.40198103
+Senegal,2021,female,11.14758684
+Senegal,2021,male,30.92489003
+Sierra Leone,2021,female,34.74049907
+Sierra Leone,2021,male,51.53708467
+South Africa,2021,female,68.89771271
+South Africa,2021,male,87.66622162
+South Sudan,2021,female,26.53763962
+South Sudan,2021,male,36.35723877
+Sub-Saharan Africa,2021,female,31.14724917
+Sub-Saharan Africa,2021,male,44.26957348
+Tanzania,2021,female,13.00208063
+Tanzania,2021,male,19.10147619
+Togo,2021,female,13.93464167
+Togo,2021,male,42.29159483
+Uganda,2021,female,29.34
+Uganda,2021,male,36.32
+Zambia,2021,female,47.10420099
+Zambia,2021,male,56.81189742
+Zimbabwe,2021,female,61.76821107
+Zimbabwe,2021,male,72.4445032
