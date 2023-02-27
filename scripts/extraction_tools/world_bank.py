@@ -41,6 +41,15 @@ wdi_indicators = {
     'SP.DYN.TFRT.IN': 'Fertility rate'
 }
 
+law_indicators = {'SG.GET.JOBS.EQ': 'A woman can get a job in the same way as a man',
+                  "SG.BUS.REGT.EQ": "A woman can register a business in the same way as a man",
+                  "SG.OPN.BANK.EQ": "A woman can open a bank account in the same way as a man",
+                  "SG.LEG.SXHR.EM": "There is legislation on sexual harassment in employment",
+                  "SG.LEG.DVAW": "There is legislation specifically addressing domestic violence",
+                  "SG.PEN.SXHR.EM": "Criminal penalties or civil remedies exist for sexual harassment in employment"
+
+                  }
+
 
 def get_data(indicators: dict, db: int) -> pd.DataFrame:
     """Retrieve world Bank Data"""
@@ -71,3 +80,8 @@ def download_wb_data() -> None:
     # wdi data
     (get_data(wdi_indicators, db=2)
      .to_csv(f'{PATHS.raw_data}/world_bank_wdi.csv', index=False))
+
+    # law data
+    (get_data(law_indicators, db=14)
+        .to_csv(f'{PATHS.raw_data}/world_bank_law.csv', index=False))
+
