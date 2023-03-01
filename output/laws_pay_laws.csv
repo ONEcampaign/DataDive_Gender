@@ -1,0 +1,757 @@
+indicator_name,entity_name,year,value_label,value,female_pop,width,female_pop_annot
+Can a woman work in an industrial job in the same way as a man?,China,2021,no,-1,691219627.0,17.782727766277976,691.219627
+Can a woman work at night in the same way as a man?,China,2021,yes,1,691219627.0,17.782727766277976,691.219627
+Does the law mandate equal remuneration for work of equal value?,China,2021,no,-1,691219627.0,17.782727766277976,691.219627
+Can a woman work in a job deemed dangerous in the same way as a man?,China,2021,no,-1,691219627.0,17.782727766277976,691.219627
+Can a woman work in a job deemed dangerous in the same way as a man?,India,2021,yes,1,681060412.0,17.521365751069908,681.060412
+Can a woman work in an industrial job in the same way as a man?,India,2021,no,-1,681060412.0,17.521365751069908,681.060412
+Does the law mandate equal remuneration for work of equal value?,India,2021,no,-1,681060412.0,17.521365751069908,681.060412
+Can a woman work at night in the same way as a man?,India,2021,no,-1,681060412.0,17.521365751069908,681.060412
+Can a woman work in an industrial job in the same way as a man?,United States,2021,yes,1,167480460.0,4.308702053610824,167.48046
+Can a woman work in a job deemed dangerous in the same way as a man?,United States,2021,yes,1,167480460.0,4.308702053610824,167.48046
+Does the law mandate equal remuneration for work of equal value?,United States,2021,no,-1,167480460.0,4.308702053610824,167.48046
+Can a woman work at night in the same way as a man?,United States,2021,yes,1,167480460.0,4.308702053610824,167.48046
+Can a woman work in a job deemed dangerous in the same way as a man?,Indonesia,2021,yes,1,135900714.0,3.496262701326335,135.900714
+Can a woman work in an industrial job in the same way as a man?,Indonesia,2021,yes,1,135900714.0,3.496262701326335,135.900714
+Can a woman work at night in the same way as a man?,Indonesia,2021,yes,1,135900714.0,3.496262701326335,135.900714
+Does the law mandate equal remuneration for work of equal value?,Indonesia,2021,no,-1,135900714.0,3.496262701326335,135.900714
+Can a woman work in a job deemed dangerous in the same way as a man?,Pakistan,2021,yes,1,114586264.0,2.9479144672303383,114.586264
+Can a woman work at night in the same way as a man?,Pakistan,2021,yes,1,114586264.0,2.9479144672303383,114.586264
+Does the law mandate equal remuneration for work of equal value?,Pakistan,2021,no,-1,114586264.0,2.9479144672303383,114.586264
+Can a woman work in an industrial job in the same way as a man?,Pakistan,2021,no,-1,114586264.0,2.9479144672303383,114.586264
+Can a woman work in a job deemed dangerous in the same way as a man?,Brazil,2021,yes,1,109034931.0,2.805097568486583,109.034931
+Can a woman work in an industrial job in the same way as a man?,Brazil,2021,yes,1,109034931.0,2.805097568486583,109.034931
+Does the law mandate equal remuneration for work of equal value?,Brazil,2021,no,-1,109034931.0,2.805097568486583,109.034931
+Can a woman work at night in the same way as a man?,Brazil,2021,yes,1,109034931.0,2.805097568486583,109.034931
+Can a woman work in a job deemed dangerous in the same way as a man?,Nigeria,2021,yes,1,105574310.0,2.7160675717367013,105.57431
+Can a woman work in an industrial job in the same way as a man?,Nigeria,2021,no,-1,105574310.0,2.7160675717367013,105.57431
+Does the law mandate equal remuneration for work of equal value?,Nigeria,2021,no,-1,105574310.0,2.7160675717367013,105.57431
+Can a woman work at night in the same way as a man?,Nigeria,2021,yes,1,105574310.0,2.7160675717367013,105.57431
+Does the law mandate equal remuneration for work of equal value?,Bangladesh,2021,no,-1,85358163.0,2.195974934691172,85.358163
+Can a woman work at night in the same way as a man?,Bangladesh,2021,yes,1,85358163.0,2.195974934691172,85.358163
+Can a woman work in an industrial job in the same way as a man?,Bangladesh,2021,no,-1,85358163.0,2.195974934691172,85.358163
+Can a woman work in a job deemed dangerous in the same way as a man?,Bangladesh,2021,no,-1,85358163.0,2.195974934691172,85.358163
+Can a woman work at night in the same way as a man?,Russia,2021,yes,1,76824577.0,1.9764348192480656,76.824577
+Can a woman work in a job deemed dangerous in the same way as a man?,Russia,2021,no,-1,76824577.0,1.9764348192480656,76.824577
+Can a woman work in an industrial job in the same way as a man?,Russia,2021,no,-1,76824577.0,1.9764348192480656,76.824577
+Does the law mandate equal remuneration for work of equal value?,Russia,2021,yes,1,76824577.0,1.9764348192480656,76.824577
+Can a woman work in an industrial job in the same way as a man?,Mexico,2021,yes,1,64849001.0,1.6683440192563979,64.849001
+Can a woman work in a job deemed dangerous in the same way as a man?,Mexico,2021,yes,1,64849001.0,1.6683440192563979,64.849001
+Can a woman work at night in the same way as a man?,Mexico,2021,yes,1,64849001.0,1.6683440192563979,64.849001
+Does the law mandate equal remuneration for work of equal value?,Mexico,2021,no,-1,64849001.0,1.6683440192563979,64.849001
+Does the law mandate equal remuneration for work of equal value?,Japan,2021,no,-1,64594414.0,1.6617943624801828,64.594414
+Can a woman work in a job deemed dangerous in the same way as a man?,Japan,2021,no,-1,64594414.0,1.6617943624801828,64.594414
+Can a woman work in an industrial job in the same way as a man?,Japan,2021,no,-1,64594414.0,1.6617943624801828,64.594414
+Can a woman work at night in the same way as a man?,Japan,2021,yes,1,64594414.0,1.6617943624801828,64.594414
+Can a woman work at night in the same way as a man?,Ethiopia,2021,yes,1,59839622.0,1.5394697518665488,59.839622
+Can a woman work in an industrial job in the same way as a man?,Ethiopia,2021,no,-1,59839622.0,1.5394697518665488,59.839622
+Does the law mandate equal remuneration for work of equal value?,Ethiopia,2021,no,-1,59839622.0,1.5394697518665488,59.839622
+Can a woman work in a job deemed dangerous in the same way as a man?,Ethiopia,2021,no,-1,59839622.0,1.5394697518665488,59.839622
+Can a woman work in a job deemed dangerous in the same way as a man?,Philippines,2021,yes,1,56062865.0,1.4423066521121712,56.062865
+Does the law mandate equal remuneration for work of equal value?,Philippines,2021,yes,1,56062865.0,1.4423066521121712,56.062865
+Can a woman work at night in the same way as a man?,Philippines,2021,yes,1,56062865.0,1.4423066521121712,56.062865
+Can a woman work in an industrial job in the same way as a man?,Philippines,2021,yes,1,56062865.0,1.4423066521121712,56.062865
+Does the law mandate equal remuneration for work of equal value?,Egypt,2021,no,-1,54001891.0,1.3892848076161712,54.001891
+Can a woman work in a job deemed dangerous in the same way as a man?,Egypt,2021,no,-1,54001891.0,1.3892848076161712,54.001891
+Can a woman work at night in the same way as a man?,Egypt,2021,no,-1,54001891.0,1.3892848076161712,54.001891
+Can a woman work in an industrial job in the same way as a man?,Egypt,2021,no,-1,54001891.0,1.3892848076161712,54.001891
+Does the law mandate equal remuneration for work of equal value?,Vietnam,2021,yes,1,49331842.0,1.2691403458875423,49.331842
+Can a woman work in a job deemed dangerous in the same way as a man?,Vietnam,2021,yes,1,49331842.0,1.2691403458875423,49.331842
+Can a woman work in an industrial job in the same way as a man?,Vietnam,2021,yes,1,49331842.0,1.2691403458875423,49.331842
+Can a woman work at night in the same way as a man?,Vietnam,2021,yes,1,49331842.0,1.2691403458875423,49.331842
+Can a woman work in an industrial job in the same way as a man?,DR Congo,2021,yes,1,48319268.0,1.2430902641452726,48.319268
+Can a woman work in a job deemed dangerous in the same way as a man?,DR Congo,2021,no,-1,48319268.0,1.2430902641452726,48.319268
+Does the law mandate equal remuneration for work of equal value?,DR Congo,2021,no,-1,48319268.0,1.2430902641452726,48.319268
+Can a woman work at night in the same way as a man?,DR Congo,2021,yes,1,48319268.0,1.2430902641452726,48.319268
+Can a woman work in a job deemed dangerous in the same way as a man?,Iran,2021,no,-1,43496643.0,1.119020541377047,43.496643
+Can a woman work in an industrial job in the same way as a man?,Iran,2021,yes,1,43496643.0,1.119020541377047,43.496643
+Does the law mandate equal remuneration for work of equal value?,Iran,2021,no,-1,43496643.0,1.119020541377047,43.496643
+Can a woman work at night in the same way as a man?,Iran,2021,yes,1,43496643.0,1.119020541377047,43.496643
+Does the law mandate equal remuneration for work of equal value?,Türkiye,2021,yes,1,42285574.0,1.0878638590550354,42.285574
+Can a woman work in an industrial job in the same way as a man?,Türkiye,2021,no,-1,42285574.0,1.0878638590550354,42.285574
+Can a woman work in a job deemed dangerous in the same way as a man?,Türkiye,2021,yes,1,42285574.0,1.0878638590550354,42.285574
+Can a woman work at night in the same way as a man?,Türkiye,2021,yes,1,42285574.0,1.0878638590550354,42.285574
+Can a woman work at night in the same way as a man?,Germany,2021,yes,1,42146923.0,1.084296840858195,42.146923
+Does the law mandate equal remuneration for work of equal value?,Germany,2021,yes,1,42146923.0,1.084296840858195,42.146923
+Can a woman work in a job deemed dangerous in the same way as a man?,Germany,2021,yes,1,42146923.0,1.084296840858195,42.146923
+Can a woman work in an industrial job in the same way as a man?,Germany,2021,yes,1,42146923.0,1.084296840858195,42.146923
+Does the law mandate equal remuneration for work of equal value?,Thailand,2021,yes,1,36807094.0,1.0,36.807094
+Can a woman work in a job deemed dangerous in the same way as a man?,Thailand,2021,yes,1,36807094.0,1.0,36.807094
+Can a woman work in an industrial job in the same way as a man?,Thailand,2021,no,-1,36807094.0,1.0,36.807094
+Can a woman work at night in the same way as a man?,Thailand,2021,yes,1,36807094.0,1.0,36.807094
+Can a woman work in a job deemed dangerous in the same way as a man?,France,2021,yes,1,34998692.0,1.0,34.998692
+Does the law mandate equal remuneration for work of equal value?,France,2021,yes,1,34998692.0,1.0,34.998692
+Can a woman work in an industrial job in the same way as a man?,France,2021,yes,1,34998692.0,1.0,34.998692
+Can a woman work at night in the same way as a man?,France,2021,yes,1,34998692.0,1.0,34.998692
+Can a woman work at night in the same way as a man?,United Kingdom,2021,yes,1,34065491.0,1.0,34.065491
+Can a woman work in a job deemed dangerous in the same way as a man?,United Kingdom,2021,yes,1,34065491.0,1.0,34.065491
+Does the law mandate equal remuneration for work of equal value?,United Kingdom,2021,yes,1,34065491.0,1.0,34.065491
+Can a woman work in an industrial job in the same way as a man?,United Kingdom,2021,yes,1,34065491.0,1.0,34.065491
+Can a woman work in a job deemed dangerous in the same way as a man?,Tanzania,2021,yes,1,32170681.0,1.0,32.170681
+Can a woman work in an industrial job in the same way as a man?,Tanzania,2021,yes,1,32170681.0,1.0,32.170681
+Does the law mandate equal remuneration for work of equal value?,Tanzania,2021,yes,1,32170681.0,1.0,32.170681
+Can a woman work at night in the same way as a man?,Tanzania,2021,yes,1,32170681.0,1.0,32.170681
+Can a woman work at night in the same way as a man?,South Africa,2021,yes,1,30497646.0,1.0,30.497646
+Does the law mandate equal remuneration for work of equal value?,South Africa,2021,yes,1,30497646.0,1.0,30.497646
+Can a woman work in an industrial job in the same way as a man?,South Africa,2021,yes,1,30497646.0,1.0,30.497646
+Can a woman work in a job deemed dangerous in the same way as a man?,South Africa,2021,yes,1,30497646.0,1.0,30.497646
+Does the law mandate equal remuneration for work of equal value?,Italy,2021,yes,1,30300094.0,1.0,30.300094
+Can a woman work in an industrial job in the same way as a man?,Italy,2021,yes,1,30300094.0,1.0,30.300094
+Can a woman work in a job deemed dangerous in the same way as a man?,Italy,2021,yes,1,30300094.0,1.0,30.300094
+Can a woman work at night in the same way as a man?,Italy,2021,yes,1,30300094.0,1.0,30.300094
+Can a woman work at night in the same way as a man?,Myanmar,2021,yes,1,27015414.0,1.0,27.015414
+Can a woman work in a job deemed dangerous in the same way as a man?,Myanmar,2021,yes,1,27015414.0,1.0,27.015414
+Can a woman work in an industrial job in the same way as a man?,Myanmar,2021,no,-1,27015414.0,1.0,27.015414
+Does the law mandate equal remuneration for work of equal value?,Myanmar,2021,no,-1,27015414.0,1.0,27.015414
+Can a woman work in a job deemed dangerous in the same way as a man?,Kenya,2021,yes,1,26726429.0,1.0,26.726429
+Can a woman work in an industrial job in the same way as a man?,Kenya,2021,yes,1,26726429.0,1.0,26.726429
+Can a woman work at night in the same way as a man?,Kenya,2021,yes,1,26726429.0,1.0,26.726429
+Does the law mandate equal remuneration for work of equal value?,Kenya,2021,yes,1,26726429.0,1.0,26.726429
+Does the law mandate equal remuneration for work of equal value?,Colombia,2021,no,-1,26101321.0,1.0,26.101321
+Can a woman work at night in the same way as a man?,Colombia,2021,yes,1,26101321.0,1.0,26.101321
+Can a woman work in a job deemed dangerous in the same way as a man?,Colombia,2021,yes,1,26101321.0,1.0,26.101321
+Can a woman work in an industrial job in the same way as a man?,Colombia,2021,no,-1,26101321.0,1.0,26.101321
+Can a woman work in a job deemed dangerous in the same way as a man?,South Korea,2021,no,-1,25902500.0,1.0,25.9025
+Can a woman work in an industrial job in the same way as a man?,South Korea,2021,no,-1,25902500.0,1.0,25.9025
+Does the law mandate equal remuneration for work of equal value?,South Korea,2021,no,-1,25902500.0,1.0,25.9025
+Can a woman work at night in the same way as a man?,South Korea,2021,yes,1,25902500.0,1.0,25.9025
+Can a woman work in a job deemed dangerous in the same way as a man?,Spain,2021,yes,1,24178913.0,1.0,24.178913
+Does the law mandate equal remuneration for work of equal value?,Spain,2021,yes,1,24178913.0,1.0,24.178913
+Can a woman work in an industrial job in the same way as a man?,Spain,2021,yes,1,24178913.0,1.0,24.178913
+Can a woman work at night in the same way as a man?,Spain,2021,yes,1,24178913.0,1.0,24.178913
+Can a woman work at night in the same way as a man?,Ukraine,2021,no,-1,23524526.0,1.0,23.524526
+Can a woman work in a job deemed dangerous in the same way as a man?,Ukraine,2021,no,-1,23524526.0,1.0,23.524526
+Can a woman work in an industrial job in the same way as a man?,Ukraine,2021,no,-1,23524526.0,1.0,23.524526
+Does the law mandate equal remuneration for work of equal value?,Ukraine,2021,no,-1,23524526.0,1.0,23.524526
+Can a woman work in an industrial job in the same way as a man?,Uganda,2021,yes,1,23153140.0,1.0,23.15314
+Does the law mandate equal remuneration for work of equal value?,Uganda,2021,yes,1,23153140.0,1.0,23.15314
+Can a woman work at night in the same way as a man?,Uganda,2021,yes,1,23153140.0,1.0,23.15314
+Can a woman work in a job deemed dangerous in the same way as a man?,Uganda,2021,yes,1,23153140.0,1.0,23.15314
+Can a woman work in a job deemed dangerous in the same way as a man?,Argentina,2021,no,-1,23130548.0,1.0,23.130548
+Can a woman work in an industrial job in the same way as a man?,Argentina,2021,no,-1,23130548.0,1.0,23.130548
+Can a woman work at night in the same way as a man?,Argentina,2021,yes,1,23130548.0,1.0,23.130548
+Does the law mandate equal remuneration for work of equal value?,Argentina,2021,yes,1,23130548.0,1.0,23.130548
+Can a woman work at night in the same way as a man?,Sudan,2021,no,-1,22842482.0,1.0,22.842482
+Can a woman work in an industrial job in the same way as a man?,Sudan,2021,no,-1,22842482.0,1.0,22.842482
+Does the law mandate equal remuneration for work of equal value?,Sudan,2021,no,-1,22842482.0,1.0,22.842482
+Can a woman work in a job deemed dangerous in the same way as a man?,Sudan,2021,no,-1,22842482.0,1.0,22.842482
+Can a woman work in a job deemed dangerous in the same way as a man?,Iraq,2021,no,-1,21736184.0,1.0,21.736184
+Can a woman work in an industrial job in the same way as a man?,Iraq,2021,yes,1,21736184.0,1.0,21.736184
+Does the law mandate equal remuneration for work of equal value?,Iraq,2021,yes,1,21736184.0,1.0,21.736184
+Can a woman work at night in the same way as a man?,Iraq,2021,no,-1,21736184.0,1.0,21.736184
+Can a woman work in a job deemed dangerous in the same way as a man?,Algeria,2021,no,-1,21680725.0,1.0,21.680725
+Can a woman work in an industrial job in the same way as a man?,Algeria,2021,yes,1,21680725.0,1.0,21.680725
+Does the law mandate equal remuneration for work of equal value?,Algeria,2021,yes,1,21680725.0,1.0,21.680725
+Can a woman work at night in the same way as a man?,Algeria,2021,no,-1,21680725.0,1.0,21.680725
+Can a woman work in an industrial job in the same way as a man?,Afghanistan,2021,no,-1,19844584.0,1.0,19.844584
+Can a woman work in a job deemed dangerous in the same way as a man?,Afghanistan,2021,no,-1,19844584.0,1.0,19.844584
+Does the law mandate equal remuneration for work of equal value?,Afghanistan,2021,no,-1,19844584.0,1.0,19.844584
+Can a woman work at night in the same way as a man?,Afghanistan,2021,no,-1,19844584.0,1.0,19.844584
+Can a woman work at night in the same way as a man?,Poland,2021,yes,1,19493868.0,1.0,19.493868
+Can a woman work in an industrial job in the same way as a man?,Poland,2021,yes,1,19493868.0,1.0,19.493868
+Does the law mandate equal remuneration for work of equal value?,Poland,2021,yes,1,19493868.0,1.0,19.493868
+Can a woman work in a job deemed dangerous in the same way as a man?,Poland,2021,yes,1,19493868.0,1.0,19.493868
+Can a woman work at night in the same way as a man?,Canada,2021,yes,1,19240835.0,1.0,19.240835
+Does the law mandate equal remuneration for work of equal value?,Canada,2021,yes,1,19240835.0,1.0,19.240835
+Can a woman work in an industrial job in the same way as a man?,Canada,2021,yes,1,19240835.0,1.0,19.240835
+Can a woman work in a job deemed dangerous in the same way as a man?,Canada,2021,yes,1,19240835.0,1.0,19.240835
+Can a woman work in an industrial job in the same way as a man?,Morocco,2021,no,-1,18410922.0,1.0,18.410922
+Does the law mandate equal remuneration for work of equal value?,Morocco,2021,yes,1,18410922.0,1.0,18.410922
+Can a woman work in a job deemed dangerous in the same way as a man?,Morocco,2021,no,-1,18410922.0,1.0,18.410922
+Can a woman work at night in the same way as a man?,Morocco,2021,yes,1,18410922.0,1.0,18.410922
+Can a woman work at night in the same way as a man?,Angola,2021,yes,1,17452283.0,1.0,17.452283
+Does the law mandate equal remuneration for work of equal value?,Angola,2021,yes,1,17452283.0,1.0,17.452283
+Can a woman work in an industrial job in the same way as a man?,Angola,2021,no,-1,17452283.0,1.0,17.452283
+Can a woman work in a job deemed dangerous in the same way as a man?,Angola,2021,no,-1,17452283.0,1.0,17.452283
+Can a woman work at night in the same way as a man?,Uzbekistan,2021,yes,1,17446107.0,1.0,17.446107
+Can a woman work in an industrial job in the same way as a man?,Uzbekistan,2021,no,-1,17446107.0,1.0,17.446107
+Can a woman work in a job deemed dangerous in the same way as a man?,Uzbekistan,2021,no,-1,17446107.0,1.0,17.446107
+Does the law mandate equal remuneration for work of equal value?,Uzbekistan,2021,no,-1,17446107.0,1.0,17.446107
+Can a woman work at night in the same way as a man?,Peru,2021,yes,1,17020361.0,1.0,17.020361
+Does the law mandate equal remuneration for work of equal value?,Peru,2021,yes,1,17020361.0,1.0,17.020361
+Can a woman work in an industrial job in the same way as a man?,Peru,2021,yes,1,17020361.0,1.0,17.020361
+Can a woman work in a job deemed dangerous in the same way as a man?,Peru,2021,yes,1,17020361.0,1.0,17.020361
+Can a woman work in an industrial job in the same way as a man?,Ghana,2021,no,-1,16457496.0,1.0,16.457496
+Does the law mandate equal remuneration for work of equal value?,Ghana,2021,no,-1,16457496.0,1.0,16.457496
+Can a woman work at night in the same way as a man?,Ghana,2021,yes,1,16457496.0,1.0,16.457496
+Can a woman work in a job deemed dangerous in the same way as a man?,Ghana,2021,yes,1,16457496.0,1.0,16.457496
+Can a woman work at night in the same way as a man?,Malaysia,2021,yes,1,16407343.0,1.0,16.407343
+Does the law mandate equal remuneration for work of equal value?,Malaysia,2021,no,-1,16407343.0,1.0,16.407343
+Can a woman work in an industrial job in the same way as a man?,Malaysia,2021,no,-1,16407343.0,1.0,16.407343
+Can a woman work in a job deemed dangerous in the same way as a man?,Malaysia,2021,yes,1,16407343.0,1.0,16.407343
+Can a woman work in an industrial job in the same way as a man?,Mozambique,2021,yes,1,16339849.0,1.0,16.339849
+Can a woman work in a job deemed dangerous in the same way as a man?,Mozambique,2021,no,-1,16339849.0,1.0,16.339849
+Can a woman work at night in the same way as a man?,Mozambique,2021,yes,1,16339849.0,1.0,16.339849
+Does the law mandate equal remuneration for work of equal value?,Mozambique,2021,no,-1,16339849.0,1.0,16.339849
+Does the law mandate equal remuneration for work of equal value?,Yemen,2021,no,-1,16313210.0,1.0,16.31321
+Can a woman work in a job deemed dangerous in the same way as a man?,Yemen,2021,no,-1,16313210.0,1.0,16.31321
+Can a woman work at night in the same way as a man?,Yemen,2021,no,-1,16313210.0,1.0,16.31321
+Can a woman work in an industrial job in the same way as a man?,Yemen,2021,yes,1,16313210.0,1.0,16.31321
+Can a woman work at night in the same way as a man?,Nepal,2021,yes,1,15664025.0,1.0,15.664025
+Can a woman work in an industrial job in the same way as a man?,Nepal,2021,yes,1,15664025.0,1.0,15.664025
+Can a woman work in a job deemed dangerous in the same way as a man?,Nepal,2021,yes,1,15664025.0,1.0,15.664025
+Does the law mandate equal remuneration for work of equal value?,Nepal,2021,yes,1,15664025.0,1.0,15.664025
+Can a woman work at night in the same way as a man?,Saudi Arabia,2021,yes,1,15184150.0,1.0,15.18415
+Does the law mandate equal remuneration for work of equal value?,Saudi Arabia,2021,yes,1,15184150.0,1.0,15.18415
+Can a woman work in an industrial job in the same way as a man?,Saudi Arabia,2021,yes,1,15184150.0,1.0,15.18415
+Can a woman work in a job deemed dangerous in the same way as a man?,Saudi Arabia,2021,yes,1,15184150.0,1.0,15.18415
+Can a woman work in an industrial job in the same way as a man?,Madagascar,2021,no,-1,14424717.0,1.0,14.424717
+Can a woman work at night in the same way as a man?,Madagascar,2021,yes,1,14424717.0,1.0,14.424717
+Can a woman work in a job deemed dangerous in the same way as a man?,Madagascar,2021,no,-1,14424717.0,1.0,14.424717
+Does the law mandate equal remuneration for work of equal value?,Madagascar,2021,no,-1,14424717.0,1.0,14.424717
+Can a woman work in a job deemed dangerous in the same way as a man?,Venezuela,2021,yes,1,14243056.0,1.0,14.243056
+Can a woman work in an industrial job in the same way as a man?,Venezuela,2021,yes,1,14243056.0,1.0,14.243056
+Does the law mandate equal remuneration for work of equal value?,Venezuela,2021,no,-1,14243056.0,1.0,14.243056
+Can a woman work at night in the same way as a man?,Venezuela,2021,yes,1,14243056.0,1.0,14.243056
+Can a woman work at night in the same way as a man?,Cameroon,2021,yes,1,13634397.0,1.0,13.634397
+Does the law mandate equal remuneration for work of equal value?,Cameroon,2021,no,-1,13634397.0,1.0,13.634397
+Can a woman work in an industrial job in the same way as a man?,Cameroon,2021,no,-1,13634397.0,1.0,13.634397
+Can a woman work in a job deemed dangerous in the same way as a man?,Cameroon,2021,no,-1,13634397.0,1.0,13.634397
+Can a woman work at night in the same way as a man?,Cote d'Ivoire,2021,yes,1,13600535.0,1.0,13.600535
+Does the law mandate equal remuneration for work of equal value?,Cote d'Ivoire,2021,yes,1,13600535.0,1.0,13.600535
+Can a woman work in an industrial job in the same way as a man?,Cote d'Ivoire,2021,no,-1,13600535.0,1.0,13.600535
+Can a woman work in a job deemed dangerous in the same way as a man?,Cote d'Ivoire,2021,no,-1,13600535.0,1.0,13.600535
+Does the law mandate equal remuneration for work of equal value?,Australia,2021,yes,1,12936002.0,1.0,12.936002
+Can a woman work in an industrial job in the same way as a man?,Australia,2021,yes,1,12936002.0,1.0,12.936002
+Can a woman work in a job deemed dangerous in the same way as a man?,Australia,2021,yes,1,12936002.0,1.0,12.936002
+Can a woman work at night in the same way as a man?,Australia,2021,yes,1,12936002.0,1.0,12.936002
+Can a woman work at night in the same way as a man?,Niger,2021,yes,1,12443587.0,1.0,12.443587
+Can a woman work in an industrial job in the same way as a man?,Niger,2021,yes,1,12443587.0,1.0,12.443587
+Can a woman work in a job deemed dangerous in the same way as a man?,Niger,2021,no,-1,12443587.0,1.0,12.443587
+Does the law mandate equal remuneration for work of equal value?,Niger,2021,yes,1,12443587.0,1.0,12.443587
+Can a woman work in a job deemed dangerous in the same way as a man?,Sri Lanka,2021,yes,1,11481595.0,1.0,11.481595
+Can a woman work in an industrial job in the same way as a man?,Sri Lanka,2021,no,-1,11481595.0,1.0,11.481595
+Does the law mandate equal remuneration for work of equal value?,Sri Lanka,2021,no,-1,11481595.0,1.0,11.481595
+Can a woman work at night in the same way as a man?,Sri Lanka,2021,no,-1,11481595.0,1.0,11.481595
+Can a woman work in an industrial job in the same way as a man?,Burkina Faso,2021,no,-1,11089986.0,1.0,11.089986
+Can a woman work in a job deemed dangerous in the same way as a man?,Burkina Faso,2021,no,-1,11089986.0,1.0,11.089986
+Can a woman work at night in the same way as a man?,Burkina Faso,2021,yes,1,11089986.0,1.0,11.089986
+Does the law mandate equal remuneration for work of equal value?,Burkina Faso,2021,no,-1,11089986.0,1.0,11.089986
+Can a woman work at night in the same way as a man?,Mali,2021,yes,1,10844239.0,1.0,10.844239
+Does the law mandate equal remuneration for work of equal value?,Mali,2021,yes,1,10844239.0,1.0,10.844239
+Can a woman work in an industrial job in the same way as a man?,Mali,2021,no,-1,10844239.0,1.0,10.844239
+Can a woman work in a job deemed dangerous in the same way as a man?,Mali,2021,no,-1,10844239.0,1.0,10.844239
+Can a woman work at night in the same way as a man?,Syria,2021,no,-1,10643230.0,1.0,10.64323
+Can a woman work in an industrial job in the same way as a man?,Syria,2021,no,-1,10643230.0,1.0,10.64323
+Can a woman work in a job deemed dangerous in the same way as a man?,Syria,2021,no,-1,10643230.0,1.0,10.64323
+Does the law mandate equal remuneration for work of equal value?,Syria,2021,no,-1,10643230.0,1.0,10.64323
+Does the law mandate equal remuneration for work of equal value?,Malawi,2021,yes,1,10218942.0,1.0,10.218942
+Can a woman work at night in the same way as a man?,Malawi,2021,yes,1,10218942.0,1.0,10.218942
+Can a woman work in an industrial job in the same way as a man?,Malawi,2021,yes,1,10218942.0,1.0,10.218942
+Can a woman work in a job deemed dangerous in the same way as a man?,Malawi,2021,yes,1,10218942.0,1.0,10.218942
+Can a woman work in a job deemed dangerous in the same way as a man?,Romania,2021,yes,1,9875794.0,1.0,9.875794
+Can a woman work at night in the same way as a man?,Romania,2021,yes,1,9875794.0,1.0,9.875794
+Can a woman work in an industrial job in the same way as a man?,Romania,2021,yes,1,9875794.0,1.0,9.875794
+Does the law mandate equal remuneration for work of equal value?,Romania,2021,yes,1,9875794.0,1.0,9.875794
+Does the law mandate equal remuneration for work of equal value?,Kazakhstan,2021,no,-1,9864589.0,1.0,9.864589
+Can a woman work in a job deemed dangerous in the same way as a man?,Kazakhstan,2021,no,-1,9864589.0,1.0,9.864589
+Can a woman work in an industrial job in the same way as a man?,Kazakhstan,2021,no,-1,9864589.0,1.0,9.864589
+Can a woman work at night in the same way as a man?,Kazakhstan,2021,yes,1,9864589.0,1.0,9.864589
+Can a woman work in an industrial job in the same way as a man?,Zambia,2021,yes,1,9864121.0,1.0,9.864121
+Can a woman work in a job deemed dangerous in the same way as a man?,Zambia,2021,yes,1,9864121.0,1.0,9.864121
+Can a woman work at night in the same way as a man?,Zambia,2021,yes,1,9864121.0,1.0,9.864121
+Does the law mandate equal remuneration for work of equal value?,Zambia,2021,yes,1,9864121.0,1.0,9.864121
+Does the law mandate equal remuneration for work of equal value?,Chile,2021,no,-1,9818163.0,1.0,9.818163
+Can a woman work at night in the same way as a man?,Chile,2021,yes,1,9818163.0,1.0,9.818163
+Can a woman work in a job deemed dangerous in the same way as a man?,Chile,2021,yes,1,9818163.0,1.0,9.818163
+Can a woman work in an industrial job in the same way as a man?,Chile,2021,yes,1,9818163.0,1.0,9.818163
+Can a woman work at night in the same way as a man?,Ecuador,2021,yes,1,8910903.0,1.0,8.910903
+Does the law mandate equal remuneration for work of equal value?,Ecuador,2021,yes,1,8910903.0,1.0,8.910903
+Can a woman work in an industrial job in the same way as a man?,Ecuador,2021,yes,1,8910903.0,1.0,8.910903
+Can a woman work in a job deemed dangerous in the same way as a man?,Ecuador,2021,yes,1,8910903.0,1.0,8.910903
+Can a woman work in an industrial job in the same way as a man?,Netherlands,2021,yes,1,8820968.0,1.0,8.820968
+Does the law mandate equal remuneration for work of equal value?,Netherlands,2021,yes,1,8820968.0,1.0,8.820968
+Can a woman work in a job deemed dangerous in the same way as a man?,Netherlands,2021,yes,1,8820968.0,1.0,8.820968
+Can a woman work at night in the same way as a man?,Netherlands,2021,yes,1,8820968.0,1.0,8.820968
+Can a woman work in an industrial job in the same way as a man?,Guatemala,2021,yes,1,8639673.0,1.0,8.639673
+Can a woman work at night in the same way as a man?,Guatemala,2021,yes,1,8639673.0,1.0,8.639673
+Does the law mandate equal remuneration for work of equal value?,Guatemala,2021,no,-1,8639673.0,1.0,8.639673
+Can a woman work in a job deemed dangerous in the same way as a man?,Guatemala,2021,no,-1,8639673.0,1.0,8.639673
+Can a woman work in a job deemed dangerous in the same way as a man?,Senegal,2021,no,-1,8579664.0,1.0,8.579664
+Does the law mandate equal remuneration for work of equal value?,Senegal,2021,no,-1,8579664.0,1.0,8.579664
+Can a woman work in an industrial job in the same way as a man?,Senegal,2021,no,-1,8579664.0,1.0,8.579664
+Can a woman work at night in the same way as a man?,Senegal,2021,yes,1,8579664.0,1.0,8.579664
+Can a woman work in a job deemed dangerous in the same way as a man?,Chad,2021,no,-1,8556210.0,1.0,8.55621
+Can a woman work in an industrial job in the same way as a man?,Chad,2021,no,-1,8556210.0,1.0,8.55621
+Does the law mandate equal remuneration for work of equal value?,Chad,2021,yes,1,8556210.0,1.0,8.55621
+Can a woman work at night in the same way as a man?,Chad,2021,yes,1,8556210.0,1.0,8.55621
+Can a woman work in a job deemed dangerous in the same way as a man?,Somalia,2021,yes,1,8509953.0,1.0,8.509953
+Can a woman work at night in the same way as a man?,Somalia,2021,no,-1,8509953.0,1.0,8.509953
+Does the law mandate equal remuneration for work of equal value?,Somalia,2021,yes,1,8509953.0,1.0,8.509953
+Can a woman work in an industrial job in the same way as a man?,Somalia,2021,no,-1,8509953.0,1.0,8.509953
+Does the law mandate equal remuneration for work of equal value?,Zimbabwe,2021,no,-1,8449834.0,1.0,8.449834
+Can a woman work in an industrial job in the same way as a man?,Zimbabwe,2021,yes,1,8449834.0,1.0,8.449834
+Can a woman work in a job deemed dangerous in the same way as a man?,Zimbabwe,2021,yes,1,8449834.0,1.0,8.449834
+Can a woman work at night in the same way as a man?,Zimbabwe,2021,yes,1,8449834.0,1.0,8.449834
+Can a woman work at night in the same way as a man?,Cambodia,2021,yes,1,8376956.0,1.0,8.376956
+Can a woman work in a job deemed dangerous in the same way as a man?,Cambodia,2021,yes,1,8376956.0,1.0,8.376956
+Does the law mandate equal remuneration for work of equal value?,Cambodia,2021,no,-1,8376956.0,1.0,8.376956
+Can a woman work in an industrial job in the same way as a man?,Cambodia,2021,yes,1,8376956.0,1.0,8.376956
+Can a woman work at night in the same way as a man?,Rwanda,2021,yes,1,6879649.0,1.0,6.879649
+Does the law mandate equal remuneration for work of equal value?,Rwanda,2021,yes,1,6879649.0,1.0,6.879649
+Can a woman work in an industrial job in the same way as a man?,Rwanda,2021,yes,1,6879649.0,1.0,6.879649
+Can a woman work in a job deemed dangerous in the same way as a man?,Rwanda,2021,yes,1,6879649.0,1.0,6.879649
+Can a woman work in a job deemed dangerous in the same way as a man?,Guinea,2021,no,-1,6846006.0,1.0,6.846006
+Can a woman work in an industrial job in the same way as a man?,Guinea,2021,no,-1,6846006.0,1.0,6.846006
+Does the law mandate equal remuneration for work of equal value?,Guinea,2021,yes,1,6846006.0,1.0,6.846006
+Can a woman work at night in the same way as a man?,Guinea,2021,yes,1,6846006.0,1.0,6.846006
+Can a woman work in a job deemed dangerous in the same way as a man?,Benin,2021,no,-1,6487184.0,1.0,6.487184
+Can a woman work in an industrial job in the same way as a man?,Benin,2021,yes,1,6487184.0,1.0,6.487184
+Does the law mandate equal remuneration for work of equal value?,Benin,2021,yes,1,6487184.0,1.0,6.487184
+Can a woman work at night in the same way as a man?,Benin,2021,yes,1,6487184.0,1.0,6.487184
+Can a woman work at night in the same way as a man?,Burundi,2021,yes,1,6319427.0,1.0,6.319427
+Can a woman work in a job deemed dangerous in the same way as a man?,Burundi,2021,yes,1,6319427.0,1.0,6.319427
+Can a woman work in an industrial job in the same way as a man?,Burundi,2021,yes,1,6319427.0,1.0,6.319427
+Does the law mandate equal remuneration for work of equal value?,Burundi,2021,yes,1,6319427.0,1.0,6.319427
+Does the law mandate equal remuneration for work of equal value?,Tunisia,2021,no,-1,6205901.0,1.0,6.205901
+Can a woman work in an industrial job in the same way as a man?,Tunisia,2021,no,-1,6205901.0,1.0,6.205901
+Can a woman work in a job deemed dangerous in the same way as a man?,Tunisia,2021,yes,1,6205901.0,1.0,6.205901
+Can a woman work at night in the same way as a man?,Tunisia,2021,no,-1,6205901.0,1.0,6.205901
+Can a woman work at night in the same way as a man?,Bolivia,2021,yes,1,6020925.0,1.0,6.020925
+Does the law mandate equal remuneration for work of equal value?,Bolivia,2021,yes,1,6020925.0,1.0,6.020925
+Can a woman work in a job deemed dangerous in the same way as a man?,Bolivia,2021,yes,1,6020925.0,1.0,6.020925
+Can a woman work in an industrial job in the same way as a man?,Bolivia,2021,yes,1,6020925.0,1.0,6.020925
+Can a woman work in a job deemed dangerous in the same way as a man?,Belgium,2021,yes,1,5867228.0,1.0,5.867228
+Can a woman work in an industrial job in the same way as a man?,Belgium,2021,yes,1,5867228.0,1.0,5.867228
+Does the law mandate equal remuneration for work of equal value?,Belgium,2021,yes,1,5867228.0,1.0,5.867228
+Can a woman work at night in the same way as a man?,Belgium,2021,yes,1,5867228.0,1.0,5.867228
+Can a woman work at night in the same way as a man?,Haiti,2021,yes,1,5774718.0,1.0,5.774718
+Does the law mandate equal remuneration for work of equal value?,Haiti,2021,yes,1,5774718.0,1.0,5.774718
+Can a woman work in an industrial job in the same way as a man?,Haiti,2021,yes,1,5774718.0,1.0,5.774718
+Can a woman work in a job deemed dangerous in the same way as a man?,Haiti,2021,yes,1,5774718.0,1.0,5.774718
+Can a woman work at night in the same way as a man?,Dominican Republic,2021,yes,1,5535650.0,1.0,5.53565
+Can a woman work in a job deemed dangerous in the same way as a man?,Dominican Republic,2021,yes,1,5535650.0,1.0,5.53565
+Can a woman work in an industrial job in the same way as a man?,Dominican Republic,2021,yes,1,5535650.0,1.0,5.53565
+Does the law mandate equal remuneration for work of equal value?,Dominican Republic,2021,no,-1,5535650.0,1.0,5.53565
+Can a woman work at night in the same way as a man?,Portugal,2021,yes,1,5453881.0,1.0,5.453881
+Does the law mandate equal remuneration for work of equal value?,Portugal,2021,yes,1,5453881.0,1.0,5.453881
+Can a woman work in an industrial job in the same way as a man?,Portugal,2021,yes,1,5453881.0,1.0,5.453881
+Can a woman work in a job deemed dangerous in the same way as a man?,Portugal,2021,yes,1,5453881.0,1.0,5.453881
+Can a woman work in an industrial job in the same way as a man?,Greece,2021,yes,1,5428390.0,1.0,5.42839
+Can a woman work in a job deemed dangerous in the same way as a man?,Greece,2021,yes,1,5428390.0,1.0,5.42839
+Does the law mandate equal remuneration for work of equal value?,Greece,2021,yes,1,5428390.0,1.0,5.42839
+Can a woman work at night in the same way as a man?,Greece,2021,yes,1,5428390.0,1.0,5.42839
+Can a woman work in an industrial job in the same way as a man?,South Sudan,2021,yes,1,5427688.0,1.0,5.427688
+Does the law mandate equal remuneration for work of equal value?,South Sudan,2021,yes,1,5427688.0,1.0,5.427688
+Can a woman work at night in the same way as a man?,South Sudan,2021,yes,1,5427688.0,1.0,5.427688
+Can a woman work in a job deemed dangerous in the same way as a man?,South Sudan,2021,yes,1,5427688.0,1.0,5.427688
+Can a woman work in an industrial job in the same way as a man?,Jordan,2021,no,-1,5368123.0,1.0,5.368123
+Does the law mandate equal remuneration for work of equal value?,Jordan,2021,yes,1,5368123.0,1.0,5.368123
+Can a woman work at night in the same way as a man?,Jordan,2021,yes,1,5368123.0,1.0,5.368123
+Can a woman work in a job deemed dangerous in the same way as a man?,Jordan,2021,yes,1,5368123.0,1.0,5.368123
+Can a woman work at night in the same way as a man?,Czech Republic,2021,yes,1,5331795.0,1.0,5.331795
+Does the law mandate equal remuneration for work of equal value?,Czech Republic,2021,yes,1,5331795.0,1.0,5.331795
+Can a woman work in an industrial job in the same way as a man?,Czech Republic,2021,yes,1,5331795.0,1.0,5.331795
+Can a woman work in a job deemed dangerous in the same way as a man?,Czech Republic,2021,yes,1,5331795.0,1.0,5.331795
+Can a woman work in a job deemed dangerous in the same way as a man?,Sweden,2021,yes,1,5169131.0,1.0,5.169131
+Can a woman work in an industrial job in the same way as a man?,Sweden,2021,yes,1,5169131.0,1.0,5.169131
+Can a woman work at night in the same way as a man?,Sweden,2021,yes,1,5169131.0,1.0,5.169131
+Does the law mandate equal remuneration for work of equal value?,Sweden,2021,yes,1,5169131.0,1.0,5.169131
+Can a woman work in an industrial job in the same way as a man?,Azerbaijan,2021,no,-1,5135000.0,1.0,5.135
+Does the law mandate equal remuneration for work of equal value?,Azerbaijan,2021,no,-1,5135000.0,1.0,5.135
+Can a woman work at night in the same way as a man?,Azerbaijan,2021,no,-1,5135000.0,1.0,5.135
+Can a woman work in a job deemed dangerous in the same way as a man?,Azerbaijan,2021,no,-1,5135000.0,1.0,5.135
+Can a woman work in an industrial job in the same way as a man?,Honduras,2021,yes,1,5087643.0,1.0,5.087643
+Can a woman work in a job deemed dangerous in the same way as a man?,Honduras,2021,no,-1,5087643.0,1.0,5.087643
+Does the law mandate equal remuneration for work of equal value?,Honduras,2021,no,-1,5087643.0,1.0,5.087643
+Can a woman work at night in the same way as a man?,Honduras,2021,yes,1,5087643.0,1.0,5.087643
+Can a woman work in a job deemed dangerous in the same way as a man?,Hungary,2021,yes,1,5055557.0,1.0,5.055557
+Can a woman work in an industrial job in the same way as a man?,Hungary,2021,yes,1,5055557.0,1.0,5.055557
+Does the law mandate equal remuneration for work of equal value?,Hungary,2021,no,-1,5055557.0,1.0,5.055557
+Can a woman work at night in the same way as a man?,Hungary,2021,yes,1,5055557.0,1.0,5.055557
+Can a woman work at night in the same way as a man?,Belarus,2021,yes,1,5034947.0,1.0,5.034947
+Can a woman work in an industrial job in the same way as a man?,Belarus,2021,no,-1,5034947.0,1.0,5.034947
+Can a woman work in a job deemed dangerous in the same way as a man?,Belarus,2021,no,-1,5034947.0,1.0,5.034947
+Does the law mandate equal remuneration for work of equal value?,Belarus,2021,yes,1,5034947.0,1.0,5.034947
+Can a woman work in a job deemed dangerous in the same way as a man?,Tajikistan,2021,no,-1,4843921.0,1.0,4.843921
+Can a woman work in an industrial job in the same way as a man?,Tajikistan,2021,no,-1,4843921.0,1.0,4.843921
+Does the law mandate equal remuneration for work of equal value?,Tajikistan,2021,yes,1,4843921.0,1.0,4.843921
+Can a woman work at night in the same way as a man?,Tajikistan,2021,yes,1,4843921.0,1.0,4.843921
+Can a woman work in an industrial job in the same way as a man?,Papua New Guinea,2021,no,-1,4811553.0,1.0,4.811553
+Can a woman work in a job deemed dangerous in the same way as a man?,Papua New Guinea,2021,no,-1,4811553.0,1.0,4.811553
+Can a woman work at night in the same way as a man?,Papua New Guinea,2021,yes,1,4811553.0,1.0,4.811553
+Does the law mandate equal remuneration for work of equal value?,Papua New Guinea,2021,no,-1,4811553.0,1.0,4.811553
+Can a woman work in an industrial job in the same way as a man?,Israel,2021,no,-1,4695549.0,1.0,4.695549
+Can a woman work in a job deemed dangerous in the same way as a man?,Israel,2021,no,-1,4695549.0,1.0,4.695549
+Does the law mandate equal remuneration for work of equal value?,Israel,2021,yes,1,4695549.0,1.0,4.695549
+Can a woman work at night in the same way as a man?,Israel,2021,yes,1,4695549.0,1.0,4.695549
+Does the law mandate equal remuneration for work of equal value?,Austria,2021,yes,1,4548093.0,1.0,4.548093
+Can a woman work in an industrial job in the same way as a man?,Austria,2021,yes,1,4548093.0,1.0,4.548093
+Can a woman work in a job deemed dangerous in the same way as a man?,Austria,2021,yes,1,4548093.0,1.0,4.548093
+Can a woman work at night in the same way as a man?,Austria,2021,yes,1,4548093.0,1.0,4.548093
+Can a woman work at night in the same way as a man?,Switzerland,2021,yes,1,4383460.0,1.0,4.38346
+Can a woman work in a job deemed dangerous in the same way as a man?,Switzerland,2021,yes,1,4383460.0,1.0,4.38346
+Can a woman work in an industrial job in the same way as a man?,Switzerland,2021,yes,1,4383460.0,1.0,4.38346
+Does the law mandate equal remuneration for work of equal value?,Switzerland,2021,yes,1,4383460.0,1.0,4.38346
+Can a woman work at night in the same way as a man?,Togo,2021,yes,1,4299551.0,1.0,4.299551
+Does the law mandate equal remuneration for work of equal value?,Togo,2021,yes,1,4299551.0,1.0,4.299551
+Can a woman work in an industrial job in the same way as a man?,Togo,2021,yes,1,4299551.0,1.0,4.299551
+Can a woman work in a job deemed dangerous in the same way as a man?,Togo,2021,yes,1,4299551.0,1.0,4.299551
+Can a woman work in a job deemed dangerous in the same way as a man?,Sierra Leone,2021,yes,1,4201801.0,1.0,4.201801
+Can a woman work in an industrial job in the same way as a man?,Sierra Leone,2021,no,-1,4201801.0,1.0,4.201801
+Does the law mandate equal remuneration for work of equal value?,Sierra Leone,2021,no,-1,4201801.0,1.0,4.201801
+Can a woman work at night in the same way as a man?,Sierra Leone,2021,yes,1,4201801.0,1.0,4.201801
+Can a woman work at night in the same way as a man?,Hong Kong,2021,yes,1,3994078.0,1.0,3.994078
+Can a woman work in an industrial job in the same way as a man?,Hong Kong,2021,yes,1,3994078.0,1.0,3.994078
+Can a woman work in a job deemed dangerous in the same way as a man?,Hong Kong,2021,yes,1,3994078.0,1.0,3.994078
+Does the law mandate equal remuneration for work of equal value?,Hong Kong,2021,no,-1,3994078.0,1.0,3.994078
+Does the law mandate equal remuneration for work of equal value?,Laos,2021,no,-1,3682483.0,1.0,3.682483
+Can a woman work at night in the same way as a man?,Laos,2021,yes,1,3682483.0,1.0,3.682483
+Can a woman work in a job deemed dangerous in the same way as a man?,Laos,2021,yes,1,3682483.0,1.0,3.682483
+Can a woman work in an industrial job in the same way as a man?,Laos,2021,yes,1,3682483.0,1.0,3.682483
+Can a woman work in a job deemed dangerous in the same way as a man?,Serbia,2021,yes,1,3558849.0,1.0,3.558849
+Does the law mandate equal remuneration for work of equal value?,Serbia,2021,yes,1,3558849.0,1.0,3.558849
+Can a woman work in an industrial job in the same way as a man?,Serbia,2021,yes,1,3558849.0,1.0,3.558849
+Can a woman work at night in the same way as a man?,Serbia,2021,yes,1,3558849.0,1.0,3.558849
+Can a woman work at night in the same way as a man?,Bulgaria,2021,yes,1,3542329.0,1.0,3.542329
+Does the law mandate equal remuneration for work of equal value?,Bulgaria,2021,yes,1,3542329.0,1.0,3.542329
+Can a woman work in an industrial job in the same way as a man?,Bulgaria,2021,yes,1,3542329.0,1.0,3.542329
+Can a woman work in a job deemed dangerous in the same way as a man?,Bulgaria,2021,yes,1,3542329.0,1.0,3.542329
+Can a woman work at night in the same way as a man?,Nicaragua,2021,yes,1,3474910.0,1.0,3.47491
+Can a woman work in a job deemed dangerous in the same way as a man?,Nicaragua,2021,yes,1,3474910.0,1.0,3.47491
+Can a woman work in an industrial job in the same way as a man?,Nicaragua,2021,yes,1,3474910.0,1.0,3.47491
+Does the law mandate equal remuneration for work of equal value?,Nicaragua,2021,no,-1,3474910.0,1.0,3.47491
+Can a woman work at night in the same way as a man?,Kyrgyz Republic,2021,yes,1,3405781.0,1.0,3.405781
+Does the law mandate equal remuneration for work of equal value?,Kyrgyz Republic,2021,no,-1,3405781.0,1.0,3.405781
+Can a woman work in a job deemed dangerous in the same way as a man?,Kyrgyz Republic,2021,no,-1,3405781.0,1.0,3.405781
+Can a woman work in an industrial job in the same way as a man?,Kyrgyz Republic,2021,no,-1,3405781.0,1.0,3.405781
+Can a woman work at night in the same way as a man?,Paraguay,2021,yes,1,3338534.0,1.0,3.338534
+Does the law mandate equal remuneration for work of equal value?,Paraguay,2021,yes,1,3338534.0,1.0,3.338534
+Can a woman work in an industrial job in the same way as a man?,Paraguay,2021,yes,1,3338534.0,1.0,3.338534
+Can a woman work in a job deemed dangerous in the same way as a man?,Paraguay,2021,yes,1,3338534.0,1.0,3.338534
+Does the law mandate equal remuneration for work of equal value?,Libya,2021,yes,1,3325769.0,1.0,3.325769
+Can a woman work at night in the same way as a man?,Libya,2021,yes,1,3325769.0,1.0,3.325769
+Can a woman work in a job deemed dangerous in the same way as a man?,Libya,2021,no,-1,3325769.0,1.0,3.325769
+Can a woman work in an industrial job in the same way as a man?,Libya,2021,yes,1,3325769.0,1.0,3.325769
+Does the law mandate equal remuneration for work of equal value?,El Salvador,2021,no,-1,3307476.0,1.0,3.307476
+Can a woman work in an industrial job in the same way as a man?,El Salvador,2021,yes,1,3307476.0,1.0,3.307476
+Can a woman work in a job deemed dangerous in the same way as a man?,El Salvador,2021,yes,1,3307476.0,1.0,3.307476
+Can a woman work at night in the same way as a man?,El Salvador,2021,yes,1,3307476.0,1.0,3.307476
+Can a woman work in a job deemed dangerous in the same way as a man?,Denmark,2021,yes,1,2943337.0,1.0,2.943337
+Can a woman work at night in the same way as a man?,Denmark,2021,yes,1,2943337.0,1.0,2.943337
+Does the law mandate equal remuneration for work of equal value?,Denmark,2021,yes,1,2943337.0,1.0,2.943337
+Can a woman work in an industrial job in the same way as a man?,Denmark,2021,yes,1,2943337.0,1.0,2.943337
+Can a woman work in a job deemed dangerous in the same way as a man?,Congo Republic,2021,no,-1,2921372.0,1.0,2.921372
+Does the law mandate equal remuneration for work of equal value?,Congo Republic,2021,no,-1,2921372.0,1.0,2.921372
+Can a woman work at night in the same way as a man?,Congo Republic,2021,yes,1,2921372.0,1.0,2.921372
+Can a woman work in an industrial job in the same way as a man?,Congo Republic,2021,no,-1,2921372.0,1.0,2.921372
+Does the law mandate equal remuneration for work of equal value?,Lebanon,2021,no,-1,2879140.0,1.0,2.87914
+Can a woman work in an industrial job in the same way as a man?,Lebanon,2021,no,-1,2879140.0,1.0,2.87914
+Can a woman work in a job deemed dangerous in the same way as a man?,Lebanon,2021,yes,1,2879140.0,1.0,2.87914
+Can a woman work at night in the same way as a man?,Lebanon,2021,yes,1,2879140.0,1.0,2.87914
+Can a woman work in an industrial job in the same way as a man?,United Arab Emirates,2021,yes,1,2853108.0,1.0,2.853108
+Does the law mandate equal remuneration for work of equal value?,United Arab Emirates,2021,yes,1,2853108.0,1.0,2.853108
+Can a woman work in a job deemed dangerous in the same way as a man?,United Arab Emirates,2021,yes,1,2853108.0,1.0,2.853108
+Can a woman work at night in the same way as a man?,United Arab Emirates,2021,yes,1,2853108.0,1.0,2.853108
+Can a woman work at night in the same way as a man?,Finland,2021,yes,1,2803508.0,1.0,2.803508
+Can a woman work in a job deemed dangerous in the same way as a man?,Finland,2021,yes,1,2803508.0,1.0,2.803508
+Can a woman work in an industrial job in the same way as a man?,Finland,2021,yes,1,2803508.0,1.0,2.803508
+Does the law mandate equal remuneration for work of equal value?,Finland,2021,yes,1,2803508.0,1.0,2.803508
+Can a woman work in a job deemed dangerous in the same way as a man?,Slovakia,2021,yes,1,2787545.0,1.0,2.787545
+Can a woman work in an industrial job in the same way as a man?,Slovakia,2021,yes,1,2787545.0,1.0,2.787545
+Does the law mandate equal remuneration for work of equal value?,Slovakia,2021,no,-1,2787545.0,1.0,2.787545
+Can a woman work at night in the same way as a man?,Slovakia,2021,yes,1,2787545.0,1.0,2.787545
+Can a woman work at night in the same way as a man?,Central African Republic,2021,yes,1,2728875.0,1.0,2.728875
+Does the law mandate equal remuneration for work of equal value?,Central African Republic,2021,no,-1,2728875.0,1.0,2.728875
+Can a woman work in a job deemed dangerous in the same way as a man?,Central African Republic,2021,no,-1,2728875.0,1.0,2.728875
+Can a woman work in an industrial job in the same way as a man?,Central African Republic,2021,no,-1,2728875.0,1.0,2.728875
+Does the law mandate equal remuneration for work of equal value?,Norway,2021,yes,1,2680087.0,1.0,2.680087
+Can a woman work in an industrial job in the same way as a man?,Norway,2021,yes,1,2680087.0,1.0,2.680087
+Can a woman work in a job deemed dangerous in the same way as a man?,Norway,2021,yes,1,2680087.0,1.0,2.680087
+Can a woman work at night in the same way as a man?,Norway,2021,yes,1,2680087.0,1.0,2.680087
+Can a woman work in an industrial job in the same way as a man?,Liberia,2021,yes,1,2608243.0,1.0,2.608243
+Can a woman work in a job deemed dangerous in the same way as a man?,Liberia,2021,yes,1,2608243.0,1.0,2.608243
+Does the law mandate equal remuneration for work of equal value?,Liberia,2021,yes,1,2608243.0,1.0,2.608243
+Can a woman work at night in the same way as a man?,Liberia,2021,yes,1,2608243.0,1.0,2.608243
+Can a woman work at night in the same way as a man?,Singapore,2021,yes,1,2601057.0,1.0,2.601057
+Can a woman work in a job deemed dangerous in the same way as a man?,Singapore,2021,yes,1,2601057.0,1.0,2.601057
+Does the law mandate equal remuneration for work of equal value?,Singapore,2021,no,-1,2601057.0,1.0,2.601057
+Can a woman work in an industrial job in the same way as a man?,Singapore,2021,yes,1,2601057.0,1.0,2.601057
+Can a woman work in an industrial job in the same way as a man?,New Zealand,2021,yes,1,2583772.0,1.0,2.583772
+Can a woman work in a job deemed dangerous in the same way as a man?,New Zealand,2021,yes,1,2583772.0,1.0,2.583772
+Does the law mandate equal remuneration for work of equal value?,New Zealand,2021,yes,1,2583772.0,1.0,2.583772
+Can a woman work at night in the same way as a man?,New Zealand,2021,yes,1,2583772.0,1.0,2.583772
+Can a woman work at night in the same way as a man?,Costa Rica,2021,yes,1,2575216.0,1.0,2.575216
+Can a woman work in a job deemed dangerous in the same way as a man?,Costa Rica,2021,no,-1,2575216.0,1.0,2.575216
+Does the law mandate equal remuneration for work of equal value?,Costa Rica,2021,yes,1,2575216.0,1.0,2.575216
+Can a woman work in an industrial job in the same way as a man?,Costa Rica,2021,yes,1,2575216.0,1.0,2.575216
+Can a woman work in a job deemed dangerous in the same way as a man?,Ireland,2021,yes,1,2539135.0,1.0,2.539135
+Can a woman work at night in the same way as a man?,Ireland,2021,yes,1,2539135.0,1.0,2.539135
+Does the law mandate equal remuneration for work of equal value?,Ireland,2021,yes,1,2539135.0,1.0,2.539135
+Can a woman work in an industrial job in the same way as a man?,Ireland,2021,yes,1,2539135.0,1.0,2.539135
+Can a woman work in an industrial job in the same way as a man?,Palestine,2021,no,-1,2467389.0,1.0,2.467389
+Can a woman work in a job deemed dangerous in the same way as a man?,Palestine,2021,no,-1,2467389.0,1.0,2.467389
+Does the law mandate equal remuneration for work of equal value?,Palestine,2021,no,-1,2467389.0,1.0,2.467389
+Can a woman work at night in the same way as a man?,Palestine,2021,no,-1,2467389.0,1.0,2.467389
+Can a woman work at night in the same way as a man?,Mauritania,2021,yes,1,2354385.0,1.0,2.354385
+Does the law mandate equal remuneration for work of equal value?,Mauritania,2021,no,-1,2354385.0,1.0,2.354385
+Can a woman work in an industrial job in the same way as a man?,Mauritania,2021,no,-1,2354385.0,1.0,2.354385
+Can a woman work in a job deemed dangerous in the same way as a man?,Mauritania,2021,no,-1,2354385.0,1.0,2.354385
+Does the law mandate equal remuneration for work of equal value?,Panama,2021,no,-1,2174744.0,1.0,2.174744
+Can a woman work at night in the same way as a man?,Panama,2021,yes,1,2174744.0,1.0,2.174744
+Can a woman work in a job deemed dangerous in the same way as a man?,Panama,2021,no,-1,2174744.0,1.0,2.174744
+Can a woman work in an industrial job in the same way as a man?,Panama,2021,yes,1,2174744.0,1.0,2.174744
+Does the law mandate equal remuneration for work of equal value?,Croatia,2021,yes,1,2000607.0,1.0,2.000607
+Can a woman work in an industrial job in the same way as a man?,Croatia,2021,yes,1,2000607.0,1.0,2.000607
+Can a woman work in a job deemed dangerous in the same way as a man?,Croatia,2021,yes,1,2000607.0,1.0,2.000607
+Can a woman work at night in the same way as a man?,Croatia,2021,yes,1,2000607.0,1.0,2.000607
+Can a woman work at night in the same way as a man?,Georgia,2021,yes,1,1964929.0,1.0,1.964929
+Does the law mandate equal remuneration for work of equal value?,Georgia,2021,no,-1,1964929.0,1.0,1.964929
+Can a woman work in a job deemed dangerous in the same way as a man?,Georgia,2021,yes,1,1964929.0,1.0,1.964929
+Can a woman work in an industrial job in the same way as a man?,Georgia,2021,yes,1,1964929.0,1.0,1.964929
+Can a woman work at night in the same way as a man?,Eritrea,2021,yes,1,1834472.0,1.0,1.834472
+Can a woman work in a job deemed dangerous in the same way as a man?,Eritrea,2021,yes,1,1834472.0,1.0,1.834472
+Can a woman work in an industrial job in the same way as a man?,Eritrea,2021,yes,1,1834472.0,1.0,1.834472
+Does the law mandate equal remuneration for work of equal value?,Eritrea,2021,no,-1,1834472.0,1.0,1.834472
+Can a woman work in a job deemed dangerous in the same way as a man?,Uruguay,2021,yes,1,1766768.0,1.0,1.766768
+Does the law mandate equal remuneration for work of equal value?,Uruguay,2021,yes,1,1766768.0,1.0,1.766768
+Can a woman work at night in the same way as a man?,Uruguay,2021,yes,1,1766768.0,1.0,1.766768
+Can a woman work in an industrial job in the same way as a man?,Uruguay,2021,no,-1,1766768.0,1.0,1.766768
+Can a woman work at night in the same way as a man?,Oman,2021,no,-1,1758703.0,1.0,1.758703
+Does the law mandate equal remuneration for work of equal value?,Oman,2021,no,-1,1758703.0,1.0,1.758703
+Can a woman work in an industrial job in the same way as a man?,Oman,2021,yes,1,1758703.0,1.0,1.758703
+Can a woman work in a job deemed dangerous in the same way as a man?,Oman,2021,no,-1,1758703.0,1.0,1.758703
+Can a woman work in a job deemed dangerous in the same way as a man?,Puerto Rico,2021,yes,1,1722030.0,1.0,1.72203
+Can a woman work at night in the same way as a man?,Puerto Rico,2021,yes,1,1722030.0,1.0,1.72203
+Does the law mandate equal remuneration for work of equal value?,Puerto Rico,2021,no,-1,1722030.0,1.0,1.72203
+Can a woman work in an industrial job in the same way as a man?,Puerto Rico,2021,yes,1,1722030.0,1.0,1.72203
+Can a woman work at night in the same way as a man?,Mongolia,2021,yes,1,1686321.0,1.0,1.686321
+Does the law mandate equal remuneration for work of equal value?,Mongolia,2021,no,-1,1686321.0,1.0,1.686321
+Can a woman work in an industrial job in the same way as a man?,Mongolia,2021,yes,1,1686321.0,1.0,1.686321
+Can a woman work in a job deemed dangerous in the same way as a man?,Mongolia,2021,yes,1,1686321.0,1.0,1.686321
+Can a woman work at night in the same way as a man?,Bosnia and Herzegovina,2021,no,-1,1660775.0,1.0,1.660775
+Can a woman work in an industrial job in the same way as a man?,Bosnia and Herzegovina,2021,no,-1,1660775.0,1.0,1.660775
+Can a woman work in a job deemed dangerous in the same way as a man?,Bosnia and Herzegovina,2021,yes,1,1660775.0,1.0,1.660775
+Does the law mandate equal remuneration for work of equal value?,Bosnia and Herzegovina,2021,yes,1,1660775.0,1.0,1.660775
+Does the law mandate equal remuneration for work of equal value?,Kuwait,2021,no,-1,1659419.0,1.0,1.659419
+Can a woman work in an industrial job in the same way as a man?,Kuwait,2021,no,-1,1659419.0,1.0,1.659419
+Can a woman work at night in the same way as a man?,Kuwait,2021,no,-1,1659419.0,1.0,1.659419
+Can a woman work in a job deemed dangerous in the same way as a man?,Kuwait,2021,no,-1,1659419.0,1.0,1.659419
+Can a woman work in a job deemed dangerous in the same way as a man?,Armenia,2021,yes,1,1534475.0,1.0,1.534475
+Can a woman work at night in the same way as a man?,Armenia,2021,yes,1,1534475.0,1.0,1.534475
+Does the law mandate equal remuneration for work of equal value?,Armenia,2021,no,-1,1534475.0,1.0,1.534475
+Can a woman work in an industrial job in the same way as a man?,Armenia,2021,yes,1,1534475.0,1.0,1.534475
+Can a woman work in a job deemed dangerous in the same way as a man?,Lithuania,2021,yes,1,1486443.0,1.0,1.486443
+Can a woman work in an industrial job in the same way as a man?,Lithuania,2021,yes,1,1486443.0,1.0,1.486443
+Does the law mandate equal remuneration for work of equal value?,Lithuania,2021,yes,1,1486443.0,1.0,1.486443
+Can a woman work at night in the same way as a man?,Lithuania,2021,yes,1,1486443.0,1.0,1.486443
+Can a woman work at night in the same way as a man?,Jamaica,2021,yes,1,1424743.0,1.0,1.424743
+Does the law mandate equal remuneration for work of equal value?,Jamaica,2021,no,-1,1424743.0,1.0,1.424743
+Can a woman work in an industrial job in the same way as a man?,Jamaica,2021,no,-1,1424743.0,1.0,1.424743
+Can a woman work in a job deemed dangerous in the same way as a man?,Jamaica,2021,yes,1,1424743.0,1.0,1.424743
+Can a woman work in a job deemed dangerous in the same way as a man?,Albania,2021,yes,1,1407212.0,1.0,1.407212
+Does the law mandate equal remuneration for work of equal value?,Albania,2021,yes,1,1407212.0,1.0,1.407212
+Can a woman work at night in the same way as a man?,Albania,2021,yes,1,1407212.0,1.0,1.407212
+Can a woman work in an industrial job in the same way as a man?,Albania,2021,yes,1,1407212.0,1.0,1.407212
+Does the law mandate equal remuneration for work of equal value?,Moldova,2021,yes,1,1373816.0,1.0,1.373816
+Can a woman work in an industrial job in the same way as a man?,Moldova,2021,yes,1,1373816.0,1.0,1.373816
+Can a woman work in a job deemed dangerous in the same way as a man?,Moldova,2021,yes,1,1373816.0,1.0,1.373816
+Can a woman work at night in the same way as a man?,Moldova,2021,yes,1,1373816.0,1.0,1.373816
+Can a woman work in a job deemed dangerous in the same way as a man?,Gambia,2021,yes,1,1326796.0,1.0,1.326796
+Can a woman work at night in the same way as a man?,Gambia,2021,yes,1,1326796.0,1.0,1.326796
+Can a woman work in an industrial job in the same way as a man?,Gambia,2021,yes,1,1326796.0,1.0,1.326796
+Does the law mandate equal remuneration for work of equal value?,Gambia,2021,no,-1,1326796.0,1.0,1.326796
+Can a woman work in an industrial job in the same way as a man?,Botswana,2021,yes,1,1310688.0,1.0,1.310688
+Can a woman work in a job deemed dangerous in the same way as a man?,Botswana,2021,yes,1,1310688.0,1.0,1.310688
+Does the law mandate equal remuneration for work of equal value?,Botswana,2021,no,-1,1310688.0,1.0,1.310688
+Can a woman work at night in the same way as a man?,Botswana,2021,yes,1,1310688.0,1.0,1.310688
+Can a woman work at night in the same way as a man?,Namibia,2021,yes,1,1308985.0,1.0,1.308985
+Can a woman work in a job deemed dangerous in the same way as a man?,Namibia,2021,yes,1,1308985.0,1.0,1.308985
+Can a woman work in an industrial job in the same way as a man?,Namibia,2021,yes,1,1308985.0,1.0,1.308985
+Does the law mandate equal remuneration for work of equal value?,Namibia,2021,yes,1,1308985.0,1.0,1.308985
+Can a woman work at night in the same way as a man?,Lesotho,2021,yes,1,1155756.0,1.0,1.155756
+Does the law mandate equal remuneration for work of equal value?,Lesotho,2021,yes,1,1155756.0,1.0,1.155756
+Can a woman work in an industrial job in the same way as a man?,Lesotho,2021,no,-1,1155756.0,1.0,1.155756
+Can a woman work in a job deemed dangerous in the same way as a man?,Lesotho,2021,yes,1,1155756.0,1.0,1.155756
+Can a woman work in a job deemed dangerous in the same way as a man?,Gabon,2021,no,-1,1148767.0,1.0,1.148767
+Can a woman work in an industrial job in the same way as a man?,Gabon,2021,no,-1,1148767.0,1.0,1.148767
+Can a woman work at night in the same way as a man?,Gabon,2021,yes,1,1148767.0,1.0,1.148767
+Does the law mandate equal remuneration for work of equal value?,Gabon,2021,no,-1,1148767.0,1.0,1.148767
+Can a woman work in an industrial job in the same way as a man?,Slovenia,2021,no,-1,1048601.0,1.0,1.048601
+Can a woman work in a job deemed dangerous in the same way as a man?,Slovenia,2021,yes,1,1048601.0,1.0,1.048601
+Does the law mandate equal remuneration for work of equal value?,Slovenia,2021,yes,1,1048601.0,1.0,1.048601
+Can a woman work at night in the same way as a man?,Slovenia,2021,yes,1,1048601.0,1.0,1.048601
+Can a woman work in a job deemed dangerous in the same way as a man?,Guinea-Bissau,2021,no,-1,1043505.0,1.0,1.043505
+Does the law mandate equal remuneration for work of equal value?,Guinea-Bissau,2021,no,-1,1043505.0,1.0,1.043505
+Can a woman work at night in the same way as a man?,Guinea-Bissau,2021,no,-1,1043505.0,1.0,1.043505
+Can a woman work in an industrial job in the same way as a man?,Guinea-Bissau,2021,no,-1,1043505.0,1.0,1.043505
+Can a woman work at night in the same way as a man?,North Macedonia,2021,yes,1,1035460.0,1.0,1.03546
+Can a woman work in an industrial job in the same way as a man?,North Macedonia,2021,no,-1,1035460.0,1.0,1.03546
+Does the law mandate equal remuneration for work of equal value?,North Macedonia,2021,no,-1,1035460.0,1.0,1.03546
+Can a woman work in a job deemed dangerous in the same way as a man?,North Macedonia,2021,yes,1,1035460.0,1.0,1.03546
+Can a woman work in a job deemed dangerous in the same way as a man?,Latvia,2021,yes,1,1011596.0,1.0,1.011596
+Can a woman work in an industrial job in the same way as a man?,Latvia,2021,yes,1,1011596.0,1.0,1.011596
+Does the law mandate equal remuneration for work of equal value?,Latvia,2021,yes,1,1011596.0,1.0,1.011596
+Can a woman work at night in the same way as a man?,Latvia,2021,yes,1,1011596.0,1.0,1.011596
+Can a woman work in a job deemed dangerous in the same way as a man?,Kosovo,2021,yes,1,895801.0,1.0,0.895801
+Can a woman work in an industrial job in the same way as a man?,Kosovo,2021,yes,1,895801.0,1.0,0.895801
+Can a woman work at night in the same way as a man?,Kosovo,2021,yes,1,895801.0,1.0,0.895801
+Does the law mandate equal remuneration for work of equal value?,Kosovo,2021,yes,1,895801.0,1.0,0.895801
+Can a woman work in an industrial job in the same way as a man?,Trinidad and Tobago,2021,yes,1,772874.0,1.0,0.772874
+Can a woman work in a job deemed dangerous in the same way as a man?,Trinidad and Tobago,2021,yes,1,772874.0,1.0,0.772874
+Does the law mandate equal remuneration for work of equal value?,Trinidad and Tobago,2021,no,-1,772874.0,1.0,0.772874
+Can a woman work at night in the same way as a man?,Trinidad and Tobago,2021,yes,1,772874.0,1.0,0.772874
+Can a woman work in a job deemed dangerous in the same way as a man?,Equatorial Guinea,2021,yes,1,771091.0,1.0,0.771091
+Can a woman work in an industrial job in the same way as a man?,Equatorial Guinea,2021,yes,1,771091.0,1.0,0.771091
+Can a woman work at night in the same way as a man?,Equatorial Guinea,2021,yes,1,771091.0,1.0,0.771091
+Does the law mandate equal remuneration for work of equal value?,Equatorial Guinea,2021,yes,1,771091.0,1.0,0.771091
+Can a woman work at night in the same way as a man?,Qatar,2021,yes,1,734561.0,1.0,0.734561
+Does the law mandate equal remuneration for work of equal value?,Qatar,2021,no,-1,734561.0,1.0,0.734561
+Can a woman work in a job deemed dangerous in the same way as a man?,Qatar,2021,no,-1,734561.0,1.0,0.734561
+Can a woman work in an industrial job in the same way as a man?,Qatar,2021,yes,1,734561.0,1.0,0.734561
+Can a woman work in a job deemed dangerous in the same way as a man?,Estonia,2021,yes,1,699703.0,1.0,0.699703
+Does the law mandate equal remuneration for work of equal value?,Estonia,2021,yes,1,699703.0,1.0,0.699703
+Can a woman work at night in the same way as a man?,Estonia,2021,yes,1,699703.0,1.0,0.699703
+Can a woman work in an industrial job in the same way as a man?,Estonia,2021,yes,1,699703.0,1.0,0.699703
+Can a woman work in an industrial job in the same way as a man?,Timor-Leste,2021,yes,1,647343.0,1.0,0.647343
+Can a woman work at night in the same way as a man?,Timor-Leste,2021,yes,1,647343.0,1.0,0.647343
+Does the law mandate equal remuneration for work of equal value?,Timor-Leste,2021,yes,1,647343.0,1.0,0.647343
+Can a woman work in a job deemed dangerous in the same way as a man?,Timor-Leste,2021,yes,1,647343.0,1.0,0.647343
+Can a woman work in a job deemed dangerous in the same way as a man?,Mauritius,2021,yes,1,641326.0,1.0,0.641326
+Can a woman work in an industrial job in the same way as a man?,Mauritius,2021,yes,1,641326.0,1.0,0.641326
+Does the law mandate equal remuneration for work of equal value?,Mauritius,2021,yes,1,641326.0,1.0,0.641326
+Can a woman work at night in the same way as a man?,Mauritius,2021,yes,1,641326.0,1.0,0.641326
+Can a woman work in a job deemed dangerous in the same way as a man?,Cyprus,2021,yes,1,621034.0,1.0,0.621034
+Can a woman work in an industrial job in the same way as a man?,Cyprus,2021,no,-1,621034.0,1.0,0.621034
+Can a woman work at night in the same way as a man?,Cyprus,2021,yes,1,621034.0,1.0,0.621034
+Does the law mandate equal remuneration for work of equal value?,Cyprus,2021,yes,1,621034.0,1.0,0.621034
+Does the law mandate equal remuneration for work of equal value?,Eswatini,2021,no,-1,600441.0,1.0,0.600441
+Can a woman work at night in the same way as a man?,Eswatini,2021,yes,1,600441.0,1.0,0.600441
+Can a woman work in an industrial job in the same way as a man?,Eswatini,2021,no,-1,600441.0,1.0,0.600441
+Can a woman work in a job deemed dangerous in the same way as a man?,Eswatini,2021,yes,1,600441.0,1.0,0.600441
+Can a woman work in a job deemed dangerous in the same way as a man?,Djibouti,2021,no,-1,556667.0,1.0,0.556667
+Can a woman work in an industrial job in the same way as a man?,Djibouti,2021,no,-1,556667.0,1.0,0.556667
+Does the law mandate equal remuneration for work of equal value?,Djibouti,2021,yes,1,556667.0,1.0,0.556667
+Can a woman work at night in the same way as a man?,Djibouti,2021,yes,1,556667.0,1.0,0.556667
+Can a woman work at night in the same way as a man?,Bahrain,2021,yes,1,554616.0,1.0,0.554616
+Does the law mandate equal remuneration for work of equal value?,Bahrain,2021,yes,1,554616.0,1.0,0.554616
+Can a woman work in a job deemed dangerous in the same way as a man?,Bahrain,2021,yes,1,554616.0,1.0,0.554616
+Can a woman work in an industrial job in the same way as a man?,Bahrain,2021,yes,1,554616.0,1.0,0.554616
+Does the law mandate equal remuneration for work of equal value?,Fiji,2021,no,-1,460926.0,1.0,0.460926
+Can a woman work at night in the same way as a man?,Fiji,2021,yes,1,460926.0,1.0,0.460926
+Can a woman work in a job deemed dangerous in the same way as a man?,Fiji,2021,yes,1,460926.0,1.0,0.460926
+Can a woman work in an industrial job in the same way as a man?,Fiji,2021,no,-1,460926.0,1.0,0.460926
+Can a woman work in an industrial job in the same way as a man?,Guyana,2021,yes,1,410932.0,1.0,0.410932
+Does the law mandate equal remuneration for work of equal value?,Guyana,2021,yes,1,410932.0,1.0,0.410932
+Can a woman work at night in the same way as a man?,Guyana,2021,yes,1,410932.0,1.0,0.410932
+Can a woman work in a job deemed dangerous in the same way as a man?,Guyana,2021,yes,1,410932.0,1.0,0.410932
+Can a woman work in a job deemed dangerous in the same way as a man?,Comoros,2021,yes,1,408923.0,1.0,0.408923
+Can a woman work at night in the same way as a man?,Comoros,2021,yes,1,408923.0,1.0,0.408923
+Does the law mandate equal remuneration for work of equal value?,Comoros,2021,yes,1,408923.0,1.0,0.408923
+Can a woman work in an industrial job in the same way as a man?,Comoros,2021,yes,1,408923.0,1.0,0.408923
+Can a woman work at night in the same way as a man?,Bhutan,2021,yes,1,365818.0,1.0,0.365818
+Can a woman work in an industrial job in the same way as a man?,Bhutan,2021,yes,1,365818.0,1.0,0.365818
+Can a woman work in a job deemed dangerous in the same way as a man?,Bhutan,2021,yes,1,365818.0,1.0,0.365818
+Does the law mandate equal remuneration for work of equal value?,Bhutan,2021,yes,1,365818.0,1.0,0.365818
+Can a woman work at night in the same way as a man?,Solomon Islands,2021,no,-1,346168.0,1.0,0.346168
+Does the law mandate equal remuneration for work of equal value?,Solomon Islands,2021,no,-1,346168.0,1.0,0.346168
+Can a woman work in a job deemed dangerous in the same way as a man?,Solomon Islands,2021,yes,1,346168.0,1.0,0.346168
+Can a woman work in an industrial job in the same way as a man?,Solomon Islands,2021,no,-1,346168.0,1.0,0.346168
+Can a woman work at night in the same way as a man?,Luxembourg,2021,yes,1,317924.0,1.0,0.317924
+Does the law mandate equal remuneration for work of equal value?,Luxembourg,2021,yes,1,317924.0,1.0,0.317924
+Can a woman work in an industrial job in the same way as a man?,Luxembourg,2021,yes,1,317924.0,1.0,0.317924
+Can a woman work in a job deemed dangerous in the same way as a man?,Luxembourg,2021,yes,1,317924.0,1.0,0.317924
+Can a woman work at night in the same way as a man?,Montenegro,2021,no,-1,317538.0,1.0,0.317538
+Does the law mandate equal remuneration for work of equal value?,Montenegro,2021,no,-1,317538.0,1.0,0.317538
+Can a woman work in an industrial job in the same way as a man?,Montenegro,2021,yes,1,317538.0,1.0,0.317538
+Can a woman work in a job deemed dangerous in the same way as a man?,Montenegro,2021,yes,1,317538.0,1.0,0.317538
+Can a woman work at night in the same way as a man?,Suriname,2021,yes,1,307598.0,1.0,0.307598
+Does the law mandate equal remuneration for work of equal value?,Suriname,2021,no,-1,307598.0,1.0,0.307598
+Can a woman work in a job deemed dangerous in the same way as a man?,Suriname,2021,yes,1,307598.0,1.0,0.307598
+Can a woman work in an industrial job in the same way as a man?,Suriname,2021,yes,1,307598.0,1.0,0.307598
+Can a woman work in a job deemed dangerous in the same way as a man?,Cabo Verde,2021,yes,1,295580.0,1.0,0.29558
+Does the law mandate equal remuneration for work of equal value?,Cabo Verde,2021,no,-1,295580.0,1.0,0.29558
+Can a woman work in an industrial job in the same way as a man?,Cabo Verde,2021,yes,1,295580.0,1.0,0.29558
+Can a woman work at night in the same way as a man?,Cabo Verde,2021,yes,1,295580.0,1.0,0.29558
+Does the law mandate equal remuneration for work of equal value?,Malta,2021,yes,1,248831.0,1.0,0.248831
+Can a woman work in an industrial job in the same way as a man?,Malta,2021,no,-1,248831.0,1.0,0.248831
+Can a woman work in a job deemed dangerous in the same way as a man?,Malta,2021,yes,1,248831.0,1.0,0.248831
+Can a woman work at night in the same way as a man?,Malta,2021,yes,1,248831.0,1.0,0.248831
+Can a woman work at night in the same way as a man?,Maldives,2021,yes,1,220721.0,1.0,0.220721
+Does the law mandate equal remuneration for work of equal value?,Maldives,2021,no,-1,220721.0,1.0,0.220721
+Can a woman work in a job deemed dangerous in the same way as a man?,Maldives,2021,yes,1,220721.0,1.0,0.220721
+Can a woman work in an industrial job in the same way as a man?,Maldives,2021,yes,1,220721.0,1.0,0.220721
+Can a woman work in a job deemed dangerous in the same way as a man?,Brunei Darussalam,2021,yes,1,214922.0,1.0,0.214922
+Can a woman work at night in the same way as a man?,Brunei Darussalam,2021,yes,1,214922.0,1.0,0.214922
+Does the law mandate equal remuneration for work of equal value?,Brunei Darussalam,2021,no,-1,214922.0,1.0,0.214922
+Can a woman work in an industrial job in the same way as a man?,Brunei Darussalam,2021,yes,1,214922.0,1.0,0.214922
+Can a woman work in a job deemed dangerous in the same way as a man?,Bahamas,2021,yes,1,212878.0,1.0,0.212878
+Can a woman work in an industrial job in the same way as a man?,Bahamas,2021,yes,1,212878.0,1.0,0.212878
+Does the law mandate equal remuneration for work of equal value?,Bahamas,2021,no,-1,212878.0,1.0,0.212878
+Can a woman work at night in the same way as a man?,Bahamas,2021,yes,1,212878.0,1.0,0.212878
+Can a woman work at night in the same way as a man?,Belize,2021,yes,1,198800.0,1.0,0.1988
+Does the law mandate equal remuneration for work of equal value?,Belize,2021,no,-1,198800.0,1.0,0.1988
+Can a woman work in an industrial job in the same way as a man?,Belize,2021,no,-1,198800.0,1.0,0.1988
+Can a woman work in a job deemed dangerous in the same way as a man?,Belize,2021,yes,1,198800.0,1.0,0.1988
+Can a woman work in an industrial job in the same way as a man?,Iceland,2021,yes,1,181577.0,1.0,0.181577
+Can a woman work in a job deemed dangerous in the same way as a man?,Iceland,2021,yes,1,181577.0,1.0,0.181577
+Does the law mandate equal remuneration for work of equal value?,Iceland,2021,yes,1,181577.0,1.0,0.181577
+Can a woman work at night in the same way as a man?,Iceland,2021,yes,1,181577.0,1.0,0.181577
+Can a woman work in a job deemed dangerous in the same way as a man?,Vanuatu,2021,yes,1,158631.0,1.0,0.158631
+Can a woman work in an industrial job in the same way as a man?,Vanuatu,2021,yes,1,158631.0,1.0,0.158631
+Can a woman work at night in the same way as a man?,Vanuatu,2021,no,-1,158631.0,1.0,0.158631
+Does the law mandate equal remuneration for work of equal value?,Vanuatu,2021,no,-1,158631.0,1.0,0.158631
+Can a woman work in an industrial job in the same way as a man?,Barbados,2021,no,-1,146366.0,1.0,0.146366
+Can a woman work in a job deemed dangerous in the same way as a man?,Barbados,2021,yes,1,146366.0,1.0,0.146366
+Does the law mandate equal remuneration for work of equal value?,Barbados,2021,no,-1,146366.0,1.0,0.146366
+Can a woman work at night in the same way as a man?,Barbados,2021,yes,1,146366.0,1.0,0.146366
+Does the law mandate equal remuneration for work of equal value?,Sao Tome and Principe,2021,no,-1,111802.0,1.0,0.111802
+Can a woman work in an industrial job in the same way as a man?,Sao Tome and Principe,2021,yes,1,111802.0,1.0,0.111802
+Can a woman work in a job deemed dangerous in the same way as a man?,Sao Tome and Principe,2021,yes,1,111802.0,1.0,0.111802
+Can a woman work at night in the same way as a man?,Sao Tome and Principe,2021,yes,1,111802.0,1.0,0.111802
+Can a woman work at night in the same way as a man?,Samoa,2021,yes,1,107213.0,1.0,0.107213
+Does the law mandate equal remuneration for work of equal value?,Samoa,2021,no,-1,107213.0,1.0,0.107213
+Can a woman work in an industrial job in the same way as a man?,Samoa,2021,yes,1,107213.0,1.0,0.107213
+Can a woman work in a job deemed dangerous in the same way as a man?,Samoa,2021,yes,1,107213.0,1.0,0.107213
+Does the law mandate equal remuneration for work of equal value?,St. Lucia,2021,yes,1,90712.0,1.0,0.090712
+Can a woman work in an industrial job in the same way as a man?,St. Lucia,2021,yes,1,90712.0,1.0,0.090712
+Can a woman work in a job deemed dangerous in the same way as a man?,St. Lucia,2021,yes,1,90712.0,1.0,0.090712
+Can a woman work at night in the same way as a man?,St. Lucia,2021,yes,1,90712.0,1.0,0.090712
+Can a woman work at night in the same way as a man?,Kiribati,2021,yes,1,66150.0,1.0,0.06615
+Does the law mandate equal remuneration for work of equal value?,Kiribati,2021,yes,1,66150.0,1.0,0.06615
+Can a woman work in an industrial job in the same way as a man?,Kiribati,2021,yes,1,66150.0,1.0,0.06615
+Can a woman work in a job deemed dangerous in the same way as a man?,Kiribati,2021,yes,1,66150.0,1.0,0.06615
+Does the law mandate equal remuneration for work of equal value?,Grenada,2021,yes,1,62254.0,1.0,0.062254
+Can a woman work at night in the same way as a man?,Grenada,2021,yes,1,62254.0,1.0,0.062254
+Can a woman work in a job deemed dangerous in the same way as a man?,Grenada,2021,yes,1,62254.0,1.0,0.062254
+Can a woman work in an industrial job in the same way as a man?,Grenada,2021,yes,1,62254.0,1.0,0.062254
+Can a woman work at night in the same way as a man?,"Micronesia, Fed. Sts.",2021,yes,1,56233.0,1.0,0.056233
+Does the law mandate equal remuneration for work of equal value?,"Micronesia, Fed. Sts.",2021,no,-1,56233.0,1.0,0.056233
+Can a woman work in an industrial job in the same way as a man?,"Micronesia, Fed. Sts.",2021,yes,1,56233.0,1.0,0.056233
+Can a woman work in a job deemed dangerous in the same way as a man?,"Micronesia, Fed. Sts.",2021,yes,1,56233.0,1.0,0.056233
+Can a woman work in a job deemed dangerous in the same way as a man?,Tonga,2021,yes,1,53578.0,1.0,0.053578
+Does the law mandate equal remuneration for work of equal value?,Tonga,2021,no,-1,53578.0,1.0,0.053578
+Can a woman work at night in the same way as a man?,Tonga,2021,yes,1,53578.0,1.0,0.053578
+Can a woman work in an industrial job in the same way as a man?,Tonga,2021,yes,1,53578.0,1.0,0.053578
+Can a woman work at night in the same way as a man?,St. Vincent and the Grenadines,2021,yes,1,51123.0,1.0,0.051123
+Can a woman work in a job deemed dangerous in the same way as a man?,St. Vincent and the Grenadines,2021,yes,1,51123.0,1.0,0.051123
+Can a woman work in an industrial job in the same way as a man?,St. Vincent and the Grenadines,2021,no,-1,51123.0,1.0,0.051123
+Does the law mandate equal remuneration for work of equal value?,St. Vincent and the Grenadines,2021,no,-1,51123.0,1.0,0.051123
+Does the law mandate equal remuneration for work of equal value?,Antigua and Barbuda,2021,no,-1,48709.0,1.0,0.048709
+Can a woman work at night in the same way as a man?,Antigua and Barbuda,2021,yes,1,48709.0,1.0,0.048709
+Can a woman work in a job deemed dangerous in the same way as a man?,Antigua and Barbuda,2021,yes,1,48709.0,1.0,0.048709
+Can a woman work in an industrial job in the same way as a man?,Antigua and Barbuda,2021,yes,1,48709.0,1.0,0.048709
+Can a woman work at night in the same way as a man?,Seychelles,2021,yes,1,46958.0,1.0,0.046958
+Does the law mandate equal remuneration for work of equal value?,Seychelles,2021,no,-1,46958.0,1.0,0.046958
+Can a woman work in a job deemed dangerous in the same way as a man?,Seychelles,2021,yes,1,46958.0,1.0,0.046958
+Can a woman work in an industrial job in the same way as a man?,Seychelles,2021,yes,1,46958.0,1.0,0.046958
+Can a woman work in an industrial job in the same way as a man?,Dominica,2021,no,-1,36373.0,1.0,0.036373
+Does the law mandate equal remuneration for work of equal value?,Dominica,2021,no,-1,36373.0,1.0,0.036373
+Can a woman work at night in the same way as a man?,Dominica,2021,yes,1,36373.0,1.0,0.036373
+Can a woman work in a job deemed dangerous in the same way as a man?,Dominica,2021,yes,1,36373.0,1.0,0.036373
+Does the law mandate equal remuneration for work of equal value?,St. Kitts and Nevis,2021,no,-1,24591.0,1.0,0.024591
+Can a woman work in an industrial job in the same way as a man?,St. Kitts and Nevis,2021,no,-1,24591.0,1.0,0.024591
+Can a woman work at night in the same way as a man?,St. Kitts and Nevis,2021,yes,1,24591.0,1.0,0.024591
+Can a woman work in a job deemed dangerous in the same way as a man?,St. Kitts and Nevis,2021,yes,1,24591.0,1.0,0.024591
+Does the law mandate equal remuneration for work of equal value?,Marshall Islands,2021,yes,1,20567.0,1.0,0.020567
+Can a woman work at night in the same way as a man?,Marshall Islands,2021,yes,1,20567.0,1.0,0.020567
+Can a woman work in a job deemed dangerous in the same way as a man?,Marshall Islands,2021,yes,1,20567.0,1.0,0.020567
+Can a woman work in an industrial job in the same way as a man?,Marshall Islands,2021,yes,1,20567.0,1.0,0.020567
+Can a woman work at night in the same way as a man?,San Marino,2021,yes,1,17326.0,1.0,0.017326
+Does the law mandate equal remuneration for work of equal value?,San Marino,2021,no,-1,17326.0,1.0,0.017326
+Can a woman work in an industrial job in the same way as a man?,San Marino,2021,yes,1,17326.0,1.0,0.017326
+Can a woman work in a job deemed dangerous in the same way as a man?,San Marino,2021,yes,1,17326.0,1.0,0.017326
+Can a woman work in an industrial job in the same way as a man?,Palau,2021,yes,1,8643.0,1.0,0.008643
+Can a woman work in a job deemed dangerous in the same way as a man?,Palau,2021,yes,1,8643.0,1.0,0.008643
+Does the law mandate equal remuneration for work of equal value?,Palau,2021,no,-1,8643.0,1.0,0.008643
+Can a woman work at night in the same way as a man?,Palau,2021,yes,1,8643.0,1.0,0.008643
