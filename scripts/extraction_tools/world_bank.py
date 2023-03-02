@@ -41,14 +41,32 @@ wdi_indicators = {
     'SP.DYN.TFRT.IN': 'Fertility rate'
 }
 
-law_indicators = {'SG.GET.JOBS.EQ': 'A woman can get a job in the same way as a man',
-                  "SG.BUS.REGT.EQ": "A woman can register a business in the same way as a man",
-                  "SG.OPN.BANK.EQ": "A woman can open a bank account in the same way as a man",
-                  "SG.LEG.SXHR.EM": "There is legislation on sexual harassment in employment",
-                  "SG.LEG.DVAW": "There is legislation specifically addressing domestic violence",
-                  "SG.PEN.SXHR.EM": "Criminal penalties or civil remedies exist for sexual harassment in employment"
 
-                  }
+law_indicators = {
+    # entrepreneurship
+    'SG.LAW.CRDD.GR': 'Does the law prohibit discrimination in access to credit based on gender?',
+    'SG.CNT.SIGN.EQ': 'Can a woman sign a contract in the same way as a man?',
+    'SG.BUS.REGT.EQ': 'Can a woman register a business in the same way as a man?',
+    'SG.OPN.BANK.EQ': 'Can a woman open a bank account in the same way as a man?',
+
+    # workplace
+    'SG.GET.JOBS.EQ': 'Can a woman get a job in the same way as a man?',
+    "SG.LAW.NODC.HR": 'Does the law prohibit discrimination in employment based on gender?',
+    "SG.LEG.SXHR.EM": 'Is there legislation on sexual harassment in employment?',
+    "SG.PEN.SXHR.EM": 'Are there criminal penalties or civil remedies for sexual harassment in employment?',
+
+    # pay
+    'SG.LAW.EQRM.WK': 'Does the law mandate equal remuneration for work of equal value?',
+    'SG.NGT.WORK.EQ': 'Can a woman work at night in the same way as a man?',
+    'SG.DNG.WORK.DN.EQ': 'Can a woman work in a job deemed dangerous in the same way as a man?',
+    'SG.IND.WORK.EQ': 'Can a woman work in an industrial job in the same way as a man?',
+
+    # WBL index
+    "SG.LAW.INDX": 'Women Business and the Law Index Score',
+    "SG.LAW.INDX.WP": "Women, Business and the Law: Workplace Indicator Score",
+    "SG.LAW.INDX.PY":"Women, Business and the Law: Pay Indicator Score",
+    "SG.LAW.INDX.EN": "Women, Business and the Law: Entrepreneurship Indicator Score"
+}
 
 
 def get_data(indicators: dict, db: int) -> pd.DataFrame:
@@ -83,5 +101,4 @@ def download_wb_data() -> None:
 
     # law data
     (get_data(law_indicators, db=14)
-        .to_csv(f'{PATHS.raw_data}/world_bank_law.csv', index=False))
-
+     .to_csv(f'{PATHS.raw_data}/world_bank_law.csv', index=False))
