@@ -120,21 +120,47 @@ def chart_histogram_income() -> None:
 def chart_histogram_time_series():
     """Create a curved histogram for GII by year for world and Africa"""
 
+    world = (GII
+             .pipe(_keep_only_indicator, 'gii', 'variable')
+             .pipe(_histogram_chart, grouping='year')
+             .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='World')
+             .set_index(['x_values', 'binned', 'year'])
+             )
+
     africa = (GII
               .pipe(_keep_only_indicator, 'gii', 'variable')
               .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
               .loc[lambda d: d.continent == 'Africa']
               .pipe(_histogram_chart, grouping='year')
               .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='Africa')
+              .set_index(['x_values', 'binned', 'year'])
               )
 
-    world = (GII
-             .pipe(_keep_only_indicator, 'gii', 'variable')
-             .pipe(_histogram_chart, grouping='year')
-             .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='World')
-             )
+    lic = (GII
+           .pipe(_keep_only_indicator, 'gii', 'variable')
+           .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+           .loc[lambda d: d.income_level == 'Low income']
+           .pipe(_histogram_chart, grouping='year')
+           .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='Low income')
+           .set_index(['x_values', 'binned', 'year'])
+           )
 
-    (pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
+    hic = (GII
+           .pipe(_keep_only_indicator, 'gii', 'variable')
+           .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+           .loc[lambda d: d.income_level == 'High income']
+           .pipe(_histogram_chart, grouping='year')
+           .melt(id_vars=['x_values', 'binned'], var_name='year', value_name='High income')
+           .set_index(['x_values', 'binned', 'year'])
+           )
+
+
+
+    #(pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
+     #.to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
+    # )
+
+    (pd.concat([africa, lic, hic, world], axis=1).reset_index()
      .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
      )
 
