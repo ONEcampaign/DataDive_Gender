@@ -1,0 +1,171 @@
+iso3,country,value,year,female_pop,continent,income_level,africa_high,europe_highlight,low_income_highlight,high_income_highlight,low_high_income_highlight
+AFG,Afghanistan,0.678,2021,19844584.0,Asia,Low income,,,Low income,,Low income
+ALB,Albania,0.144,2021,1407212.0,Europe,Upper middle income,,Europe,,,
+DZA,Algeria,0.499,2021,21680725.0,Africa,Lower middle income,Africa,,,,
+AGO,Angola,0.537,2021,17452283.0,Africa,Lower middle income,Africa,,,,
+ARG,Argentina,0.287,2021,23130548.0,America,Upper middle income,,,,,
+ARM,Armenia,0.216,2021,1534475.0,Asia,Upper middle income,,,,,
+AUS,Australia,0.073,2021,12936002.0,Oceania,High income,,,,High income,High income
+AUT,Austria,0.053,2021,4548093.0,Europe,High income,,Europe,,High income,High income
+AZE,Azerbaijan,0.294,2021,5135000.0,Asia,Upper middle income,,,,,
+BHS,Bahamas,0.329,2021,212878.0,America,High income,,,,High income,High income
+BHR,Bahrain,0.181,2021,554616.0,Asia,High income,,,,High income,High income
+BGD,Bangladesh,0.53,2021,85358163.0,Asia,Lower middle income,,,,,
+BRB,Barbados,0.268,2021,146366.0,America,High income,,,,High income,High income
+BLR,Belarus,0.104,2021,5034947.0,Europe,Upper middle income,,Europe,,,
+BEL,Belgium,0.048,2021,5867228.0,Europe,High income,,Europe,,High income,High income
+BLZ,Belize,0.364,2021,198800.0,America,Upper middle income,,,,,
+BEN,Benin,0.602,2021,6487184.0,Africa,Lower middle income,Africa,,,,
+BTN,Bhutan,0.415,2021,365818.0,Asia,Lower middle income,,,,,
+BOL,Bolivia (Plurinational State of),0.418,2021,6020925.0,America,Lower middle income,,,,,
+BIH,Bosnia and Herzegovina,0.136,2021,1660775.0,Europe,Upper middle income,,Europe,,,
+BWA,Botswana,0.468,2021,1310688.0,Africa,Upper middle income,Africa,,,,
+BRA,Brazil,0.39,2021,109034931.0,America,Upper middle income,,,,,
+BRN,Brunei Darussalam,0.259,2021,214922.0,Asia,High income,,,,High income,High income
+BGR,Bulgaria,0.21,2021,3542329.0,Europe,Upper middle income,,Europe,,,
+BFA,Burkina Faso,0.621,2021,11089986.0,Africa,Low income,Africa,,Low income,,Low income
+BDI,Burundi,0.505,2021,6319427.0,Africa,Low income,Africa,,Low income,,Low income
+CPV,Cabo Verde,0.349,2021,295580.0,Africa,Lower middle income,Africa,,,,
+KHM,Cambodia,0.461,2021,8376956.0,Asia,Lower middle income,,,,,
+CMR,Cameroon,0.565,2021,13634397.0,Africa,Lower middle income,Africa,,,,
+CAN,Canada,0.069,2021,19240835.0,America,High income,,,,High income,High income
+CAF,Central African Republic,0.672,2021,2728875.0,Africa,Low income,Africa,,Low income,,Low income
+TCD,Chad,0.652,2021,8556210.0,Africa,Low income,Africa,,Low income,,Low income
+CHL,Chile,0.187,2021,9818163.0,America,High income,,,,High income,High income
+CHN,China,0.192,2021,691219627.0,Asia,Upper middle income,,,,,
+COL,Colombia,0.424,2021,26101321.0,America,Upper middle income,,,,,
+COG,Congo,0.564,2021,2921372.0,Africa,Lower middle income,Africa,,,,
+COD,Congo (Democratic Republic of the),0.601,2021,48319268.0,Africa,Low income,Africa,,Low income,,Low income
+CRI,Costa Rica,0.256,2021,2575216.0,America,Upper middle income,,,,,
+HRV,Croatia,0.093,2021,2000607.0,Europe,High income,,Europe,,High income,High income
+CUB,Cuba,0.303,2021,5667114.0,America,Upper middle income,,,,,
+CYP,Cyprus,0.123,2021,621034.0,Asia,High income,,,,High income,High income
+CZE,Czechia,0.12,2021,5331795.0,Europe,High income,,Europe,,High income,High income
+CIV,Côte d'Ivoire,0.613,2021,13600535.0,Africa,Lower middle income,Africa,,,,
+DNK,Denmark,0.013,2021,2943337.0,Europe,High income,,Europe,,High income,High income
+DOM,Dominican Republic,0.429,2021,5535650.0,America,Upper middle income,,,,,
+ECU,Ecuador,0.362,2021,8910903.0,America,Upper middle income,,,,,
+EGY,Egypt,0.443,2021,54001891.0,Africa,Lower middle income,Africa,,,,
+SLV,El Salvador,0.376,2021,3307476.0,America,Lower middle income,,,,,
+EST,Estonia,0.1,2021,699703.0,Europe,High income,,Europe,,High income,High income
+SWZ,Eswatini (Kingdom of),0.54,2021,600441.0,Africa,Lower middle income,Africa,,,,
+ETH,Ethiopia,0.52,2021,59839622.0,Africa,Low income,Africa,,Low income,,Low income
+FJI,Fiji,0.318,2021,460926.0,Oceania,Upper middle income,,,,,
+FIN,Finland,0.033,2021,2803508.0,Europe,High income,,Europe,,High income,High income
+FRA,France,0.083,2021,34998692.0,Europe,High income,,Europe,,High income,High income
+GAB,Gabon,0.541,2021,1148767.0,Africa,Upper middle income,Africa,,,,
+GMB,Gambia,0.611,2021,1326796.0,Africa,Low income,Africa,,Low income,,Low income
+GEO,Georgia,0.28,2021,1964929.0,Asia,Upper middle income,,,,,
+DEU,Germany,0.073,2021,42146923.0,Europe,High income,,Europe,,High income,High income
+GHA,Ghana,0.529,2021,16457496.0,Africa,Lower middle income,Africa,,,,
+GRC,Greece,0.119,2021,5428390.0,Europe,High income,,Europe,,High income,High income
+GTM,Guatemala,0.481,2021,8639673.0,America,Upper middle income,,,,,
+GIN,Guinea,0.621,2021,6846006.0,Africa,Low income,Africa,,Low income,,Low income
+GNB,Guinea-Bissau,0.627,2021,1043505.0,Africa,Low income,Africa,,Low income,,Low income
+GUY,Guyana,0.454,2021,410932.0,America,Upper middle income,,,,,
+HTI,Haiti,0.635,2021,5774718.0,America,Lower middle income,,,,,
+HND,Honduras,0.431,2021,5087643.0,America,Lower middle income,,,,,
+HUN,Hungary,0.221,2021,5055557.0,Europe,High income,,Europe,,High income,High income
+ISL,Iceland,0.043,2021,181577.0,Europe,High income,,Europe,,High income,High income
+IND,India,0.49,2021,681060412.0,Asia,Lower middle income,,,,,
+IDN,Indonesia,0.444,2021,135900714.0,Asia,Lower middle income,,,,,
+IRN,Iran (Islamic Republic of),0.459,2021,43496643.0,Asia,Lower middle income,,,,,
+IRQ,Iraq,0.558,2021,21736184.0,Asia,Upper middle income,,,,,
+IRL,Ireland,0.074,2021,2539135.0,Europe,High income,,Europe,,High income,High income
+ISR,Israel,0.083,2021,4695549.0,Asia,High income,,,,High income,High income
+ITA,Italy,0.056,2021,30300094.0,Europe,High income,,Europe,,High income,High income
+JAM,Jamaica,0.335,2021,1424743.0,America,Upper middle income,,,,,
+JPN,Japan,0.083,2021,64594414.0,Asia,High income,,,,High income,High income
+JOR,Jordan,0.471,2021,5368123.0,Asia,Upper middle income,,,,,
+KAZ,Kazakhstan,0.161,2021,9864589.0,Asia,Upper middle income,,,,,
+KEN,Kenya,0.506,2021,26726429.0,Africa,Lower middle income,Africa,,,,
+KOR,Korea (Republic of),0.067,2021,25902500.0,Asia,High income,,,,High income,High income
+KWT,Kuwait,0.305,2021,1659419.0,Asia,High income,,,,High income,High income
+KGZ,Kyrgyzstan,0.37,2021,3405781.0,Asia,Lower middle income,,,,,
+LAO,Lao People's Democratic Republic,0.478,2021,3682483.0,Asia,Lower middle income,,,,,
+LVA,Latvia,0.151,2021,1011596.0,Europe,High income,,Europe,,High income,High income
+LBN,Lebanon,0.432,2021,2879140.0,Asia,Lower middle income,,,,,
+LSO,Lesotho,0.557,2021,1155756.0,Africa,Lower middle income,Africa,,,,
+LBR,Liberia,0.648,2021,2608243.0,Africa,Low income,Africa,,Low income,,Low income
+LBY,Libya,0.259,2021,3325769.0,Africa,Upper middle income,Africa,,,,
+LTU,Lithuania,0.105,2021,1486443.0,Europe,High income,,Europe,,High income,High income
+LUX,Luxembourg,0.044,2021,317924.0,Europe,High income,,Europe,,High income,High income
+MDG,Madagascar,0.556,2021,14424717.0,Africa,Low income,Africa,,Low income,,Low income
+MWI,Malawi,0.554,2021,10218942.0,Africa,Low income,Africa,,Low income,,Low income
+MYS,Malaysia,0.228,2021,16407343.0,Asia,Upper middle income,,,,,
+MDV,Maldives,0.348,2021,220721.0,Asia,Upper middle income,,,,,
+MLI,Mali,0.613,2021,10844239.0,Africa,Low income,Africa,,Low income,,Low income
+MLT,Malta,0.167,2021,248831.0,Europe,High income,,Europe,,High income,High income
+MRT,Mauritania,0.632,2021,2354385.0,Africa,Lower middle income,Africa,,,,
+MUS,Mauritius,0.347,2021,641326.0,Africa,Upper middle income,Africa,,,,
+MEX,Mexico,0.309,2021,64849001.0,America,Upper middle income,,,,,
+MDA,Moldova (Republic of),0.205,2021,1373816.0,Europe,Upper middle income,,Europe,,,
+MNG,Mongolia,0.313,2021,1686321.0,Asia,Lower middle income,,,,,
+MNE,Montenegro,0.119,2021,317538.0,Europe,Upper middle income,,Europe,,,
+MAR,Morocco,0.425,2021,18410922.0,Africa,Lower middle income,Africa,,,,
+MOZ,Mozambique,0.537,2021,16339849.0,Africa,Low income,Africa,,Low income,,Low income
+MMR,Myanmar,0.498,2021,27015414.0,Asia,Lower middle income,,,,,
+NAM,Namibia,0.445,2021,1308985.0,Africa,Upper middle income,Africa,,,,
+NPL,Nepal,0.452,2021,15664025.0,Asia,Lower middle income,,,,,
+NLD,Netherlands,0.025,2021,8820968.0,Europe,High income,,Europe,,High income,High income
+NZL,New Zealand,0.088,2021,2583772.0,Oceania,High income,,,,High income,High income
+NIC,Nicaragua,0.424,2021,3474910.0,America,Lower middle income,,,,,
+NER,Niger,0.611,2021,12443587.0,Africa,Low income,Africa,,Low income,,Low income
+NGA,Nigeria,0.68,2021,105574310.0,Africa,Lower middle income,Africa,,,,
+MKD,North Macedonia,0.134,2021,1035460.0,Europe,Upper middle income,,Europe,,,
+NOR,Norway,0.016,2021,2680087.0,Europe,High income,,Europe,,High income,High income
+OMN,Oman,0.3,2021,1758703.0,Asia,High income,,,,High income,High income
+PAK,Pakistan,0.534,2021,114586264.0,Asia,Lower middle income,,,,,
+PAN,Panama,0.392,2021,2174744.0,America,High income,,,,High income,High income
+PNG,Papua New Guinea,0.725,2021,4811553.0,Oceania,Lower middle income,,,,,
+PRY,Paraguay,0.445,2021,3338534.0,America,Upper middle income,,,,,
+PER,Peru,0.38,2021,17020361.0,America,Upper middle income,,,,,
+PHL,Philippines,0.419,2021,56062865.0,Asia,Lower middle income,,,,,
+POL,Poland,0.109,2021,19493868.0,Europe,High income,,Europe,,High income,High income
+PRT,Portugal,0.067,2021,5453881.0,Europe,High income,,Europe,,High income,High income
+QAT,Qatar,0.22,2021,734561.0,Asia,High income,,,,High income,High income
+ROU,Romania,0.282,2021,9875794.0,Europe,High income,,Europe,,High income,High income
+RUS,Russian Federation,0.203,2021,76824577.0,Europe,Upper middle income,,Europe,,,
+RWA,Rwanda,0.388,2021,6879649.0,Africa,Low income,Africa,,Low income,,Low income
+LCA,Saint Lucia,0.381,2021,90712.0,America,Upper middle income,,,,,
+VCT,Saint Vincent and the Grenadines,0.39,2021,51123.0,America,Upper middle income,,,,,
+WSM,Samoa,0.418,2021,107213.0,Oceania,Lower middle income,,,,,
+STP,Sao Tome and Principe,0.494,2021,111802.0,Africa,Lower middle income,Africa,,,,
+SAU,Saudi Arabia,0.247,2021,15184150.0,Asia,High income,,,,High income,High income
+SEN,Senegal,0.53,2021,8579664.0,Africa,Lower middle income,Africa,,,,
+SRB,Serbia,0.131,2021,3558849.0,Europe,Upper middle income,,Europe,,,
+SLE,Sierra Leone,0.633,2021,4201801.0,Africa,Low income,Africa,,Low income,,Low income
+SGP,Singapore,0.04,2021,2601057.0,Asia,High income,,,,High income,High income
+SVK,Slovakia,0.18,2021,2787545.0,Europe,High income,,Europe,,High income,High income
+SVN,Slovenia,0.071,2021,1048601.0,Europe,High income,,Europe,,High income,High income
+ZAF,South Africa,0.405,2021,30497646.0,Africa,Upper middle income,Africa,,,,
+SSD,South Sudan,0.587,2021,5427688.0,Africa,Low income,Africa,,Low income,,Low income
+ESP,Spain,0.057,2021,24178913.0,Europe,High income,,Europe,,High income,High income
+LKA,Sri Lanka,0.383,2021,11481595.0,Asia,Lower middle income,,,,,
+SDN,Sudan,0.553,2021,22842482.0,Africa,Low income,Africa,,Low income,,Low income
+SUR,Suriname,0.427,2021,307598.0,America,Upper middle income,,,,,
+SWE,Sweden,0.023,2021,5169131.0,Europe,High income,,Europe,,High income,High income
+CHE,Switzerland,0.018,2021,4383460.0,Europe,High income,,Europe,,High income,High income
+SYR,Syrian Arab Republic,0.477,2021,10643230.0,Asia,Low income,,,Low income,,Low income
+TJK,Tajikistan,0.285,2021,4843921.0,Asia,Lower middle income,,,,,
+TZA,Tanzania (United Republic of),0.56,2021,32170681.0,Africa,Lower middle income,Africa,,,,
+THA,Thailand,0.333,2021,36807094.0,Asia,Upper middle income,,,,,
+TLS,Timor-Leste,0.378,2021,647343.0,Asia,Lower middle income,,,,,
+TGO,Togo,0.58,2021,4299551.0,Africa,Low income,Africa,,Low income,,Low income
+TON,Tonga,0.631,2021,53578.0,Oceania,Upper middle income,,,,,
+TTO,Trinidad and Tobago,0.344,2021,772874.0,America,High income,,,,High income,High income
+TUN,Tunisia,0.259,2021,6205901.0,Africa,Lower middle income,Africa,,,,
+TUR,Turkey,0.272,2021,42285574.0,Asia,Upper middle income,,,,,
+TKM,Turkmenistan,0.177,2021,3200126.0,Asia,Upper middle income,,,,,
+UGA,Uganda,0.53,2021,23153140.0,Africa,Low income,Africa,,Low income,,Low income
+UKR,Ukraine,0.2,2021,23524526.0,Europe,Lower middle income,,Europe,,,
+ARE,United Arab Emirates,0.049,2021,2853108.0,Asia,High income,,,,High income,High income
+GBR,United Kingdom,0.098,2021,34065491.0,Europe,High income,,Europe,,High income,High income
+USA,United States,0.179,2021,167480460.0,America,High income,,,,High income,High income
+URY,Uruguay,0.235,2021,1766768.0,America,High income,,,,High income,High income
+UZB,Uzbekistan,0.227,2021,17446107.0,Asia,Lower middle income,,,,,
+VEN,Venezuela (Bolivarian Republic of),0.492,2021,14243056.0,America,,,,,,
+VNM,Viet Nam,0.296,2021,49331842.0,Asia,Lower middle income,,,,,
+YEM,Yemen,0.82,2021,16313210.0,Asia,Low income,,,Low income,,Low income
+ZMB,Zambia,0.54,2021,9864121.0,Africa,Low income,Africa,,Low income,,Low income
+ZWE,Zimbabwe,0.532,2021,8449834.0,Africa,Lower middle income,Africa,,,,

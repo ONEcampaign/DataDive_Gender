@@ -1,10 +1,12 @@
 """ """
 
 import pandas as pd
+import numpy as np
 import country_converter as coco
 from bblocks.dataframe_tools import add
 
 from scripts.config import PATHS
+from scripts import common
 
 GII = pd.read_csv(f'{PATHS.raw_data}/hdr_gii.csv')
 
@@ -13,20 +15,6 @@ def _keep_only_indicator(df: pd.DataFrame, indicator: str, col: str = 'indicator
     """Helper function to filter dataframe keeping only selected indicator"""
 
     return df.loc[df[col] == indicator].reset_index(drop=True)
-
-
-def gii_regions_timeseries_chart() -> pd.DataFrame:
-    """Chart showing GII for regions over time"""
-
-    regions = ['Arab States', 'Europe and Central Asia',
-               'Latin America and the Caribbean', 'South Asia', 'World',
-               'East Asia and the Pacific', 'Sub-Saharan Africa']
-
-    return (GII.pipe(_keep_only_indicator, 'gii', 'variable')
-            .loc[lambda d: d.country.isin(regions)]
-            .pivot(index='year', columns='country', values='value')
-            .reset_index()
-            )
 
 
 def get_latest_for_countries(variable: str) -> pd.DataFrame:
@@ -45,16 +33,30 @@ def get_latest_for_countries(variable: str) -> pd.DataFrame:
             )
 
 
-def chart_gii_explorer() -> None:
-    """Create a chart for the GII explorer scrolly"""
+# GII charts
 
-    (get_latest_for_countries('gii')
-     # add female population)
-     .pipe(add.add_population_column, id_column='iso3', id_type='iso3')
-     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
-     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
-     .to_csv(f'{PATHS.output}/hdr_gii_explorer.csv', index=False)
-     )
+def chart_gii_explorer_latest() -> None:
+    """Create explorer chart for GII - map and bubble chart"""
+
+    return (get_latest_for_countries('gii')
+            .loc[:, ['iso3', 'country', 'value', 'year']]
+            .assign(female_pop=lambda d: d.iso3.map(common.female_population()),
+                    continent=lambda d: coco.convert(d.iso3, to='continent'),
+                    )
+            .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
+
+            # highlight categories for scrolly
+            .assign(africa_highlight=lambda d: d.continent.where(d.continent == 'Africa', np.nan),
+                    europe_highlight=lambda d: d.continent.where(d.continent == 'Europe', np.nan),
+                    low_income_highlight=lambda d: d.income_level.where(
+                        d.income_level == 'Low income', np.nan),
+                    high_income_highlight=lambda d: d.income_level.where(
+                        d.income_level == 'High income', np.nan),
+                    low_high_income_highlight=lambda d: d.income_level.where(
+                        d.income_level.isin(['Low income', 'High income']), np.nan)
+                    )
+            .to_csv(f'{PATHS.output}/hdr_gii_bubble_latest.csv', index=False)
+            )
 
 
 def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
@@ -154,13 +156,13 @@ def chart_histogram_time_series():
            .set_index(['x_values', 'binned', 'year'])
            )
 
-
-
-    #(pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
-     #.to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
+    # (pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
+    # .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
     # )
 
-    (pd.concat([africa, lic, hic, world], axis=1).reset_index()
+    (pd.concat([africa, lic, hic, world], axis=1)
+     .reset_index()
+     .loc[lambda d: d.year.isin([1990, 2000, 2010, d.year.max()])]
      .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
      )
 
@@ -211,12 +213,12 @@ def update_hdr_charts() -> None:
     """Update all HDR charts"""
 
     # gii explorer for map and bubble plot
-    chart_gii_explorer()
+    # chart_gii_explorer()
 
     # gii distribution
-    chart_histogram_continents()
-    chart_histogram_income()
-    chart_histogram_time_series()
+    # chart_histogram_continents()
+    # chart_histogram_income()
+    chart_histogram_time_series()  # use this one
 
     # education
     chart_education_connected_dot_ssa()
