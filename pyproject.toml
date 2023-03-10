@@ -11,7 +11,8 @@ packages = [{include = "datadive_gender"}]
 python = "^3.10"
 pandas = "^1.5.3"
 country-converter = "^0.8.0"
-bblocks = "^1.0.2"
+unesco-reader = "^0.3.0"
+bblocks = {git = "https://github.com/ONEcampaign/bblocks"}
 
 
 [tool.poetry.group.dev.dependencies]

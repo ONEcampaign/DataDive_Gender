@@ -31,7 +31,12 @@ gender_indicators = {
     'SP.ADO.TFRT': 'Adolescent fertility rate (births per 1,000 women ages 15-19)',
     'SH.STA.FGMS.ZS': 'Female genital mutilation prevalence (%)',
     'SG.VAW.1549.ZS': 'Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49)',
-    'SG.VAW.AFSX.ZS': 'Proportion of women who have ever experienced any form of sexual violence (% of women ages 15-49)'
+    'SG.VAW.AFSX.ZS': 'Proportion of women who have ever experienced any form of sexual violence (% of women ages 15-49)',
+    'SG.TIM.UWRK.MA': 'Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males',
+    'SG.TIM.UWRK.FE': 'Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females',
+    'SL.TLF.CACT.FE.ZS': 'Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)',
+    'SL.TLF.CACT.MA.ZS': 'Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)',
+    'SE.ENR.PRSC.FM.ZS': 'School enrollment, primary and secondary (gross), gender parity index (GPI)'
 }
 
 wdi_indicators = {
