@@ -77,14 +77,23 @@ def calculate_pct_decrease(
 def chart_line_decrease_in_mmr() -> None:
     """Create a line chart showing the percentage decrease in maternal mortality"""
 
-    country_list = ['Greece', 'Venezuela', 'Belize', 'United States', 'Brazil', 'Ukraine',
-                    'Russia', 'United Kingdom', 'Portugal', 'South Korea',
+    country_list = ['Greece',
+                    #'Venezuela',
+                    #'Belize',
+                    'United States',
+                    #'Brazil',
+                    'Ukraine',
+                    'Russia',
+                    'United Kingdom',
+                    'Portugal',
+                    #'South Korea',
                     ]
     region_list = [
         # 'Eastern and South-Eastern Asia',
         # 'Europe and Northern America',
         'Latin America and the Caribbean',
-        'Sub-Saharan Africa']
+        #'Sub-Saharan Africa',
+    'world']
 
     countries_df = (COUNTRIES.loc[lambda d: (d.parameter == 'mmr')
                                             & (d.country.isin(country_list)),
@@ -101,6 +110,7 @@ def chart_line_decrease_in_mmr() -> None:
                   .pipe(calculate_pct_decrease, 2000, 'region', 'value')
                   .pivot(index='year', columns='region', values='decrease')
                   .reset_index()
+                  .rename(columns={'Latin America and the Caribbean': 'Latin America'})
                   )
 
     (pd.merge(countries_df, df_regions, on='year', how='outer')
