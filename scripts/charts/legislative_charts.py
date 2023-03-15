@@ -2,11 +2,15 @@
 
 import pandas as pd
 from scripts.logger import logger
+import country_converter as coco
+import numpy as np
+from bblocks.dataframe_tools import add
 
 from scripts.config import PATHS
 from scripts import common
 
 LAWS = pd.read_csv(f"{PATHS.raw_data}/world_bank_law.csv")
+WB_GENDER = pd.read_csv(f"{PATHS.raw_data}/world_bank_gender.csv")
 
 employment_laws = [
     "SG.GET.JOBS.EQ",
@@ -59,15 +63,15 @@ def make_marimekko(indicators: list) -> pd.DataFrame:
         .pipe(common.latest_value, "value", ["iso_code", "indicator_code"], "year")
         .assign(female_pop=lambda d: d.iso_code.map(common.female_population()))
         .loc[
-            :,
-            [
-                "indicator_name",
-                "entity_name",
-                "year",
-                "value_label",
-                "value",
-                "female_pop",
-            ],
+        :,
+        [
+            "indicator_name",
+            "entity_name",
+            "year",
+            "value_label",
+            "value",
+            "female_pop",
+        ],
         ]
     )
 
@@ -96,3 +100,21 @@ def chart_laws_marimekko() -> None:
             )
         )
         logger.info(f"Created {law_type} marimekko chart")
+
+
+def chart_parliament_participation_beeswarm() -> None:
+    """Create a beeswarm chart showing women's participation in parliament"""
+
+    (WB_GENDER[lambda d: d.indicator_code == 'SG.GEN.PARL.ZS']
+     .assign(year=lambda d: pd.to_datetime(d.date).dt.year)
+     .dropna(subset='value')
+     .pipe(common.latest_value, 'value', 'iso_code', 'year')
+     .pipe(common.only_countries, 'iso_code')
+     .assign(continent=lambda d: coco.convert(d.iso_code, to='continent', not_found=np.nan),
+             # female_pop=lambda d: d.iso_code.map(common.female_population()),
+             # gdppc = lambda d: d.iso_code.map(common.gdp_per_capita()),
+             )
+     .pipe(add.add_income_level_column, id_column='iso_code', id_type='iso3')
+     .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
+     )
+    logger.info("Created parliament participation beeswarm chart")
