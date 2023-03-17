@@ -957,14 +957,14 @@ files = [
 
 [[package]]
 name = "unesco-reader"
-version = "0.3.0"
+version = "0.3.1"
 description = "Pythonic access to UNESCO data"
 category = "main"
 optional = false
 python-versions = ">=3.8,<4"
 files = [
-    {file = "unesco_reader-0.3.0-py3-none-any.whl", hash = "sha256:54bedd22bc2abeba8ee3b335d050bd2e12a5bf92b541c160b0873b5b3a9ef533"},
-    {file = "unesco_reader-0.3.0.tar.gz", hash = "sha256:63f1cd160e4b4feda2b58e9f6610652bd740c0ce1eea90c07811aa2c21227043"},
+    {file = "unesco_reader-0.3.1-py3-none-any.whl", hash = "sha256:4e4b9b844c85f69bf286b7b63c8df42a2c12649231ad43a385c89b64a2127b4a"},
+    {file = "unesco_reader-0.3.1.tar.gz", hash = "sha256:ffc4556632481e891d9b97069b56d310c198a1dffe1896d2e0c1a4b2e915875e"},
 ]
 
 [package.dependencies]
@@ -1026,4 +1026,4 @@ pandas = ">=1.3.5"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "79a5976edcddcf746b84eedd3df55b406211c83919380533c6df9264e547d7d2"
+content-hash = "57f89e18b41597074a308ebf618522a59fb4a310cebebac0b622fae65f22649f"
