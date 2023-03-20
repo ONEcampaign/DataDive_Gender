@@ -59,7 +59,7 @@ def chart_pictogram_low_middle_income() -> None:
             )
 
 
-def calculate_pct_decrease(
+def calculate_pct_change(
         df: pd.DataFrame, year: int, group_col: str, val_col: str
         ) -> pd.DataFrame:
     """Calculate the percentage decrease in maternal mortality compared to a given year
@@ -68,7 +68,7 @@ def calculate_pct_decrease(
 
     year_val_dict = df[lambda d: (d.year == year)].set_index(group_col)[val_col].to_dict()
     return (df.assign(val_year=lambda d: d[group_col].map(year_val_dict),
-                      decrease=lambda d: ((d[val_col] - d.val_year) / d.val_year) * -100
+                      decrease=lambda d: ((d[val_col] - d.val_year) / d.val_year) * 100
                       )
             .drop(columns='val_year')
             )
@@ -98,7 +98,7 @@ def chart_line_decrease_in_mmr() -> None:
     countries_df = (COUNTRIES.loc[lambda d: (d.parameter == 'mmr')
                                             & (d.country.isin(country_list)),
     ['country', 'year', 'value', 'lower', 'upper']]
-                    .pipe(calculate_pct_decrease, 2000, 'country', 'value')
+                    .pipe(calculate_pct_change, 2000, 'country', 'value')
                     .pivot(index='year', columns='country', values='decrease')
                     .reset_index()
                     )
@@ -107,7 +107,7 @@ def chart_line_decrease_in_mmr() -> None:
                                         & (d.region.isin(region_list)),
 
     ['region', 'year', 'value', 'lower', 'upper']]
-                  .pipe(calculate_pct_decrease, 2000, 'region', 'value')
+                  .pipe(calculate_pct_change, 2000, 'region', 'value')
                   .pivot(index='year', columns='region', values='decrease')
                   .reset_index()
                   .rename(columns={'Latin America and the Caribbean': 'Latin America'})

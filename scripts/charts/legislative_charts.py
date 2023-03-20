@@ -41,6 +41,14 @@ laws_dict = {
     ],
 }
 
+laws_summary = [
+    'SG.LAW.EQRM.WK',
+    "SG.LAW.NODC.HR",
+    'SG.GET.JOBS.EQ',
+    'SG.CNT.SIGN.EQ',
+    "SG.PEN.SXHR.EM"
+]
+
 
 def make_marimekko(indicators: list) -> pd.DataFrame:
     """Create a marimekko chart for the given indicators
@@ -88,18 +96,31 @@ def make_marimekko(indicators: list) -> pd.DataFrame:
     return df
 
 
-def chart_laws_marimekko() -> None:
+# def chart_laws_marimekko() -> None:
+#     """Create a marimekko chart of the laws used in the WBL index
+#     and save to csv
+#     """
+#
+#     for law_type, indicators in laws_dict.items():
+#         (
+#             make_marimekko(indicators).to_csv(
+#                 f"{PATHS.output}/laws_{law_type}.csv", index=False
+#             )
+#         )
+#         logger.info(f"Created {law_type} marimekko chart")
+
+
+def chart_laws_marimekko():
     """Create a marimekko chart of the laws used in the WBL index
     and save to csv
     """
 
-    for law_type, indicators in laws_dict.items():
-        (
-            make_marimekko(indicators).to_csv(
-                f"{PATHS.output}/laws_{law_type}.csv", index=False
-            )
+    (
+        make_marimekko(laws_summary).to_csv(
+            f"{PATHS.output}/laws_marimekko.csv", index=False
         )
-        logger.info(f"Created {law_type} marimekko chart")
+    )
+    logger.info(f"Created summary marimekko chart")
 
 
 def chart_parliament_participation_beeswarm() -> None:
@@ -118,3 +139,11 @@ def chart_parliament_participation_beeswarm() -> None:
      .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
      )
     logger.info("Created parliament participation beeswarm chart")
+
+
+def update_legislative_charts() -> None:
+    """Update the laws used in the WBL index"""
+
+    chart_laws_marimekko()
+    chart_parliament_participation_beeswarm()
+
