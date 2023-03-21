@@ -61,3 +61,11 @@ def chart_labor_force_income() -> None:
      .to_csv(f'{PATHS.output}/labor_force_income.csv', index=False)
      )
     logger.info(f"Created labor force income chart")
+
+
+def update_employment_charts() -> None:
+    """ """
+
+    unpaid_work_chart()
+    chart_labor_force_world()
+    chart_labor_force_income()

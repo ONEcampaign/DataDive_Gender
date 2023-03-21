@@ -1,0 +1,179 @@
+date,iso_code,indicator_code,value,indicator_name,entity_name,year,country,sex
+2011-01-01,ALB,SG.TIM.UWRK.FE,21.73611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Albania,2011,Albania,female
+2013-01-01,ARG,SG.TIM.UWRK.FE,23.41864,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Argentina,2013,Argentina,female
+2008-01-01,ARM,SG.TIM.UWRK.FE,21.65833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Armenia,2008,Armenia,female
+2006-01-01,AUS,SG.TIM.UWRK.FE,20.83333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Australia,2006,Australia,female
+2009-01-01,AUT,SG.TIM.UWRK.FE,19.06954,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Austria,2009,Austria,female
+2008-01-01,AZE,SG.TIM.UWRK.FE,25.41667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Azerbaijan,2008,Azerbaijan,female
+2013-01-01,BEL,SG.TIM.UWRK.FE,15.90278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Belgium,2013,Belgium,female
+2010-01-01,BGR,SG.TIM.UWRK.FE,18.47222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Bulgaria,2010,Bulgaria,female
+2015-01-01,BLR,SG.TIM.UWRK.FE,19.16667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Belarus,2015,Belarus,female
+2001-01-01,BOL,SG.TIM.UWRK.FE,23.11926,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Bolivia,2001,Bolivia,female
+2017-01-01,BRA,SG.TIM.UWRK.FE,11.60814,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Brazil,2017,Brazil,female
+2015-01-01,BTN,SG.TIM.UWRK.FE,15.0,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Bhutan,2015,Bhutan,female
+2016-01-01,CAN,SG.TIM.UWRK.FE,14.58333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Canada,2016,Canada,female
+2016-01-01,CHE,SG.TIM.UWRK.FE,16.83333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Switzerland,2016,Switzerland,female
+2015-01-01,CHL,SG.TIM.UWRK.FE,22.10355,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Chile,2015,Chile,female
+2018-01-01,CHN,SG.TIM.UWRK.FE,15.34722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",China,2018,China,female
+2014-01-01,CMR,SG.TIM.UWRK.FE,15.82086,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Cameroon,2014,Cameroon,female
+2017-01-01,COL,SG.TIM.UWRK.FE,5.02051,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Colombia,2017,Colombia,female
+2017-01-01,CRI,SG.TIM.UWRK.FE,22.14571,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Costa Rica,2017,Costa Rica,female
+2016-01-01,CUB,SG.TIM.UWRK.FE,21.0,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Cuba,2016,Cuba,female
+2013-01-01,DEU,SG.TIM.UWRK.FE,16.4,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Germany,2013,Germany,female
+2009-01-01,DNK,SG.TIM.UWRK.FE,15.625,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Denmark,2009,Denmark,female
+2016-01-01,DOM,SG.TIM.UWRK.FE,16.70887,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Dominican Republic,2016,Dominican Republic,female
+2012-01-01,DZA,SG.TIM.UWRK.FE,21.66667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Algeria,2012,Algeria,female
+2012-01-01,ECU,SG.TIM.UWRK.FE,19.74505,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Ecuador,2012,Ecuador,female
+2015-01-01,EGY,SG.TIM.UWRK.FE,22.36111,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Egypt,2015,Egypt,female
+2010-01-01,ESP,SG.TIM.UWRK.FE,18.95833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Spain,2010,Spain,female
+2010-01-01,EST,SG.TIM.UWRK.FE,17.22222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Estonia,2010,Estonia,female
+2013-01-01,ETH,SG.TIM.UWRK.FE,19.30556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Ethiopia,2013,Ethiopia,female
+2010-01-01,FIN,SG.TIM.UWRK.FE,15.20417,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Finland,2010,Finland,female
+2016-01-01,FJI,SG.TIM.UWRK.FE,15.15812,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Fiji,2016,Fiji,female
+2010-01-01,FRA,SG.TIM.UWRK.FE,15.77314,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",France,2010,France,female
+2015-01-01,GBR,SG.TIM.UWRK.FE,12.65278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",United Kingdom,2015,United Kingdom,female
+2009-01-01,GHA,SG.TIM.UWRK.FE,15.48611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Ghana,2009,Ghana,female
+2014-01-01,GRC,SG.TIM.UWRK.FE,18.125,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Greece,2014,Greece,female
+2017-01-01,GTM,SG.TIM.UWRK.FE,19.48273,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Guatemala,2017,Guatemala,female
+2013-01-01,HKG,SG.TIM.UWRK.FE,10.83333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Hong Kong,2013,Hong Kong,female
+2009-01-01,HND,SG.TIM.UWRK.FE,17.29571,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Honduras,2009,Honduras,female
+2010-01-01,HUN,SG.TIM.UWRK.FE,17.27674,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Hungary,2010,Hungary,female
+2005-01-01,IRL,SG.TIM.UWRK.FE,20.55556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Ireland,2005,Ireland,female
+2009-01-01,IRN,SG.TIM.UWRK.FE,21.04167,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Iran,2009,Iran,female
+2007-01-01,IRQ,SG.TIM.UWRK.FE,24.09722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Iraq,2007,Iraq,female
+2014-01-01,ITA,SG.TIM.UWRK.FE,20.4,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Italy,2014,Italy,female
+2016-01-01,JPN,SG.TIM.UWRK.FE,15.13889,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Japan,2016,Japan,female
+2018-01-01,KAZ,SG.TIM.UWRK.FE,18.95833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Kazakhstan,2018,Kazakhstan,female
+2015-01-01,KGZ,SG.TIM.UWRK.FE,16.80556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Kyrgyz Republic,2015,Kyrgyz Republic,female
+2004-01-01,KHM,SG.TIM.UWRK.FE,12.5,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Cambodia,2004,Cambodia,female
+2019-01-01,KOR,SG.TIM.UWRK.FE,14.09722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",South Korea,2019,South Korea,female
+2017-01-01,LAO,SG.TIM.UWRK.FE,13.6038,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Laos,2017,Laos,female
+2010-01-01,LBR,SG.TIM.UWRK.FE,6.29234,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Liberia,2010,Liberia,female
+2003-01-01,LSO,SG.TIM.UWRK.FE,15.55556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Lesotho,2003,Lesotho,female
+2003-01-01,LTU,SG.TIM.UWRK.FE,18.68056,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Lithuania,2003,Lithuania,female
+2014-01-01,LUX,SG.TIM.UWRK.FE,14.44444,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Luxembourg,2014,Luxembourg,female
+2003-01-01,LVA,SG.TIM.UWRK.FE,18.26389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Latvia,2003,Latvia,female
+2012-01-01,MAR,SG.TIM.UWRK.FE,20.83333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Morocco,2012,Morocco,female
+2012-01-01,MDA,SG.TIM.UWRK.FE,20.13841,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Moldova,2012,Moldova,female
+2019-01-01,MEX,SG.TIM.UWRK.FE,27.76825,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Mexico,2019,Mexico,female
+2015-01-01,MKD,SG.TIM.UWRK.FE,15.41667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",North Macedonia,2015,North Macedonia,female
+2002-01-01,MLT,SG.TIM.UWRK.FE,18.75,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Malta,2002,Malta,female
+2019-01-01,MNG,SG.TIM.UWRK.FE,19.29129,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Mongolia,2019,Mongolia,female
+2003-01-01,MUS,SG.TIM.UWRK.FE,18.95833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Mauritius,2003,Mauritius,female
+2005-01-01,MWI,SG.TIM.UWRK.FE,8.68056,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Malawi,2005,Malawi,female
+2003-01-01,MYS,SG.TIM.UWRK.FE,19.09722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Malaysia,2003,Malaysia,female
+2012-01-01,NLD,SG.TIM.UWRK.FE,14.72222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Netherlands,2012,Netherlands,female
+2011-01-01,NOR,SG.TIM.UWRK.FE,15.30833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Norway,2011,Norway,female
+2010-01-01,NZL,SG.TIM.UWRK.FE,18.05556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",New Zealand,2010,New Zealand,female
+2008-01-01,OMN,SG.TIM.UWRK.FE,18.88889,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Oman,2008,Oman,female
+2007-01-01,PAK,SG.TIM.UWRK.FE,19.86111,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Pakistan,2007,Pakistan,female
+2011-01-01,PAN,SG.TIM.UWRK.FE,17.95164,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Panama,2011,Panama,female
+2010-01-01,PER,SG.TIM.UWRK.FE,23.56031,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Peru,2010,Peru,female
+2013-01-01,POL,SG.TIM.UWRK.FE,18.2625,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Poland,2013,Poland,female
+2015-01-01,PRT,SG.TIM.UWRK.FE,17.81135,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Portugal,2015,Portugal,female
+2016-01-01,PRY,SG.TIM.UWRK.FE,14.52502,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Paraguay,2016,Paraguay,female
+2013-01-01,PSE,SG.TIM.UWRK.FE,20.13889,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Palestine,2013,Palestine,female
+2013-01-01,QAT,SG.TIM.UWRK.FE,8.19444,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Qatar,2013,Qatar,female
+2012-01-01,ROU,SG.TIM.UWRK.FE,19.02778,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Romania,2012,Romania,female
+2014-01-01,RUS,SG.TIM.UWRK.FE,18.40278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Russia,2014,Russia,female
+2017-01-01,SLV,SG.TIM.UWRK.FE,20.21275,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",El Salvador,2017,El Salvador,female
+2015-01-01,SRB,SG.TIM.UWRK.FE,19.16756,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Serbia,2015,Serbia,female
+2001-01-01,SVN,SG.TIM.UWRK.FE,20.55556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Slovenia,2001,Slovenia,female
+2011-01-01,SWE,SG.TIM.UWRK.FE,16.04201,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Sweden,2011,Sweden,female
+2015-01-01,THA,SG.TIM.UWRK.FE,11.83333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Thailand,2015,Thailand,female
+2006-01-01,TUN,SG.TIM.UWRK.FE,21.94444,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Tunisia,2006,Tunisia,female
+2015-01-01,TUR,SG.TIM.UWRK.FE,19.15117,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Türkiye,2015,Türkiye,female
+2014-01-01,TZA,SG.TIM.UWRK.FE,16.45833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Tanzania,2014,Tanzania,female
+2018-01-01,UGA,SG.TIM.UWRK.FE,14.58333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Uganda,2018,Uganda,female
+2013-01-01,URY,SG.TIM.UWRK.FE,19.87475,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",Uruguay,2013,Uruguay,female
+2019-01-01,USA,SG.TIM.UWRK.FE,15.33333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",United States,2019,United States,female
+2010-01-01,ZAF,SG.TIM.UWRK.FE,15.55556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day) - females",South Africa,2010,South Africa,female
+2011-01-01,ALB,SG.TIM.UWRK.MA,3.47222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Albania,2011,Albania,male
+2013-01-01,ARG,SG.TIM.UWRK.MA,9.2486,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Argentina,2013,Argentina,male
+2008-01-01,ARM,SG.TIM.UWRK.MA,4.37083,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Armenia,2008,Armenia,male
+2006-01-01,AUS,SG.TIM.UWRK.MA,11.38889,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Australia,2006,Australia,male
+2009-01-01,AUT,SG.TIM.UWRK.MA,10.05396,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Austria,2009,Austria,male
+2008-01-01,AZE,SG.TIM.UWRK.MA,8.88889,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Azerbaijan,2008,Azerbaijan,male
+2013-01-01,BEL,SG.TIM.UWRK.MA,10.06944,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Belgium,2013,Belgium,male
+2010-01-01,BGR,SG.TIM.UWRK.MA,9.23611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Bulgaria,2010,Bulgaria,male
+2015-01-01,BLR,SG.TIM.UWRK.MA,9.51389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Belarus,2015,Belarus,male
+2001-01-01,BOL,SG.TIM.UWRK.MA,12.13362,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Bolivia,2001,Bolivia,male
+2017-01-01,BRA,SG.TIM.UWRK.MA,5.13276,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Brazil,2017,Brazil,male
+2015-01-01,BTN,SG.TIM.UWRK.MA,5.90278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Bhutan,2015,Bhutan,male
+2016-01-01,CAN,SG.TIM.UWRK.MA,9.58333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Canada,2016,Canada,male
+2016-01-01,CHE,SG.TIM.UWRK.MA,10.80417,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Switzerland,2016,Switzerland,male
+2015-01-01,CHL,SG.TIM.UWRK.MA,9.85396,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Chile,2015,Chile,male
+2018-01-01,CHN,SG.TIM.UWRK.MA,5.90278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",China,2018,China,male
+2014-01-01,CMR,SG.TIM.UWRK.MA,4.56784,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Cameroon,2014,Cameroon,male
+2017-01-01,COL,SG.TIM.UWRK.MA,2.92763,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Colombia,2017,Colombia,male
+2017-01-01,CRI,SG.TIM.UWRK.MA,8.37858,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Costa Rica,2017,Costa Rica,male
+2016-01-01,CUB,SG.TIM.UWRK.MA,12.47024,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Cuba,2016,Cuba,male
+2013-01-01,DEU,SG.TIM.UWRK.MA,10.4,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Germany,2013,Germany,male
+2009-01-01,DNK,SG.TIM.UWRK.MA,11.25,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Denmark,2009,Denmark,male
+2016-01-01,DOM,SG.TIM.UWRK.MA,3.78561,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Dominican Republic,2016,Dominican Republic,male
+2012-01-01,DZA,SG.TIM.UWRK.MA,3.75,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Algeria,2012,Algeria,male
+2012-01-01,ECU,SG.TIM.UWRK.MA,4.72192,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Ecuador,2012,Ecuador,male
+2015-01-01,EGY,SG.TIM.UWRK.MA,2.43056,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Egypt,2015,Egypt,male
+2010-01-01,ESP,SG.TIM.UWRK.MA,8.61111,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Spain,2010,Spain,male
+2010-01-01,EST,SG.TIM.UWRK.MA,10.76389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Estonia,2010,Estonia,male
+2013-01-01,ETH,SG.TIM.UWRK.MA,6.59722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Ethiopia,2013,Ethiopia,male
+2010-01-01,FIN,SG.TIM.UWRK.MA,10.49167,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Finland,2010,Finland,male
+2016-01-01,FJI,SG.TIM.UWRK.MA,5.19476,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Fiji,2016,Fiji,male
+2010-01-01,FRA,SG.TIM.UWRK.MA,9.49464,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",France,2010,France,male
+2015-01-01,GBR,SG.TIM.UWRK.MA,6.96528,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",United Kingdom,2015,United Kingdom,male
+2009-01-01,GHA,SG.TIM.UWRK.MA,4.58333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Ghana,2009,Ghana,male
+2014-01-01,GRC,SG.TIM.UWRK.MA,7.01389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Greece,2014,Greece,male
+2017-01-01,GTM,SG.TIM.UWRK.MA,2.60537,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Guatemala,2017,Guatemala,male
+2013-01-01,HKG,SG.TIM.UWRK.MA,3.33333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Hong Kong,2013,Hong Kong,male
+2009-01-01,HND,SG.TIM.UWRK.MA,4.31393,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Honduras,2009,Honduras,male
+2010-01-01,HUN,SG.TIM.UWRK.MA,7.9796,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Hungary,2010,Hungary,male
+2005-01-01,IRL,SG.TIM.UWRK.MA,8.95833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Ireland,2005,Ireland,male
+2009-01-01,IRN,SG.TIM.UWRK.MA,5.20833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Iran,2009,Iran,male
+2007-01-01,IRQ,SG.TIM.UWRK.MA,4.16667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Iraq,2007,Iraq,male
+2014-01-01,ITA,SG.TIM.UWRK.MA,8.4,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Italy,2014,Italy,male
+2016-01-01,JPN,SG.TIM.UWRK.MA,3.125,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Japan,2016,Japan,male
+2018-01-01,KAZ,SG.TIM.UWRK.MA,6.25,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Kazakhstan,2018,Kazakhstan,male
+2015-01-01,KGZ,SG.TIM.UWRK.MA,9.51389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Kyrgyz Republic,2015,Kyrgyz Republic,male
+2004-01-01,KHM,SG.TIM.UWRK.MA,1.25,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Cambodia,2004,Cambodia,male
+2019-01-01,KOR,SG.TIM.UWRK.MA,4.375,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",South Korea,2019,South Korea,male
+2017-01-01,LAO,SG.TIM.UWRK.MA,10.06278,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Laos,2017,Laos,male
+2010-01-01,LBR,SG.TIM.UWRK.MA,2.57656,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Liberia,2010,Liberia,male
+2003-01-01,LSO,SG.TIM.UWRK.MA,6.18056,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Lesotho,2003,Lesotho,male
+2003-01-01,LTU,SG.TIM.UWRK.MA,8.95694,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Lithuania,2003,Lithuania,male
+2014-01-01,LUX,SG.TIM.UWRK.MA,7.08333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Luxembourg,2014,Luxembourg,male
+2003-01-01,LVA,SG.TIM.UWRK.MA,9.09722,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Latvia,2003,Latvia,male
+2012-01-01,MAR,SG.TIM.UWRK.MA,2.98611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Morocco,2012,Morocco,male
+2012-01-01,MDA,SG.TIM.UWRK.MA,11.2725,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Moldova,2012,Moldova,male
+2019-01-01,MEX,SG.TIM.UWRK.MA,11.11167,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Mexico,2019,Mexico,male
+2015-01-01,MKD,SG.TIM.UWRK.MA,5.41667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",North Macedonia,2015,North Macedonia,male
+2002-01-01,MLT,SG.TIM.UWRK.MA,7.01389,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Malta,2002,Malta,male
+2019-01-01,MNG,SG.TIM.UWRK.MA,7.59633,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Mongolia,2019,Mongolia,male
+2003-01-01,MUS,SG.TIM.UWRK.MA,4.79167,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Mauritius,2003,Mauritius,male
+2005-01-01,MWI,SG.TIM.UWRK.MA,1.25,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Malawi,2005,Malawi,male
+2003-01-01,MYS,SG.TIM.UWRK.MA,5.97222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Malaysia,2003,Malaysia,male
+2012-01-01,NLD,SG.TIM.UWRK.MA,9.23611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Netherlands,2012,Netherlands,male
+2011-01-01,NOR,SG.TIM.UWRK.MA,12.33333,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Norway,2011,Norway,male
+2010-01-01,NZL,SG.TIM.UWRK.MA,10.55556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",New Zealand,2010,New Zealand,male
+2008-01-01,OMN,SG.TIM.UWRK.MA,7.5,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Oman,2008,Oman,male
+2007-01-01,PAK,SG.TIM.UWRK.MA,1.80556,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Pakistan,2007,Pakistan,male
+2011-01-01,PAN,SG.TIM.UWRK.MA,7.57184,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Panama,2011,Panama,male
+2010-01-01,PER,SG.TIM.UWRK.MA,8.94605,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Peru,2010,Peru,male
+2013-01-01,POL,SG.TIM.UWRK.MA,9.92917,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Poland,2013,Poland,male
+2015-01-01,PRT,SG.TIM.UWRK.MA,10.2414,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Portugal,2015,Portugal,male
+2016-01-01,PRY,SG.TIM.UWRK.MA,4.27041,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Paraguay,2016,Paraguay,male
+2013-01-01,PSE,SG.TIM.UWRK.MA,2.98611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Palestine,2013,Palestine,male
+2013-01-01,QAT,SG.TIM.UWRK.MA,2.22222,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Qatar,2013,Qatar,male
+2012-01-01,ROU,SG.TIM.UWRK.MA,9.375,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Romania,2012,Romania,male
+2014-01-01,RUS,SG.TIM.UWRK.MA,8.125,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Russia,2014,Russia,male
+2017-01-01,SLV,SG.TIM.UWRK.MA,7.02928,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",El Salvador,2017,El Salvador,male
+2015-01-01,SRB,SG.TIM.UWRK.MA,8.69038,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Serbia,2015,Serbia,male
+2001-01-01,SVN,SG.TIM.UWRK.MA,11.11111,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Slovenia,2001,Slovenia,male
+2011-01-01,SWE,SG.TIM.UWRK.MA,12.82797,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Sweden,2011,Sweden,male
+2015-01-01,THA,SG.TIM.UWRK.MA,3.75,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Thailand,2015,Thailand,male
+2006-01-01,TUN,SG.TIM.UWRK.MA,2.70833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Tunisia,2006,Tunisia,male
+2015-01-01,TUR,SG.TIM.UWRK.MA,3.70575,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Türkiye,2015,Türkiye,male
+2014-01-01,TZA,SG.TIM.UWRK.MA,4.23611,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Tanzania,2014,Tanzania,male
+2018-01-01,UGA,SG.TIM.UWRK.MA,7.5,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Uganda,2018,Uganda,male
+2013-01-01,URY,SG.TIM.UWRK.MA,8.37738,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",Uruguay,2013,Uruguay,male
+2019-01-01,USA,SG.TIM.UWRK.MA,9.66667,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",United States,2019,United States,male
+2010-01-01,ZAF,SG.TIM.UWRK.MA,6.45833,"Proportion of time spent on unpaid domestic and care work, female (% of 24 hour day)- males",South Africa,2010,South Africa,male
