@@ -33,9 +33,8 @@ def chart_pictogram_SSA_rest_of_world() -> None:
             .reset_index()
             .loc[:, ['year', 'Sub-Saharan Africa', 'rest of the world']]
             .melt(id_vars='year')
-     .assign(value = lambda d: d.value.round(0))
+            .assign(value = lambda d: d.value.round(0))
             .to_csv(f'{PATHS.output}/mmr_pictogram_SSA_rest_of_world.csv', index=False)
-
             )
 
 
