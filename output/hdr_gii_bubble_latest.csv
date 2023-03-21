@@ -1,4 +1,4 @@
-iso3,country,value,year,female_pop,continent,income_level,africa_high,europe_highlight,low_income_highlight,high_income_highlight,low_high_income_highlight
+iso3,country,value,year,female_pop,continent,income_level,africa_highlight,europe_highlight,low_income_highlight,high_income_highlight,low_high_income_highlight
 AFG,Afghanistan,0.678,2021,19844584.0,Asia,Low income,,,Low income,,Low income
 ALB,Albania,0.144,2021,1407212.0,Europe,Upper middle income,,Europe,,,
 DZA,Algeria,0.499,2021,21680725.0,Africa,Lower middle income,Africa,,,,

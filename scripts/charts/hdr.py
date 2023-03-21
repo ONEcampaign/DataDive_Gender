@@ -74,7 +74,7 @@ def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
 
     bins = [0, 0.0001, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
     labels = {'0': 0,
-              '0.001-0.1': 0.05,
+              '0-0.1': 0.05,
               '0.1-0.2': 0.15,
               '0.2-0.3': 0.25,
               '0.3-0.4': 0.35,
@@ -95,28 +95,6 @@ def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
             .pivot(index=['x_values', 'binned'], columns=grouping, values='counts')
             .reset_index()
             )
-
-
-def chart_histogram_continents() -> None:
-    """Create a curved histogram for GII by continent"""
-
-    (get_latest_for_countries('gii')
-     .assign(continent=lambda d: coco.convert(d.iso3, to='continent'))
-     .pipe(_histogram_chart, grouping='continent')
-     .to_csv(f'{PATHS.output}/hdr_gii_histogram_continents.csv', index=False)
-     )
-
-
-def chart_histogram_income() -> None:
-    """Create a curved histogram for GII by income level"""
-
-    (get_latest_for_countries('gii')
-     .pipe(add.add_income_level_column, id_column='iso3', id_type='iso3')
-     .pipe(_histogram_chart, grouping='income_level')
-     .reindex(columns=['x_values', 'binned', 'Low income',
-                       'Lower middle income', 'Upper middle income', 'High income'])
-     .to_csv(f'{PATHS.output}/hdr_gii_histogram_income.csv', index=False)
-     )
 
 
 def chart_histogram_time_series():
@@ -156,70 +134,17 @@ def chart_histogram_time_series():
            .set_index(['x_values', 'binned', 'year'])
            )
 
-    # (pd.merge(africa, world, on=['x_values', 'binned', 'year'], how='left')
-    # .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
-    # )
-
     (pd.concat([africa, lic, hic, world], axis=1)
      .reset_index()
      .loc[lambda d: d.year.isin([1990, 2000, 2010, d.year.max()])]
-     .to_csv(f'{PATHS.output}/hdr_gii_histogram_time_series.csv', index=False)
+     .to_csv(f'{PATHS.output}/hdr_gii_histogram_ridge.csv', index=False)
      )
-
-
-#  Education charts
-
-edu_ind = {'se_m': 'male', 'se_f': 'female'}
-
-
-def chart_education_connected_dot_ssa() -> None:
-    """Create a connected dot chart for GII education in SSA"""
-
-    ssa = {'code': 'ZZJ.SSA', 'name': 'Sub-Saharan Africa'}
-
-    (GII
-     .loc[
-         lambda d: (d.variable.isin(edu_ind)) & ((d.region == 'SSA') | (d.country == ssa['name']))]
-     .assign(sex=lambda d: d.variable.map(edu_ind))
-     .dropna(subset=['value'])
-     .loc[lambda d: d.groupby(['country', 'sex', 'iso3'])['year'].idxmax()]
-     .assign(country=lambda d: coco.convert(d.iso3, to='name_short', not_found=None))
-     .loc[:, ['country', 'year', 'sex', 'value']]
-     .replace({'country': {ssa['code']: ssa['name']}})
-     .reset_index(drop=True)
-     .to_csv(f'{PATHS.output}/hdr_education_connected_dot_ssa.csv', index=False)
-     )
-
-
-def chart_education_regions_time_series() -> None:
-    """Create a time series chart for GII education in regions"""
-
-    region_names = ['Arab States', 'East Asia and the Pacific', 'Europe and Central Asia',
-                    'Latin America and the Caribbean', 'South Asia',
-                    'Sub-Saharan Africa']
-
-    return (GII
-            .loc[lambda d: (d.variable.isin(edu_ind)) & (d.country.isin(region_names))]
-            .assign(sex=lambda d: d.variable.map(edu_ind))
-            .loc[:, ['country', 'value', 'year', 'sex']]
-            .pivot(index=['country', 'year'], columns='sex', values='value')
-            .reset_index()
-            .rename(columns={'country': 'region'})
-            .to_csv(f'{PATHS.output}/hdr_education_regions_time_series.csv', index=False)
-            )
 
 
 def update_hdr_charts() -> None:
     """Update all HDR charts"""
 
-    # gii explorer for map and bubble plot
-    # chart_gii_explorer()
+    chart_gii_explorer_latest()
+    chart_histogram_time_series()
 
-    # gii distribution
-    # chart_histogram_continents()
-    # chart_histogram_income()
-    chart_histogram_time_series()  # use this one
 
-    # education
-    chart_education_connected_dot_ssa()
-    chart_education_regions_time_series()
