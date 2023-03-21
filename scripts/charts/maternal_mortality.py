@@ -113,7 +113,7 @@ def chart_line_decrease_in_mmr() -> None:
                   )
 
     (pd.merge(countries_df, df_regions, on='year', how='outer')
-     .to_csv(f'{PATHS.output}/mmr_line_decrease_in_mmr.csv', index=False)
+     .to_csv(f'{PATHS.output}/mmr_line_change_in_mmr.csv', index=False)
      )
 
 
