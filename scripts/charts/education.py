@@ -11,9 +11,7 @@ EDUCATION = pd.read_csv(PATHS.raw_data / 'uis.csv')
 
 # Educational attainment rate, completed primary education or higher
 attainment_indicators = {
-    'EA.1T8.AG25T99.F': 'female',
-    'EA.1T8.AG25T99.GPIA': 'gender_parity_index',
-    'EA.1T8.AG25T99.M': 'male'}
+    'EA.1T8.AG25T99.GPIA': 'gender_parity_index'}
 
 
 def chart_scatter_attainment() -> None:
