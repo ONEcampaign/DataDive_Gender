@@ -57,7 +57,7 @@ def chart_labor_force_world() -> None:
 def chart_labor_force_income() -> None:
     """ """
 
-    (get_labor_force(regions=['WLD', 'LIC', 'LMC', 'UMC', 'HIC'])
+    (get_labor_force(regions=['LIC', 'LMC', 'UMC', 'HIC'])
      .to_csv(f'{PATHS.output}/labor_force_income.csv', index=False)
      )
     logger.info(f"Created labor force income chart")
