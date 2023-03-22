@@ -26,7 +26,7 @@ def unpaid_work_chart():
           .dropna(subset=['country'])
           .loc[:, ['year', 'country', 'value', 'sex']]
           .sort_values(by='value', ascending=False)
-          .assign(value = lambda d: d.value.round(0).astype(int))
+          .assign(value_annotation = lambda d: d.value.round(0).astype(int))
           )
 
     df.to_csv(f'{PATHS.output}/unpaid_work.csv', index=False)
