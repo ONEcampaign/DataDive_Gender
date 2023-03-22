@@ -136,6 +136,7 @@ def chart_parliament_participation_beeswarm() -> None:
              # gdppc = lambda d: d.iso_code.map(common.gdp_per_capita()),
              )
      .pipe(add.add_income_level_column, id_column='iso_code', id_type='iso3')
+     .loc[:, ['continent', 'value', 'income_level', 'entity_name', 'year']]
      .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
      )
     logger.info("Created parliament participation beeswarm chart")

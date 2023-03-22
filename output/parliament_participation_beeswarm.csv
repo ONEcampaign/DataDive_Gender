@@ -1,194 +1,194 @@
-date,iso_code,indicator_code,value,indicator_name,entity_name,year,continent,income_level
-2020-01-01,AFG,SG.GEN.PARL.ZS,27.0161290322581,Proportion of seats held by women in national parliaments (%),Afghanistan,2020,Asia,Low income
-2020-01-01,AGO,SG.GEN.PARL.ZS,30.0,Proportion of seats held by women in national parliaments (%),Angola,2020,Africa,Lower middle income
-2020-01-01,ALB,SG.GEN.PARL.ZS,29.5081967213115,Proportion of seats held by women in national parliaments (%),Albania,2020,Europe,Upper middle income
-2020-01-01,AND,SG.GEN.PARL.ZS,46.4285714285714,Proportion of seats held by women in national parliaments (%),Andorra,2020,Europe,High income
-2020-01-01,ARE,SG.GEN.PARL.ZS,50.0,Proportion of seats held by women in national parliaments (%),United Arab Emirates,2020,Asia,High income
-2020-01-01,ARG,SG.GEN.PARL.ZS,40.8560311284047,Proportion of seats held by women in national parliaments (%),Argentina,2020,America,Upper middle income
-2020-01-01,ARM,SG.GEN.PARL.ZS,23.4848484848485,Proportion of seats held by women in national parliaments (%),Armenia,2020,Asia,Upper middle income
-2020-01-01,ATG,SG.GEN.PARL.ZS,11.1111111111111,Proportion of seats held by women in national parliaments (%),Antigua and Barbuda,2020,America,High income
-2020-01-01,AUS,SG.GEN.PARL.ZS,30.4635761589404,Proportion of seats held by women in national parliaments (%),Australia,2020,Oceania,High income
-2020-01-01,AUT,SG.GEN.PARL.ZS,39.344262295082,Proportion of seats held by women in national parliaments (%),Austria,2020,Europe,High income
-2020-01-01,AZE,SG.GEN.PARL.ZS,17.3553719008264,Proportion of seats held by women in national parliaments (%),Azerbaijan,2020,Asia,Upper middle income
-2020-01-01,BDI,SG.GEN.PARL.ZS,38.2113821138211,Proportion of seats held by women in national parliaments (%),Burundi,2020,Africa,Low income
-2020-01-01,BEL,SG.GEN.PARL.ZS,41.3333333333333,Proportion of seats held by women in national parliaments (%),Belgium,2020,Europe,High income
-2020-01-01,BEN,SG.GEN.PARL.ZS,7.2289156626506,Proportion of seats held by women in national parliaments (%),Benin,2020,Africa,Lower middle income
-2020-01-01,BFA,SG.GEN.PARL.ZS,6.2992125984252,Proportion of seats held by women in national parliaments (%),Burkina Faso,2020,Africa,Low income
-2020-01-01,BGD,SG.GEN.PARL.ZS,20.9169054441261,Proportion of seats held by women in national parliaments (%),Bangladesh,2020,Asia,Lower middle income
-2020-01-01,BGR,SG.GEN.PARL.ZS,26.6666666666667,Proportion of seats held by women in national parliaments (%),Bulgaria,2020,Europe,Upper middle income
-2020-01-01,BHR,SG.GEN.PARL.ZS,15.0,Proportion of seats held by women in national parliaments (%),Bahrain,2020,Asia,High income
-2020-01-01,BHS,SG.GEN.PARL.ZS,12.8205128205128,Proportion of seats held by women in national parliaments (%),Bahamas,2020,America,High income
-2020-01-01,BIH,SG.GEN.PARL.ZS,26.1904761904762,Proportion of seats held by women in national parliaments (%),Bosnia and Herzegovina,2020,Europe,Upper middle income
-2020-01-01,BLR,SG.GEN.PARL.ZS,40.0,Proportion of seats held by women in national parliaments (%),Belarus,2020,Europe,Upper middle income
-2020-01-01,BLZ,SG.GEN.PARL.ZS,9.67741935483871,Proportion of seats held by women in national parliaments (%),Belize,2020,America,Upper middle income
-2020-01-01,BOL,SG.GEN.PARL.ZS,46.1538461538462,Proportion of seats held by women in national parliaments (%),Bolivia,2020,America,Lower middle income
-2020-01-01,BRA,SG.GEN.PARL.ZS,14.6198830409357,Proportion of seats held by women in national parliaments (%),Brazil,2020,America,Upper middle income
-2020-01-01,BRB,SG.GEN.PARL.ZS,20.0,Proportion of seats held by women in national parliaments (%),Barbados,2020,America,High income
-2020-01-01,BRN,SG.GEN.PARL.ZS,9.09090909090909,Proportion of seats held by women in national parliaments (%),Brunei Darussalam,2020,Asia,High income
-2020-01-01,BTN,SG.GEN.PARL.ZS,14.8936170212766,Proportion of seats held by women in national parliaments (%),Bhutan,2020,Asia,Lower middle income
-2020-01-01,BWA,SG.GEN.PARL.ZS,10.7692307692308,Proportion of seats held by women in national parliaments (%),Botswana,2020,Africa,Upper middle income
-2020-01-01,CAF,SG.GEN.PARL.ZS,8.57142857142857,Proportion of seats held by women in national parliaments (%),Central African Republic,2020,Africa,Low income
-2020-01-01,CAN,SG.GEN.PARL.ZS,28.9940828402367,Proportion of seats held by women in national parliaments (%),Canada,2020,America,High income
-2020-01-01,CHE,SG.GEN.PARL.ZS,41.5,Proportion of seats held by women in national parliaments (%),Switzerland,2020,Europe,High income
-2020-01-01,CHL,SG.GEN.PARL.ZS,22.5806451612903,Proportion of seats held by women in national parliaments (%),Chile,2020,America,High income
-2020-01-01,CHN,SG.GEN.PARL.ZS,24.9411764705882,Proportion of seats held by women in national parliaments (%),China,2020,Asia,Upper middle income
-2020-01-01,CIV,SG.GEN.PARL.ZS,11.3725490196078,Proportion of seats held by women in national parliaments (%),Cote d'Ivoire,2020,Africa,Lower middle income
-2020-01-01,CMR,SG.GEN.PARL.ZS,33.8888888888889,Proportion of seats held by women in national parliaments (%),Cameroon,2020,Africa,Lower middle income
-2020-01-01,COD,SG.GEN.PARL.ZS,12.8,Proportion of seats held by women in national parliaments (%),DR Congo,2020,Africa,Low income
-2020-01-01,COG,SG.GEN.PARL.ZS,11.2582781456954,Proportion of seats held by women in national parliaments (%),Congo Republic,2020,Africa,Lower middle income
-2020-01-01,COL,SG.GEN.PARL.ZS,18.3431952662722,Proportion of seats held by women in national parliaments (%),Colombia,2020,America,Upper middle income
-2020-01-01,COM,SG.GEN.PARL.ZS,16.6666666666667,Proportion of seats held by women in national parliaments (%),Comoros,2020,Africa,Lower middle income
-2020-01-01,CPV,SG.GEN.PARL.ZS,25.0,Proportion of seats held by women in national parliaments (%),Cabo Verde,2020,Africa,Lower middle income
-2020-01-01,CRI,SG.GEN.PARL.ZS,45.6140350877193,Proportion of seats held by women in national parliaments (%),Costa Rica,2020,America,Upper middle income
-2020-01-01,CUB,SG.GEN.PARL.ZS,53.2231404958678,Proportion of seats held by women in national parliaments (%),Cuba,2020,America,Upper middle income
-2020-01-01,CYP,SG.GEN.PARL.ZS,19.6428571428571,Proportion of seats held by women in national parliaments (%),Cyprus,2020,Asia,High income
-2020-01-01,CZE,SG.GEN.PARL.ZS,22.5,Proportion of seats held by women in national parliaments (%),Czech Republic,2020,Europe,High income
-2020-01-01,DEU,SG.GEN.PARL.ZS,31.1706629055007,Proportion of seats held by women in national parliaments (%),Germany,2020,Europe,High income
-2020-01-01,DJI,SG.GEN.PARL.ZS,26.1538461538462,Proportion of seats held by women in national parliaments (%),Djibouti,2020,Africa,Lower middle income
-2020-01-01,DMA,SG.GEN.PARL.ZS,34.375,Proportion of seats held by women in national parliaments (%),Dominica,2020,America,Upper middle income
-2020-01-01,DNK,SG.GEN.PARL.ZS,39.6648044692737,Proportion of seats held by women in national parliaments (%),Denmark,2020,Europe,High income
-2020-01-01,DOM,SG.GEN.PARL.ZS,27.8947368421053,Proportion of seats held by women in national parliaments (%),Dominican Republic,2020,America,Upper middle income
-2020-01-01,DZA,SG.GEN.PARL.ZS,25.7575757575758,Proportion of seats held by women in national parliaments (%),Algeria,2020,Africa,Lower middle income
-2020-01-01,ECU,SG.GEN.PARL.ZS,39.4160583941606,Proportion of seats held by women in national parliaments (%),Ecuador,2020,America,Upper middle income
-2020-01-01,EGY,SG.GEN.PARL.ZS,27.4111675126904,Proportion of seats held by women in national parliaments (%),Egypt,2020,Africa,Lower middle income
-2019-01-01,ERI,SG.GEN.PARL.ZS,22.0,Proportion of seats held by women in national parliaments (%),Eritrea,2019,Africa,Low income
-2020-01-01,ESP,SG.GEN.PARL.ZS,44.0,Proportion of seats held by women in national parliaments (%),Spain,2020,Europe,High income
-2020-01-01,EST,SG.GEN.PARL.ZS,28.7128712871287,Proportion of seats held by women in national parliaments (%),Estonia,2020,Europe,High income
-2020-01-01,ETH,SG.GEN.PARL.ZS,38.7568555758684,Proportion of seats held by women in national parliaments (%),Ethiopia,2020,Africa,Low income
-2020-01-01,FIN,SG.GEN.PARL.ZS,46.0,Proportion of seats held by women in national parliaments (%),Finland,2020,Europe,High income
-2020-01-01,FJI,SG.GEN.PARL.ZS,19.6078431372549,Proportion of seats held by women in national parliaments (%),Fiji,2020,Oceania,Upper middle income
-2020-01-01,FRA,SG.GEN.PARL.ZS,39.5147313691508,Proportion of seats held by women in national parliaments (%),France,2020,Europe,High income
-2020-01-01,FSM,SG.GEN.PARL.ZS,0.0,Proportion of seats held by women in national parliaments (%),"Micronesia, Fed. Sts.",2020,Oceania,Lower middle income
-2020-01-01,GAB,SG.GEN.PARL.ZS,14.7887323943662,Proportion of seats held by women in national parliaments (%),Gabon,2020,Africa,Upper middle income
-2020-01-01,GBR,SG.GEN.PARL.ZS,33.8461538461538,Proportion of seats held by women in national parliaments (%),United Kingdom,2020,Europe,High income
-2020-01-01,GEO,SG.GEN.PARL.ZS,20.6666666666667,Proportion of seats held by women in national parliaments (%),Georgia,2020,Asia,Upper middle income
-2020-01-01,GHA,SG.GEN.PARL.ZS,13.0909090909091,Proportion of seats held by women in national parliaments (%),Ghana,2020,Africa,Lower middle income
-2020-01-01,GIN,SG.GEN.PARL.ZS,16.6666666666667,Proportion of seats held by women in national parliaments (%),Guinea,2020,Africa,Low income
-2020-01-01,GMB,SG.GEN.PARL.ZS,8.62068965517241,Proportion of seats held by women in national parliaments (%),Gambia,2020,Africa,Low income
-2020-01-01,GNB,SG.GEN.PARL.ZS,13.7254901960784,Proportion of seats held by women in national parliaments (%),Guinea-Bissau,2020,Africa,Low income
-2020-01-01,GNQ,SG.GEN.PARL.ZS,21.0,Proportion of seats held by women in national parliaments (%),Equatorial Guinea,2020,Africa,Upper middle income
-2020-01-01,GRC,SG.GEN.PARL.ZS,21.6666666666667,Proportion of seats held by women in national parliaments (%),Greece,2020,Europe,High income
-2020-01-01,GRD,SG.GEN.PARL.ZS,46.6666666666667,Proportion of seats held by women in national parliaments (%),Grenada,2020,America,Upper middle income
-2020-01-01,GTM,SG.GEN.PARL.ZS,19.375,Proportion of seats held by women in national parliaments (%),Guatemala,2020,America,Upper middle income
-2020-01-01,GUY,SG.GEN.PARL.ZS,35.7142857142857,Proportion of seats held by women in national parliaments (%),Guyana,2020,America,Upper middle income
-2020-01-01,HND,SG.GEN.PARL.ZS,21.09375,Proportion of seats held by women in national parliaments (%),Honduras,2020,America,Lower middle income
-2020-01-01,HRV,SG.GEN.PARL.ZS,31.1258278145695,Proportion of seats held by women in national parliaments (%),Croatia,2020,Europe,High income
-2019-01-01,HTI,SG.GEN.PARL.ZS,2.54237288135593,Proportion of seats held by women in national parliaments (%),Haiti,2019,America,Lower middle income
-2020-01-01,HUN,SG.GEN.PARL.ZS,12.0603015075377,Proportion of seats held by women in national parliaments (%),Hungary,2020,Europe,High income
-2020-01-01,IDN,SG.GEN.PARL.ZS,20.3478260869565,Proportion of seats held by women in national parliaments (%),Indonesia,2020,Asia,Lower middle income
-2020-01-01,IND,SG.GEN.PARL.ZS,14.3646408839779,Proportion of seats held by women in national parliaments (%),India,2020,Asia,Lower middle income
-2020-01-01,IRL,SG.GEN.PARL.ZS,22.5,Proportion of seats held by women in national parliaments (%),Ireland,2020,Europe,High income
-2020-01-01,IRN,SG.GEN.PARL.ZS,5.59440559440559,Proportion of seats held by women in national parliaments (%),Iran,2020,Asia,Lower middle income
-2020-01-01,IRQ,SG.GEN.PARL.ZS,26.4437689969605,Proportion of seats held by women in national parliaments (%),Iraq,2020,Asia,Upper middle income
-2020-01-01,ISL,SG.GEN.PARL.ZS,38.0952380952381,Proportion of seats held by women in national parliaments (%),Iceland,2020,Europe,High income
-2020-01-01,ISR,SG.GEN.PARL.ZS,27.5,Proportion of seats held by women in national parliaments (%),Israel,2020,Asia,High income
-2020-01-01,ITA,SG.GEN.PARL.ZS,35.7142857142857,Proportion of seats held by women in national parliaments (%),Italy,2020,Europe,High income
-2020-01-01,JAM,SG.GEN.PARL.ZS,28.5714285714286,Proportion of seats held by women in national parliaments (%),Jamaica,2020,America,Upper middle income
-2020-01-01,JOR,SG.GEN.PARL.ZS,11.5384615384615,Proportion of seats held by women in national parliaments (%),Jordan,2020,Asia,Upper middle income
-2020-01-01,JPN,SG.GEN.PARL.ZS,9.89247311827957,Proportion of seats held by women in national parliaments (%),Japan,2020,Asia,High income
-2020-01-01,KAZ,SG.GEN.PARL.ZS,27.1028037383178,Proportion of seats held by women in national parliaments (%),Kazakhstan,2020,Asia,Upper middle income
-2020-01-01,KEN,SG.GEN.PARL.ZS,21.7765042979943,Proportion of seats held by women in national parliaments (%),Kenya,2020,Africa,Lower middle income
-2020-01-01,KGZ,SG.GEN.PARL.ZS,16.5217391304348,Proportion of seats held by women in national parliaments (%),Kyrgyz Republic,2020,Asia,Lower middle income
-2020-01-01,KHM,SG.GEN.PARL.ZS,20.0,Proportion of seats held by women in national parliaments (%),Cambodia,2020,Asia,Lower middle income
-2020-01-01,KIR,SG.GEN.PARL.ZS,8.88888888888889,Proportion of seats held by women in national parliaments (%),Kiribati,2020,Oceania,Lower middle income
-2020-01-01,KNA,SG.GEN.PARL.ZS,25.0,Proportion of seats held by women in national parliaments (%),St. Kitts and Nevis,2020,America,High income
-2020-01-01,KOR,SG.GEN.PARL.ZS,19.0,Proportion of seats held by women in national parliaments (%),South Korea,2020,Asia,High income
-2020-01-01,KWT,SG.GEN.PARL.ZS,6.34920634920635,Proportion of seats held by women in national parliaments (%),Kuwait,2020,Asia,High income
-2020-01-01,LAO,SG.GEN.PARL.ZS,27.5167785234899,Proportion of seats held by women in national parliaments (%),Laos,2020,Asia,Lower middle income
-2020-01-01,LBN,SG.GEN.PARL.ZS,4.6875,Proportion of seats held by women in national parliaments (%),Lebanon,2020,Asia,Lower middle income
-2020-01-01,LBR,SG.GEN.PARL.ZS,12.3287671232877,Proportion of seats held by women in national parliaments (%),Liberia,2020,Africa,Low income
-2020-01-01,LBY,SG.GEN.PARL.ZS,15.9574468085106,Proportion of seats held by women in national parliaments (%),Libya,2020,Africa,Upper middle income
-2020-01-01,LCA,SG.GEN.PARL.ZS,16.6666666666667,Proportion of seats held by women in national parliaments (%),St. Lucia,2020,America,Upper middle income
-2020-01-01,LIE,SG.GEN.PARL.ZS,12.0,Proportion of seats held by women in national parliaments (%),Liechtenstein,2020,Europe,High income
-2020-01-01,LKA,SG.GEN.PARL.ZS,5.38116591928251,Proportion of seats held by women in national parliaments (%),Sri Lanka,2020,Asia,Lower middle income
-2020-01-01,LSO,SG.GEN.PARL.ZS,23.3333333333333,Proportion of seats held by women in national parliaments (%),Lesotho,2020,Africa,Lower middle income
-2020-01-01,LTU,SG.GEN.PARL.ZS,26.9503546099291,Proportion of seats held by women in national parliaments (%),Lithuania,2020,Europe,High income
-2020-01-01,LUX,SG.GEN.PARL.ZS,30.0,Proportion of seats held by women in national parliaments (%),Luxembourg,2020,Europe,High income
-2020-01-01,LVA,SG.GEN.PARL.ZS,30.0,Proportion of seats held by women in national parliaments (%),Latvia,2020,Europe,High income
-2020-01-01,MAR,SG.GEN.PARL.ZS,20.5063291139241,Proportion of seats held by women in national parliaments (%),Morocco,2020,Africa,Lower middle income
-2020-01-01,MCO,SG.GEN.PARL.ZS,33.3333333333333,Proportion of seats held by women in national parliaments (%),Monaco,2020,Europe,High income
-2020-01-01,MDA,SG.GEN.PARL.ZS,24.7524752475248,Proportion of seats held by women in national parliaments (%),Moldova,2020,Europe,Upper middle income
-2020-01-01,MDG,SG.GEN.PARL.ZS,17.8807947019868,Proportion of seats held by women in national parliaments (%),Madagascar,2020,Africa,Low income
-2020-01-01,MDV,SG.GEN.PARL.ZS,4.59770114942529,Proportion of seats held by women in national parliaments (%),Maldives,2020,Asia,Upper middle income
-2020-01-01,MEX,SG.GEN.PARL.ZS,48.2,Proportion of seats held by women in national parliaments (%),Mexico,2020,America,Upper middle income
-2020-01-01,MHL,SG.GEN.PARL.ZS,6.06060606060606,Proportion of seats held by women in national parliaments (%),Marshall Islands,2020,Oceania,Upper middle income
-2020-01-01,MKD,SG.GEN.PARL.ZS,39.1666666666667,Proportion of seats held by women in national parliaments (%),North Macedonia,2020,Europe,Upper middle income
-2020-01-01,MLI,SG.GEN.PARL.ZS,27.891156462585,Proportion of seats held by women in national parliaments (%),Mali,2020,Africa,Low income
-2020-01-01,MLT,SG.GEN.PARL.ZS,13.4328358208955,Proportion of seats held by women in national parliaments (%),Malta,2020,Europe,High income
-2020-01-01,MMR,SG.GEN.PARL.ZS,16.8253968253968,Proportion of seats held by women in national parliaments (%),Myanmar,2020,Asia,Lower middle income
-2020-01-01,MNE,SG.GEN.PARL.ZS,22.2222222222222,Proportion of seats held by women in national parliaments (%),Montenegro,2020,Europe,Upper middle income
-2020-01-01,MNG,SG.GEN.PARL.ZS,17.3333333333333,Proportion of seats held by women in national parliaments (%),Mongolia,2020,Asia,Lower middle income
-2020-01-01,MOZ,SG.GEN.PARL.ZS,42.4,Proportion of seats held by women in national parliaments (%),Mozambique,2020,Africa,Low income
-2020-01-01,MRT,SG.GEN.PARL.ZS,20.2614379084967,Proportion of seats held by women in national parliaments (%),Mauritania,2020,Africa,Lower middle income
-2020-01-01,MUS,SG.GEN.PARL.ZS,20.0,Proportion of seats held by women in national parliaments (%),Mauritius,2020,Africa,Upper middle income
-2020-01-01,MWI,SG.GEN.PARL.ZS,22.9166666666667,Proportion of seats held by women in national parliaments (%),Malawi,2020,Africa,Low income
-2020-01-01,MYS,SG.GEN.PARL.ZS,14.8648648648649,Proportion of seats held by women in national parliaments (%),Malaysia,2020,Asia,Upper middle income
-2020-01-01,NAM,SG.GEN.PARL.ZS,43.2692307692308,Proportion of seats held by women in national parliaments (%),Namibia,2020,Africa,Upper middle income
-2020-01-01,NER,SG.GEN.PARL.ZS,16.9590643274854,Proportion of seats held by women in national parliaments (%),Niger,2020,Africa,Low income
-2020-01-01,NGA,SG.GEN.PARL.ZS,7.22222222222222,Proportion of seats held by women in national parliaments (%),Nigeria,2020,Africa,Lower middle income
-2020-01-01,NIC,SG.GEN.PARL.ZS,47.2527472527472,Proportion of seats held by women in national parliaments (%),Nicaragua,2020,America,Lower middle income
-2020-01-01,NLD,SG.GEN.PARL.ZS,33.3333333333333,Proportion of seats held by women in national parliaments (%),Netherlands,2020,Europe,High income
-2020-01-01,NOR,SG.GEN.PARL.ZS,41.4201183431953,Proportion of seats held by women in national parliaments (%),Norway,2020,Europe,High income
-2020-01-01,NPL,SG.GEN.PARL.ZS,32.7272727272727,Proportion of seats held by women in national parliaments (%),Nepal,2020,Asia,Lower middle income
-2020-01-01,NRU,SG.GEN.PARL.ZS,10.5263157894737,Proportion of seats held by women in national parliaments (%),Nauru,2020,Oceania,High income
-2020-01-01,NZL,SG.GEN.PARL.ZS,48.3333333333333,Proportion of seats held by women in national parliaments (%),New Zealand,2020,Oceania,High income
-2020-01-01,OMN,SG.GEN.PARL.ZS,2.32558139534884,Proportion of seats held by women in national parliaments (%),Oman,2020,Asia,High income
-2020-01-01,PAK,SG.GEN.PARL.ZS,20.1754385964912,Proportion of seats held by women in national parliaments (%),Pakistan,2020,Asia,Lower middle income
-2020-01-01,PAN,SG.GEN.PARL.ZS,22.5352112676056,Proportion of seats held by women in national parliaments (%),Panama,2020,America,High income
-2020-01-01,PER,SG.GEN.PARL.ZS,26.1538461538462,Proportion of seats held by women in national parliaments (%),Peru,2020,America,Upper middle income
-2020-01-01,PHL,SG.GEN.PARL.ZS,27.9605263157895,Proportion of seats held by women in national parliaments (%),Philippines,2020,Asia,Lower middle income
-2020-01-01,PLW,SG.GEN.PARL.ZS,6.25,Proportion of seats held by women in national parliaments (%),Palau,2020,Oceania,Upper middle income
-2020-01-01,PNG,SG.GEN.PARL.ZS,0.0,Proportion of seats held by women in national parliaments (%),Papua New Guinea,2020,Oceania,Lower middle income
-2020-01-01,POL,SG.GEN.PARL.ZS,28.695652173913,Proportion of seats held by women in national parliaments (%),Poland,2020,Europe,High income
-2020-01-01,PRK,SG.GEN.PARL.ZS,17.6128093158661,Proportion of seats held by women in national parliaments (%),North Korea,2020,Asia,Low income
-2020-01-01,PRT,SG.GEN.PARL.ZS,40.0,Proportion of seats held by women in national parliaments (%),Portugal,2020,Europe,High income
-2020-01-01,PRY,SG.GEN.PARL.ZS,16.25,Proportion of seats held by women in national parliaments (%),Paraguay,2020,America,Upper middle income
-2020-01-01,QAT,SG.GEN.PARL.ZS,9.75609756097561,Proportion of seats held by women in national parliaments (%),Qatar,2020,Asia,High income
-2020-01-01,ROU,SG.GEN.PARL.ZS,21.8844984802432,Proportion of seats held by women in national parliaments (%),Romania,2020,Europe,High income
-2020-01-01,RUS,SG.GEN.PARL.ZS,15.7777777777778,Proportion of seats held by women in national parliaments (%),Russia,2020,Europe,Upper middle income
-2020-01-01,RWA,SG.GEN.PARL.ZS,61.25,Proportion of seats held by women in national parliaments (%),Rwanda,2020,Africa,Low income
-2020-01-01,SAU,SG.GEN.PARL.ZS,19.8675496688742,Proportion of seats held by women in national parliaments (%),Saudi Arabia,2020,Asia,High income
-2018-01-01,SDN,SG.GEN.PARL.ZS,30.5164319248826,Proportion of seats held by women in national parliaments (%),Sudan,2018,Africa,Low income
-2020-01-01,SEN,SG.GEN.PARL.ZS,43.030303030303,Proportion of seats held by women in national parliaments (%),Senegal,2020,Africa,Lower middle income
-2020-01-01,SGP,SG.GEN.PARL.ZS,29.4736842105263,Proportion of seats held by women in national parliaments (%),Singapore,2020,Asia,High income
-2020-01-01,SLB,SG.GEN.PARL.ZS,6.38297872340426,Proportion of seats held by women in national parliaments (%),Solomon Islands,2020,Oceania,Lower middle income
-2020-01-01,SLE,SG.GEN.PARL.ZS,12.3287671232877,Proportion of seats held by women in national parliaments (%),Sierra Leone,2020,Africa,Low income
-2020-01-01,SLV,SG.GEN.PARL.ZS,33.3333333333333,Proportion of seats held by women in national parliaments (%),El Salvador,2020,America,Lower middle income
-2020-01-01,SMR,SG.GEN.PARL.ZS,33.3333333333333,Proportion of seats held by women in national parliaments (%),San Marino,2020,Europe,High income
-2020-01-01,SOM,SG.GEN.PARL.ZS,24.3636363636364,Proportion of seats held by women in national parliaments (%),Somalia,2020,Africa,Low income
-2020-01-01,SRB,SG.GEN.PARL.ZS,38.8,Proportion of seats held by women in national parliaments (%),Serbia,2020,Europe,Upper middle income
-2020-01-01,SSD,SG.GEN.PARL.ZS,28.4595300261097,Proportion of seats held by women in national parliaments (%),South Sudan,2020,Africa,Low income
-2020-01-01,STP,SG.GEN.PARL.ZS,23.6363636363636,Proportion of seats held by women in national parliaments (%),Sao Tome and Principe,2020,Africa,Lower middle income
-2020-01-01,SUR,SG.GEN.PARL.ZS,29.4117647058824,Proportion of seats held by women in national parliaments (%),Suriname,2020,America,Upper middle income
-2020-01-01,SVK,SG.GEN.PARL.ZS,22.6666666666667,Proportion of seats held by women in national parliaments (%),Slovakia,2020,Europe,High income
-2020-01-01,SVN,SG.GEN.PARL.ZS,27.7777777777778,Proportion of seats held by women in national parliaments (%),Slovenia,2020,Europe,High income
-2020-01-01,SWE,SG.GEN.PARL.ZS,46.9914040114613,Proportion of seats held by women in national parliaments (%),Sweden,2020,Europe,High income
-2020-01-01,SWZ,SG.GEN.PARL.ZS,9.58904109589041,Proportion of seats held by women in national parliaments (%),Eswatini,2020,Africa,Lower middle income
-2020-01-01,SYC,SG.GEN.PARL.ZS,24.2424242424242,Proportion of seats held by women in national parliaments (%),Seychelles,2020,Africa,High income
-2020-01-01,SYR,SG.GEN.PARL.ZS,11.2,Proportion of seats held by women in national parliaments (%),Syria,2020,Asia,Low income
-2020-01-01,TCD,SG.GEN.PARL.ZS,15.4320987654321,Proportion of seats held by women in national parliaments (%),Chad,2020,Africa,Low income
-2020-01-01,TGO,SG.GEN.PARL.ZS,18.6813186813187,Proportion of seats held by women in national parliaments (%),Togo,2020,Africa,Low income
-2020-01-01,THA,SG.GEN.PARL.ZS,15.7464212678937,Proportion of seats held by women in national parliaments (%),Thailand,2020,Asia,Upper middle income
-2020-01-01,TJK,SG.GEN.PARL.ZS,23.8095238095238,Proportion of seats held by women in national parliaments (%),Tajikistan,2020,Asia,Lower middle income
-2020-01-01,TKM,SG.GEN.PARL.ZS,25.0,Proportion of seats held by women in national parliaments (%),Turkmenistan,2020,Asia,Upper middle income
-2020-01-01,TLS,SG.GEN.PARL.ZS,38.4615384615385,Proportion of seats held by women in national parliaments (%),Timor-Leste,2020,Asia,Lower middle income
-2020-01-01,TON,SG.GEN.PARL.ZS,7.40740740740741,Proportion of seats held by women in national parliaments (%),Tonga,2020,Oceania,Upper middle income
-2020-01-01,TTO,SG.GEN.PARL.ZS,26.1904761904762,Proportion of seats held by women in national parliaments (%),Trinidad and Tobago,2020,America,High income
-2020-01-01,TUN,SG.GEN.PARL.ZS,24.8847926267281,Proportion of seats held by women in national parliaments (%),Tunisia,2020,Africa,Lower middle income
-2020-01-01,TUR,SG.GEN.PARL.ZS,17.3174872665535,Proportion of seats held by women in national parliaments (%),Türkiye,2020,Asia,Upper middle income
-2020-01-01,TUV,SG.GEN.PARL.ZS,6.25,Proportion of seats held by women in national parliaments (%),Tuvalu,2020,Oceania,Upper middle income
-2020-01-01,TZA,SG.GEN.PARL.ZS,36.71875,Proportion of seats held by women in national parliaments (%),Tanzania,2020,Africa,Lower middle income
-2020-01-01,UGA,SG.GEN.PARL.ZS,34.8583877995643,Proportion of seats held by women in national parliaments (%),Uganda,2020,Africa,Low income
-2020-01-01,UKR,SG.GEN.PARL.ZS,20.8037825059102,Proportion of seats held by women in national parliaments (%),Ukraine,2020,Europe,Lower middle income
-2020-01-01,URY,SG.GEN.PARL.ZS,21.2121212121212,Proportion of seats held by women in national parliaments (%),Uruguay,2020,America,High income
-2020-01-01,USA,SG.GEN.PARL.ZS,27.4647887323944,Proportion of seats held by women in national parliaments (%),United States,2020,America,High income
-2020-01-01,UZB,SG.GEN.PARL.ZS,32.0,Proportion of seats held by women in national parliaments (%),Uzbekistan,2020,Asia,Lower middle income
-2020-01-01,VCT,SG.GEN.PARL.ZS,18.1818181818182,Proportion of seats held by women in national parliaments (%),St. Vincent and the Grenadines,2020,America,Upper middle income
-2020-01-01,VEN,SG.GEN.PARL.ZS,22.1556886227545,Proportion of seats held by women in national parliaments (%),Venezuela,2020,America,
-2020-01-01,VNM,SG.GEN.PARL.ZS,26.7206477732794,Proportion of seats held by women in national parliaments (%),Vietnam,2020,Asia,Lower middle income
-2020-01-01,VUT,SG.GEN.PARL.ZS,0.0,Proportion of seats held by women in national parliaments (%),Vanuatu,2020,Oceania,Lower middle income
-2020-01-01,WSM,SG.GEN.PARL.ZS,10.0,Proportion of seats held by women in national parliaments (%),Samoa,2020,Oceania,Lower middle income
-2020-01-01,YEM,SG.GEN.PARL.ZS,0.332225913621262,Proportion of seats held by women in national parliaments (%),Yemen,2020,Asia,Low income
-2020-01-01,ZAF,SG.GEN.PARL.ZS,46.75,Proportion of seats held by women in national parliaments (%),South Africa,2020,Africa,Upper middle income
-2020-01-01,ZMB,SG.GEN.PARL.ZS,16.7664670658683,Proportion of seats held by women in national parliaments (%),Zambia,2020,Africa,Low income
-2020-01-01,ZWE,SG.GEN.PARL.ZS,31.8518518518519,Proportion of seats held by women in national parliaments (%),Zimbabwe,2020,Africa,Lower middle income
+continent,value,income_level,entity_name,year
+Asia,27.0161290322581,Low income,Afghanistan,2020
+Africa,30.0,Lower middle income,Angola,2020
+Europe,29.5081967213115,Upper middle income,Albania,2020
+Europe,46.4285714285714,High income,Andorra,2020
+Asia,50.0,High income,United Arab Emirates,2020
+America,40.8560311284047,Upper middle income,Argentina,2020
+Asia,23.4848484848485,Upper middle income,Armenia,2020
+America,11.1111111111111,High income,Antigua and Barbuda,2020
+Oceania,30.4635761589404,High income,Australia,2020
+Europe,39.344262295082,High income,Austria,2020
+Asia,17.3553719008264,Upper middle income,Azerbaijan,2020
+Africa,38.2113821138211,Low income,Burundi,2020
+Europe,41.3333333333333,High income,Belgium,2020
+Africa,7.2289156626506,Lower middle income,Benin,2020
+Africa,6.2992125984252,Low income,Burkina Faso,2020
+Asia,20.9169054441261,Lower middle income,Bangladesh,2020
+Europe,26.6666666666667,Upper middle income,Bulgaria,2020
+Asia,15.0,High income,Bahrain,2020
+America,12.8205128205128,High income,Bahamas,2020
+Europe,26.1904761904762,Upper middle income,Bosnia and Herzegovina,2020
+Europe,40.0,Upper middle income,Belarus,2020
+America,9.67741935483871,Upper middle income,Belize,2020
+America,46.1538461538462,Lower middle income,Bolivia,2020
+America,14.6198830409357,Upper middle income,Brazil,2020
+America,20.0,High income,Barbados,2020
+Asia,9.09090909090909,High income,Brunei Darussalam,2020
+Asia,14.8936170212766,Lower middle income,Bhutan,2020
+Africa,10.7692307692308,Upper middle income,Botswana,2020
+Africa,8.57142857142857,Low income,Central African Republic,2020
+America,28.9940828402367,High income,Canada,2020
+Europe,41.5,High income,Switzerland,2020
+America,22.5806451612903,High income,Chile,2020
+Asia,24.9411764705882,Upper middle income,China,2020
+Africa,11.3725490196078,Lower middle income,Cote d'Ivoire,2020
+Africa,33.8888888888889,Lower middle income,Cameroon,2020
+Africa,12.8,Low income,DR Congo,2020
+Africa,11.2582781456954,Lower middle income,Congo Republic,2020
+America,18.3431952662722,Upper middle income,Colombia,2020
+Africa,16.6666666666667,Lower middle income,Comoros,2020
+Africa,25.0,Lower middle income,Cabo Verde,2020
+America,45.6140350877193,Upper middle income,Costa Rica,2020
+America,53.2231404958678,Upper middle income,Cuba,2020
+Asia,19.6428571428571,High income,Cyprus,2020
+Europe,22.5,High income,Czech Republic,2020
+Europe,31.1706629055007,High income,Germany,2020
+Africa,26.1538461538462,Lower middle income,Djibouti,2020
+America,34.375,Upper middle income,Dominica,2020
+Europe,39.6648044692737,High income,Denmark,2020
+America,27.8947368421053,Upper middle income,Dominican Republic,2020
+Africa,25.7575757575758,Lower middle income,Algeria,2020
+America,39.4160583941606,Upper middle income,Ecuador,2020
+Africa,27.4111675126904,Lower middle income,Egypt,2020
+Africa,22.0,Low income,Eritrea,2019
+Europe,44.0,High income,Spain,2020
+Europe,28.7128712871287,High income,Estonia,2020
+Africa,38.7568555758684,Low income,Ethiopia,2020
+Europe,46.0,High income,Finland,2020
+Oceania,19.6078431372549,Upper middle income,Fiji,2020
+Europe,39.5147313691508,High income,France,2020
+Oceania,0.0,Lower middle income,"Micronesia, Fed. Sts.",2020
+Africa,14.7887323943662,Upper middle income,Gabon,2020
+Europe,33.8461538461538,High income,United Kingdom,2020
+Asia,20.6666666666667,Upper middle income,Georgia,2020
+Africa,13.0909090909091,Lower middle income,Ghana,2020
+Africa,16.6666666666667,Low income,Guinea,2020
+Africa,8.62068965517241,Low income,Gambia,2020
+Africa,13.7254901960784,Low income,Guinea-Bissau,2020
+Africa,21.0,Upper middle income,Equatorial Guinea,2020
+Europe,21.6666666666667,High income,Greece,2020
+America,46.6666666666667,Upper middle income,Grenada,2020
+America,19.375,Upper middle income,Guatemala,2020
+America,35.7142857142857,Upper middle income,Guyana,2020
+America,21.09375,Lower middle income,Honduras,2020
+Europe,31.1258278145695,High income,Croatia,2020
+America,2.54237288135593,Lower middle income,Haiti,2019
+Europe,12.0603015075377,High income,Hungary,2020
+Asia,20.3478260869565,Lower middle income,Indonesia,2020
+Asia,14.3646408839779,Lower middle income,India,2020
+Europe,22.5,High income,Ireland,2020
+Asia,5.59440559440559,Lower middle income,Iran,2020
+Asia,26.4437689969605,Upper middle income,Iraq,2020
+Europe,38.0952380952381,High income,Iceland,2020
+Asia,27.5,High income,Israel,2020
+Europe,35.7142857142857,High income,Italy,2020
+America,28.5714285714286,Upper middle income,Jamaica,2020
+Asia,11.5384615384615,Upper middle income,Jordan,2020
+Asia,9.89247311827957,High income,Japan,2020
+Asia,27.1028037383178,Upper middle income,Kazakhstan,2020
+Africa,21.7765042979943,Lower middle income,Kenya,2020
+Asia,16.5217391304348,Lower middle income,Kyrgyz Republic,2020
+Asia,20.0,Lower middle income,Cambodia,2020
+Oceania,8.88888888888889,Lower middle income,Kiribati,2020
+America,25.0,High income,St. Kitts and Nevis,2020
+Asia,19.0,High income,South Korea,2020
+Asia,6.34920634920635,High income,Kuwait,2020
+Asia,27.5167785234899,Lower middle income,Laos,2020
+Asia,4.6875,Lower middle income,Lebanon,2020
+Africa,12.3287671232877,Low income,Liberia,2020
+Africa,15.9574468085106,Upper middle income,Libya,2020
+America,16.6666666666667,Upper middle income,St. Lucia,2020
+Europe,12.0,High income,Liechtenstein,2020
+Asia,5.38116591928251,Lower middle income,Sri Lanka,2020
+Africa,23.3333333333333,Lower middle income,Lesotho,2020
+Europe,26.9503546099291,High income,Lithuania,2020
+Europe,30.0,High income,Luxembourg,2020
+Europe,30.0,High income,Latvia,2020
+Africa,20.5063291139241,Lower middle income,Morocco,2020
+Europe,33.3333333333333,High income,Monaco,2020
+Europe,24.7524752475248,Upper middle income,Moldova,2020
+Africa,17.8807947019868,Low income,Madagascar,2020
+Asia,4.59770114942529,Upper middle income,Maldives,2020
+America,48.2,Upper middle income,Mexico,2020
+Oceania,6.06060606060606,Upper middle income,Marshall Islands,2020
+Europe,39.1666666666667,Upper middle income,North Macedonia,2020
+Africa,27.891156462585,Low income,Mali,2020
+Europe,13.4328358208955,High income,Malta,2020
+Asia,16.8253968253968,Lower middle income,Myanmar,2020
+Europe,22.2222222222222,Upper middle income,Montenegro,2020
+Asia,17.3333333333333,Lower middle income,Mongolia,2020
+Africa,42.4,Low income,Mozambique,2020
+Africa,20.2614379084967,Lower middle income,Mauritania,2020
+Africa,20.0,Upper middle income,Mauritius,2020
+Africa,22.9166666666667,Low income,Malawi,2020
+Asia,14.8648648648649,Upper middle income,Malaysia,2020
+Africa,43.2692307692308,Upper middle income,Namibia,2020
+Africa,16.9590643274854,Low income,Niger,2020
+Africa,7.22222222222222,Lower middle income,Nigeria,2020
+America,47.2527472527472,Lower middle income,Nicaragua,2020
+Europe,33.3333333333333,High income,Netherlands,2020
+Europe,41.4201183431953,High income,Norway,2020
+Asia,32.7272727272727,Lower middle income,Nepal,2020
+Oceania,10.5263157894737,High income,Nauru,2020
+Oceania,48.3333333333333,High income,New Zealand,2020
+Asia,2.32558139534884,High income,Oman,2020
+Asia,20.1754385964912,Lower middle income,Pakistan,2020
+America,22.5352112676056,High income,Panama,2020
+America,26.1538461538462,Upper middle income,Peru,2020
+Asia,27.9605263157895,Lower middle income,Philippines,2020
+Oceania,6.25,Upper middle income,Palau,2020
+Oceania,0.0,Lower middle income,Papua New Guinea,2020
+Europe,28.695652173913,High income,Poland,2020
+Asia,17.6128093158661,Low income,North Korea,2020
+Europe,40.0,High income,Portugal,2020
+America,16.25,Upper middle income,Paraguay,2020
+Asia,9.75609756097561,High income,Qatar,2020
+Europe,21.8844984802432,High income,Romania,2020
+Europe,15.7777777777778,Upper middle income,Russia,2020
+Africa,61.25,Low income,Rwanda,2020
+Asia,19.8675496688742,High income,Saudi Arabia,2020
+Africa,30.5164319248826,Low income,Sudan,2018
+Africa,43.030303030303,Lower middle income,Senegal,2020
+Asia,29.4736842105263,High income,Singapore,2020
+Oceania,6.38297872340426,Lower middle income,Solomon Islands,2020
+Africa,12.3287671232877,Low income,Sierra Leone,2020
+America,33.3333333333333,Lower middle income,El Salvador,2020
+Europe,33.3333333333333,High income,San Marino,2020
+Africa,24.3636363636364,Low income,Somalia,2020
+Europe,38.8,Upper middle income,Serbia,2020
+Africa,28.4595300261097,Low income,South Sudan,2020
+Africa,23.6363636363636,Lower middle income,Sao Tome and Principe,2020
+America,29.4117647058824,Upper middle income,Suriname,2020
+Europe,22.6666666666667,High income,Slovakia,2020
+Europe,27.7777777777778,High income,Slovenia,2020
+Europe,46.9914040114613,High income,Sweden,2020
+Africa,9.58904109589041,Lower middle income,Eswatini,2020
+Africa,24.2424242424242,High income,Seychelles,2020
+Asia,11.2,Low income,Syria,2020
+Africa,15.4320987654321,Low income,Chad,2020
+Africa,18.6813186813187,Low income,Togo,2020
+Asia,15.7464212678937,Upper middle income,Thailand,2020
+Asia,23.8095238095238,Lower middle income,Tajikistan,2020
+Asia,25.0,Upper middle income,Turkmenistan,2020
+Asia,38.4615384615385,Lower middle income,Timor-Leste,2020
+Oceania,7.40740740740741,Upper middle income,Tonga,2020
+America,26.1904761904762,High income,Trinidad and Tobago,2020
+Africa,24.8847926267281,Lower middle income,Tunisia,2020
+Asia,17.3174872665535,Upper middle income,Türkiye,2020
+Oceania,6.25,Upper middle income,Tuvalu,2020
+Africa,36.71875,Lower middle income,Tanzania,2020
+Africa,34.8583877995643,Low income,Uganda,2020
+Europe,20.8037825059102,Lower middle income,Ukraine,2020
+America,21.2121212121212,High income,Uruguay,2020
+America,27.4647887323944,High income,United States,2020
+Asia,32.0,Lower middle income,Uzbekistan,2020
+America,18.1818181818182,Upper middle income,St. Vincent and the Grenadines,2020
+America,22.1556886227545,,Venezuela,2020
+Asia,26.7206477732794,Lower middle income,Vietnam,2020
+Oceania,0.0,Lower middle income,Vanuatu,2020
+Oceania,10.0,Lower middle income,Samoa,2020
+Asia,0.332225913621262,Low income,Yemen,2020
+Africa,46.75,Upper middle income,South Africa,2020
+Africa,16.7664670658683,Low income,Zambia,2020
+Africa,31.8518518518519,Lower middle income,Zimbabwe,2020
