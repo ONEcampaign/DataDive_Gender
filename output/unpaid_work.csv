@@ -1,179 +1,179 @@
 year,country,value,sex
-2011,Albania,21.73611,female
-2013,Argentina,23.41864,female
-2008,Armenia,21.65833,female
-2006,Australia,20.83333,female
-2009,Austria,19.06954,female
-2008,Azerbaijan,25.41667,female
-2013,Belgium,15.90278,female
-2010,Bulgaria,18.47222,female
-2015,Belarus,19.16667,female
-2001,Bolivia,23.11926,female
-2017,Brazil,11.60814,female
-2015,Bhutan,15.0,female
-2016,Canada,14.58333,female
-2016,Switzerland,16.83333,female
-2015,Chile,22.10355,female
-2018,China,15.34722,female
-2014,Cameroon,15.82086,female
-2017,Colombia,5.02051,female
-2017,Costa Rica,22.14571,female
-2016,Cuba,21.0,female
-2013,Germany,16.4,female
-2009,Denmark,15.625,female
-2016,Dominican Republic,16.70887,female
-2012,Algeria,21.66667,female
-2012,Ecuador,19.74505,female
-2015,Egypt,22.36111,female
-2010,Spain,18.95833,female
-2010,Estonia,17.22222,female
-2013,Ethiopia,19.30556,female
-2010,Finland,15.20417,female
-2016,Fiji,15.15812,female
-2010,France,15.77314,female
-2015,United Kingdom,12.65278,female
-2009,Ghana,15.48611,female
-2014,Greece,18.125,female
-2017,Guatemala,19.48273,female
-2013,Hong Kong,10.83333,female
-2009,Honduras,17.29571,female
-2010,Hungary,17.27674,female
-2005,Ireland,20.55556,female
-2009,Iran,21.04167,female
-2007,Iraq,24.09722,female
-2014,Italy,20.4,female
-2016,Japan,15.13889,female
-2018,Kazakhstan,18.95833,female
-2015,Kyrgyz Republic,16.80556,female
-2004,Cambodia,12.5,female
-2019,South Korea,14.09722,female
-2017,Laos,13.6038,female
-2010,Liberia,6.29234,female
-2003,Lesotho,15.55556,female
-2003,Lithuania,18.68056,female
-2014,Luxembourg,14.44444,female
-2003,Latvia,18.26389,female
-2012,Morocco,20.83333,female
-2012,Moldova,20.13841,female
-2019,Mexico,27.76825,female
-2015,North Macedonia,15.41667,female
-2002,Malta,18.75,female
-2019,Mongolia,19.29129,female
-2003,Mauritius,18.95833,female
-2005,Malawi,8.68056,female
-2003,Malaysia,19.09722,female
-2012,Netherlands,14.72222,female
-2011,Norway,15.30833,female
-2010,New Zealand,18.05556,female
-2008,Oman,18.88889,female
-2007,Pakistan,19.86111,female
-2011,Panama,17.95164,female
-2010,Peru,23.56031,female
-2013,Poland,18.2625,female
-2015,Portugal,17.81135,female
-2016,Paraguay,14.52502,female
-2013,Palestine,20.13889,female
-2013,Qatar,8.19444,female
-2012,Romania,19.02778,female
-2014,Russia,18.40278,female
-2017,El Salvador,20.21275,female
-2015,Serbia,19.16756,female
-2001,Slovenia,20.55556,female
-2011,Sweden,16.04201,female
-2015,Thailand,11.83333,female
-2006,Tunisia,21.94444,female
-2015,Türkiye,19.15117,female
-2014,Tanzania,16.45833,female
-2018,Uganda,14.58333,female
-2013,Uruguay,19.87475,female
-2019,United States,15.33333,female
-2010,South Africa,15.55556,female
-2011,Albania,3.47222,male
-2013,Argentina,9.2486,male
-2008,Armenia,4.37083,male
-2006,Australia,11.38889,male
-2009,Austria,10.05396,male
-2008,Azerbaijan,8.88889,male
-2013,Belgium,10.06944,male
-2010,Bulgaria,9.23611,male
-2015,Belarus,9.51389,male
-2001,Bolivia,12.13362,male
-2017,Brazil,5.13276,male
-2015,Bhutan,5.90278,male
-2016,Canada,9.58333,male
-2016,Switzerland,10.80417,male
-2015,Chile,9.85396,male
-2018,China,5.90278,male
-2014,Cameroon,4.56784,male
-2017,Colombia,2.92763,male
-2017,Costa Rica,8.37858,male
-2016,Cuba,12.47024,male
-2013,Germany,10.4,male
-2009,Denmark,11.25,male
-2016,Dominican Republic,3.78561,male
-2012,Algeria,3.75,male
-2012,Ecuador,4.72192,male
-2015,Egypt,2.43056,male
-2010,Spain,8.61111,male
-2010,Estonia,10.76389,male
-2013,Ethiopia,6.59722,male
-2010,Finland,10.49167,male
-2016,Fiji,5.19476,male
-2010,France,9.49464,male
-2015,United Kingdom,6.96528,male
-2009,Ghana,4.58333,male
-2014,Greece,7.01389,male
-2017,Guatemala,2.60537,male
-2013,Hong Kong,3.33333,male
-2009,Honduras,4.31393,male
-2010,Hungary,7.9796,male
-2005,Ireland,8.95833,male
-2009,Iran,5.20833,male
-2007,Iraq,4.16667,male
-2014,Italy,8.4,male
-2016,Japan,3.125,male
-2018,Kazakhstan,6.25,male
-2015,Kyrgyz Republic,9.51389,male
 2004,Cambodia,1.25,male
-2019,South Korea,4.375,male
-2017,Laos,10.06278,male
-2010,Liberia,2.57656,male
-2003,Lesotho,6.18056,male
-2003,Lithuania,8.95694,male
-2014,Luxembourg,7.08333,male
-2003,Latvia,9.09722,male
-2012,Morocco,2.98611,male
-2012,Moldova,11.2725,male
-2019,Mexico,11.11167,male
-2015,North Macedonia,5.41667,male
-2002,Malta,7.01389,male
-2019,Mongolia,7.59633,male
-2003,Mauritius,4.79167,male
 2005,Malawi,1.25,male
-2003,Malaysia,5.97222,male
-2012,Netherlands,9.23611,male
-2011,Norway,12.33333,male
-2010,New Zealand,10.55556,male
-2008,Oman,7.5,male
 2007,Pakistan,1.80556,male
-2011,Panama,7.57184,male
-2010,Peru,8.94605,male
-2013,Poland,9.92917,male
-2015,Portugal,10.2414,male
-2016,Paraguay,4.27041,male
-2013,Palestine,2.98611,male
 2013,Qatar,2.22222,male
-2012,Romania,9.375,male
-2014,Russia,8.125,male
-2017,El Salvador,7.02928,male
-2015,Serbia,8.69038,male
-2001,Slovenia,11.11111,male
-2011,Sweden,12.82797,male
-2015,Thailand,3.75,male
+2015,Egypt,2.43056,male
+2010,Liberia,2.57656,male
+2017,Guatemala,2.60537,male
 2006,Tunisia,2.70833,male
+2017,Colombia,2.92763,male
+2012,Morocco,2.98611,male
+2013,Palestine,2.98611,male
+2016,Japan,3.125,male
+2013,Hong Kong,3.33333,male
+2011,Albania,3.47222,male
 2015,Türkiye,3.70575,male
+2015,Thailand,3.75,male
+2012,Algeria,3.75,male
+2016,Dominican Republic,3.78561,male
+2007,Iraq,4.16667,male
 2014,Tanzania,4.23611,male
-2018,Uganda,7.5,male
-2013,Uruguay,8.37738,male
-2019,United States,9.66667,male
+2016,Paraguay,4.27041,male
+2009,Honduras,4.31393,male
+2008,Armenia,4.37083,male
+2019,South Korea,4.375,male
+2014,Cameroon,4.56784,male
+2009,Ghana,4.58333,male
+2012,Ecuador,4.72192,male
+2003,Mauritius,4.79167,male
+2017,Colombia,5.02051,female
+2017,Brazil,5.13276,male
+2016,Fiji,5.19476,male
+2009,Iran,5.20833,male
+2015,North Macedonia,5.41667,male
+2018,China,5.90278,male
+2015,Bhutan,5.90278,male
+2003,Malaysia,5.97222,male
+2003,Lesotho,6.18056,male
+2018,Kazakhstan,6.25,male
+2010,Liberia,6.29234,female
 2010,South Africa,6.45833,male
+2013,Ethiopia,6.59722,male
+2015,United Kingdom,6.96528,male
+2002,Malta,7.01389,male
+2014,Greece,7.01389,male
+2017,El Salvador,7.02928,male
+2014,Luxembourg,7.08333,male
+2008,Oman,7.5,male
+2018,Uganda,7.5,male
+2011,Panama,7.57184,male
+2019,Mongolia,7.59633,male
+2010,Hungary,7.9796,male
+2014,Russia,8.125,male
+2013,Qatar,8.19444,female
+2013,Uruguay,8.37738,male
+2017,Costa Rica,8.37858,male
+2014,Italy,8.4,male
+2010,Spain,8.61111,male
+2005,Malawi,8.68056,female
+2015,Serbia,8.69038,male
+2008,Azerbaijan,8.88889,male
+2010,Peru,8.94605,male
+2003,Lithuania,8.95694,male
+2005,Ireland,8.95833,male
+2003,Latvia,9.09722,male
+2012,Netherlands,9.23611,male
+2010,Bulgaria,9.23611,male
+2013,Argentina,9.2486,male
+2012,Romania,9.375,male
+2010,France,9.49464,male
+2015,Belarus,9.51389,male
+2015,Kyrgyz Republic,9.51389,male
+2016,Canada,9.58333,male
+2019,United States,9.66667,male
+2015,Chile,9.85396,male
+2013,Poland,9.92917,male
+2009,Austria,10.05396,male
+2017,Laos,10.06278,male
+2013,Belgium,10.06944,male
+2015,Portugal,10.2414,male
+2013,Germany,10.4,male
+2010,Finland,10.49167,male
+2010,New Zealand,10.55556,male
+2010,Estonia,10.76389,male
+2016,Switzerland,10.80417,male
+2013,Hong Kong,10.83333,female
+2001,Slovenia,11.11111,male
+2019,Mexico,11.11167,male
+2009,Denmark,11.25,male
+2012,Moldova,11.2725,male
+2006,Australia,11.38889,male
+2017,Brazil,11.60814,female
+2015,Thailand,11.83333,female
+2001,Bolivia,12.13362,male
+2011,Norway,12.33333,male
+2016,Cuba,12.47024,male
+2004,Cambodia,12.5,female
+2015,United Kingdom,12.65278,female
+2011,Sweden,12.82797,male
+2017,Laos,13.6038,female
+2019,South Korea,14.09722,female
+2014,Luxembourg,14.44444,female
+2016,Paraguay,14.52502,female
+2016,Canada,14.58333,female
+2018,Uganda,14.58333,female
+2012,Netherlands,14.72222,female
+2015,Bhutan,15.0,female
+2016,Japan,15.13889,female
+2016,Fiji,15.15812,female
+2010,Finland,15.20417,female
+2011,Norway,15.30833,female
+2019,United States,15.33333,female
+2018,China,15.34722,female
+2015,North Macedonia,15.41667,female
+2009,Ghana,15.48611,female
+2010,South Africa,15.55556,female
+2003,Lesotho,15.55556,female
+2009,Denmark,15.625,female
+2010,France,15.77314,female
+2014,Cameroon,15.82086,female
+2013,Belgium,15.90278,female
+2011,Sweden,16.04201,female
+2013,Germany,16.4,female
+2014,Tanzania,16.45833,female
+2016,Dominican Republic,16.70887,female
+2015,Kyrgyz Republic,16.80556,female
+2016,Switzerland,16.83333,female
+2010,Estonia,17.22222,female
+2010,Hungary,17.27674,female
+2009,Honduras,17.29571,female
+2015,Portugal,17.81135,female
+2011,Panama,17.95164,female
+2010,New Zealand,18.05556,female
+2014,Greece,18.125,female
+2013,Poland,18.2625,female
+2003,Latvia,18.26389,female
+2014,Russia,18.40278,female
+2010,Bulgaria,18.47222,female
+2003,Lithuania,18.68056,female
+2002,Malta,18.75,female
+2008,Oman,18.88889,female
+2010,Spain,18.95833,female
+2018,Kazakhstan,18.95833,female
+2003,Mauritius,18.95833,female
+2012,Romania,19.02778,female
+2009,Austria,19.06954,female
+2003,Malaysia,19.09722,female
+2015,Türkiye,19.15117,female
+2015,Belarus,19.16667,female
+2015,Serbia,19.16756,female
+2019,Mongolia,19.29129,female
+2013,Ethiopia,19.30556,female
+2017,Guatemala,19.48273,female
+2012,Ecuador,19.74505,female
+2007,Pakistan,19.86111,female
+2013,Uruguay,19.87475,female
+2012,Moldova,20.13841,female
+2013,Palestine,20.13889,female
+2017,El Salvador,20.21275,female
+2014,Italy,20.4,female
+2001,Slovenia,20.55556,female
+2005,Ireland,20.55556,female
+2006,Australia,20.83333,female
+2012,Morocco,20.83333,female
+2016,Cuba,21.0,female
+2009,Iran,21.04167,female
+2008,Armenia,21.65833,female
+2012,Algeria,21.66667,female
+2011,Albania,21.73611,female
+2006,Tunisia,21.94444,female
+2015,Chile,22.10355,female
+2017,Costa Rica,22.14571,female
+2015,Egypt,22.36111,female
+2001,Bolivia,23.11926,female
+2013,Argentina,23.41864,female
+2010,Peru,23.56031,female
+2007,Iraq,24.09722,female
+2008,Azerbaijan,25.41667,female
+2019,Mexico,27.76825,female
