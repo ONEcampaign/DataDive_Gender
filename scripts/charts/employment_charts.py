@@ -2,6 +2,7 @@
 
 import pandas as pd
 import country_converter as coco
+import numpy as np
 
 from scripts.config import PATHS
 from scripts.logger import logger
@@ -19,9 +20,11 @@ def unpaid_work_chart():
           .dropna(subset=['value'])
           .assign(year=lambda d: pd.to_datetime(d["date"]).dt.year)
           .loc[lambda d: d.groupby(['indicator_code', 'iso_code'])['year'].idxmax()]
-          .assign(country=lambda d: coco.convert(d.iso_code, to='name_short'),
+          .assign(country=lambda d: coco.convert(d.iso_code, to='name_short', not_found=np.nan),
                   sex=lambda d: d.indicator_code.map(mapping)
                   )
+          .dropna(subset=['country'])
+          .loc[:, ['year', 'country', 'value', 'sex']]
           )
 
     df.to_csv(f'{PATHS.output}/unpaid_work.csv', index=False)
