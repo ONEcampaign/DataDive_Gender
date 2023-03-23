@@ -1,6 +1,8 @@
 # Gender DataDive
 
-This repository contains scripts to extract, transform and analyze gender data, and contains datasets used to power the Gender DataDive.
+This repository contains scripts and data powering the Gender DataDive.
+
+Access chart datasets in the `output` folder and raw data in the `raw_data` folder. Scripts powering the analysis are in the `scripts` folder. 
 
 ## Requirements
 Python >=3.10
