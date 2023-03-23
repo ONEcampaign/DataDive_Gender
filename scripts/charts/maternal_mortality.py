@@ -15,7 +15,8 @@ def chart_pictogram_world() -> None:
                        & (d.region == 'world')
                        & (d.year == 2020),
     ['region', 'year', 'value']]
-     .assign(value = lambda d: d.value.round(0))
+     .assign(value = lambda d: d.value.round(0),
+             region = lambda d: d.region.map({'world': 'World'}))
      .to_csv(f'{PATHS.output}/mmr_pictogram_world.csv', index=False)
      )
 
@@ -29,9 +30,9 @@ def chart_pictogram_SSA_rest_of_world() -> None:
             ]
             .pivot(index='year', columns='region', values='value')
             .assign(diff=lambda d: d['world'] - d['Sub-Saharan Africa'])
-            .rename(columns={'diff': 'rest of the world'})
+            .rename(columns={'diff': 'Rest of the world'})
             .reset_index()
-            .loc[:, ['year', 'Sub-Saharan Africa', 'rest of the world']]
+            .loc[:, ['year', 'Sub-Saharan Africa', 'Rest of the world']]
             .melt(id_vars='year')
             .assign(value = lambda d: d.value.round(0))
             .to_csv(f'{PATHS.output}/mmr_pictogram_SSA_rest_of_world.csv', index=False)
