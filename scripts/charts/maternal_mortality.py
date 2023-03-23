@@ -49,10 +49,10 @@ def chart_pictogram_low_middle_income() -> None:
             .pivot(index='year', columns='region', values='value')
             .assign(low=lambda d: d['Low income'] + d['Lower middle income'],
                     diff=lambda d: d['world'] - d['low'])
-            .rename(columns={'diff': 'rest of the world',
+            .rename(columns={'diff': 'Rest of the world',
                              'low': 'Low and Lower middle income'})
             .reset_index()
-            .loc[:, ['year', 'Low and Lower middle income', 'rest of the world']]
+            .loc[:, ['year', 'Low and Lower middle income', 'Rest of the world']]
             .melt(id_vars='year')
     .assign(value = lambda d: d.value.round(0))
             .to_csv(f'{PATHS.output}/mmr_pictogram_low_middle_income.csv', index=False)
