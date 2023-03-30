@@ -3,6 +3,7 @@
 import pandas as pd
 
 from scripts.config import PATHS
+from scripts.logger import logger
 
 COUNTRIES = pd.read_csv(f'{PATHS.raw_data}/mmr2020_country_estimates.csv')
 REGIONS = pd.read_csv(f'{PATHS.raw_data}/mmr2020_region_estimates.csv')
@@ -64,6 +65,15 @@ def calculate_pct_change(
         ) -> pd.DataFrame:
     """Calculate the percentage decrease in maternal mortality compared to a given year
     for a given group
+
+    Args:
+        df: DataFrame with columns 'year', 'country', 'value'
+        year: year to compare to
+        group_col: column to group by
+        val_col: column to calculate percentage decrease for
+
+    Returns:
+        DataFrame with a column 'decrease' with the percentage decrease
     """
 
     year_val_dict = df[lambda d: (d.year == year)].set_index(group_col)[val_col].to_dict()
@@ -74,7 +84,7 @@ def calculate_pct_change(
             )
 
 
-def chart_line_decrease_in_mmr() -> None:
+def chart_line_change_in_mmr() -> None:
     """Create a line chart showing the percentage decrease in maternal mortality"""
 
     country_list = ['Greece',
@@ -116,12 +126,5 @@ def chart_line_decrease_in_mmr() -> None:
     (pd.merge(countries_df, df_regions, on='year', how='outer')
      .to_csv(f'{PATHS.output}/mmr_line_change_in_mmr.csv', index=False)
      )
+    logger.debug('Update mmr_line_change_in_mmr')
 
-
-def update_mmr_charts() -> None:
-    """Update all maternal mortality charts"""
-
-    chart_pictogram_world()
-    chart_pictogram_SSA_rest_of_world()
-    chart_pictogram_low_middle_income()
-    chart_line_decrease_in_mmr()

@@ -10,7 +10,7 @@ from scripts.logger import logger
 WB_GENDER = pd.read_csv(f'{PATHS.raw_data}/world_bank_gender.csv')
 
 
-def unpaid_work_chart():
+def chart_unpaid_work():
     """ """
 
     mapping = {'SG.TIM.UWRK.MA': 'male', 'SG.TIM.UWRK.FE': 'female'}
@@ -30,11 +30,15 @@ def unpaid_work_chart():
           )
 
     df.to_csv(f'{PATHS.output}/unpaid_work.csv', index=False)
-    logger.info('Created unpaid work chart')
+    logger.debug('Updated chart unpaid_work')
 
 
 def get_labor_force(regions:list) -> pd.DataFrame:
-    """ """
+    """Extract and reshape labor force data for a list of regions
+
+    Args:
+        regions: list of regions to extract data for
+    """
 
     mapping = {'SL.TLF.CACT.FE.ZS': 'female', 'SL.TLF.CACT.MA.ZS': 'male'}
 
@@ -51,26 +55,18 @@ def get_labor_force(regions:list) -> pd.DataFrame:
 
 
 def chart_labor_force_world() -> None:
-    """ """
+    """Create a line chart of the labor force participation rate for the world"""
 
     (get_labor_force(regions=['WLD'])
      .to_csv(f'{PATHS.output}/labor_force_world.csv', index=False)
      )
-    logger.info(f"Created labor force world chart")
+    logger.debug(f"Created labor force world chart")
 
 
 def chart_labor_force_income() -> None:
-    """ """
+    """Create a line chart of the labor force participation rate by income level"""
 
     (get_labor_force(regions=['LIC', 'LMC', 'UMC', 'HIC'])
      .to_csv(f'{PATHS.output}/labor_force_income.csv', index=False)
      )
-    logger.info(f"Created labor force income chart")
-
-
-def update_employment_charts() -> None:
-    """ """
-
-    unpaid_work_chart()
-    chart_labor_force_world()
-    chart_labor_force_income()
+    logger.debug(f"Created labor force income chart")

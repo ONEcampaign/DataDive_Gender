@@ -6,6 +6,7 @@ import country_converter as coco
 
 from scripts.config import PATHS
 from scripts import common
+from scripts.logger import logger
 
 EDUCATION = pd.read_csv(PATHS.raw_data / 'uis.csv')
 
@@ -29,3 +30,5 @@ def chart_scatter_attainment() -> None:
      .dropna(subset=['continent', 'gdp_per_capita'])
      .to_csv(PATHS.output / 'education_attainment_scatter.csv', index=False)
      )
+
+    logger.debug("Updated education_attainment_scatter")

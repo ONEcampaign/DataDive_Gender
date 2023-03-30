@@ -12,36 +12,8 @@ from scripts import common
 LAWS = pd.read_csv(f"{PATHS.raw_data}/world_bank_law.csv")
 WB_GENDER = pd.read_csv(f"{PATHS.raw_data}/world_bank_gender.csv")
 
-employment_laws = [
-    "SG.GET.JOBS.EQ",
-    "SG.BUS.REGT.EQ",
-    "SG.OPN.BANK.EQ",
-    "SG.LEG.SXHR.EM",
-    "SG.PEN.SXHR.EM",
-]
 
-laws_dict = {
-    "entrepreneurship_laws": [
-        "SG.LAW.CRDD.GR",
-        "SG.CNT.SIGN.EQ",
-        "SG.BUS.REGT.EQ",
-        "SG.OPN.BANK.EQ",
-    ],
-    "workplace_laws": [
-        "SG.GET.JOBS.EQ",
-        "SG.LAW.NODC.HR",
-        "SG.LEG.SXHR.EM",
-        "SG.PEN.SXHR.EM",
-    ],
-    "pay_laws": [
-        "SG.LAW.EQRM.WK",
-        "SG.NGT.WORK.EQ",
-        "SG.DNG.WORK.DN.EQ",
-        "SG.IND.WORK.EQ",
-    ],
-}
-
-laws_summary = [
+laws = [
     'SG.LAW.EQRM.WK',
     "SG.LAW.NODC.HR",
     'SG.GET.JOBS.EQ',
@@ -55,6 +27,9 @@ def make_marimekko(indicators: list) -> pd.DataFrame:
 
     Args:
         indicators: list of indicator codes to include in the chart
+
+    Returns:
+        df: dataframe with the data for the chart
     """
 
     value_dict = {0: -1, 1: 1}
@@ -96,31 +71,17 @@ def make_marimekko(indicators: list) -> pd.DataFrame:
     return df
 
 
-# def chart_laws_marimekko() -> None:
-#     """Create a marimekko chart of the laws used in the WBL index
-#     and save to csv
-#     """
-#
-#     for law_type, indicators in laws_dict.items():
-#         (
-#             make_marimekko(indicators).to_csv(
-#                 f"{PATHS.output}/laws_{law_type}.csv", index=False
-#             )
-#         )
-#         logger.info(f"Created {law_type} marimekko chart")
-
-
-def chart_laws_marimekko():
+def chart_laws_marimekko() -> None:
     """Create a marimekko chart of the laws used in the WBL index
     and save to csv
     """
 
     (
-        make_marimekko(laws_summary).to_csv(
+        make_marimekko(laws).to_csv(
             f"{PATHS.output}/laws_marimekko.csv", index=False
         )
     )
-    logger.info(f"Created summary marimekko chart")
+    logger.debug(f"Update chart laws_marimekko")
 
 
 def chart_parliament_participation_beeswarm() -> None:
@@ -139,12 +100,7 @@ def chart_parliament_participation_beeswarm() -> None:
      .loc[:, ['continent', 'value', 'income_level', 'entity_name', 'year']]
      .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
      )
-    logger.info("Created parliament participation beeswarm chart")
+    logger.debug("update chart parliament_participation_beeswarm")
 
 
-def update_legislative_charts() -> None:
-    """Update the laws used in the WBL index"""
-
-    chart_laws_marimekko()
-    chart_parliament_participation_beeswarm()
 

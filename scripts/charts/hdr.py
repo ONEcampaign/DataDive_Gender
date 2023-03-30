@@ -7,6 +7,7 @@ from bblocks.dataframe_tools import add
 
 from scripts.config import PATHS
 from scripts import common
+from scripts.logger import logger
 
 GII = pd.read_csv(f'{PATHS.raw_data}/hdr_gii.csv')
 
@@ -38,7 +39,7 @@ def get_latest_for_countries(variable: str) -> pd.DataFrame:
 def chart_gii_explorer_latest() -> None:
     """Create explorer chart for GII - map and bubble chart"""
 
-    return (get_latest_for_countries('gii')
+    (get_latest_for_countries('gii')
             .loc[:, ['iso3', 'country', 'value', 'year']]
             .assign(female_pop=lambda d: d.iso3.map(common.female_population()),
                     continent=lambda d: coco.convert(d.iso3, to='continent'),
@@ -57,6 +58,7 @@ def chart_gii_explorer_latest() -> None:
                     )
             .to_csv(f'{PATHS.output}/hdr_gii_bubble_latest.csv', index=False)
             )
+    logger.debug('Updated chart hdr_gii_bubble_latest')
 
 
 def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
@@ -97,7 +99,7 @@ def _histogram_chart(df: pd.DataFrame, grouping: str) -> pd.DataFrame:
             )
 
 
-def chart_histogram_time_series():
+def chart_gii_ridgeline():
     """Create a curved histogram for GII by year for world and Africa"""
 
     world = (GII
@@ -140,11 +142,8 @@ def chart_histogram_time_series():
      .to_csv(f'{PATHS.output}/hdr_gii_histogram_ridge.csv', index=False)
      )
 
+    logger.debug('Updated chart hdr_gii_histogram_ridge')
 
-def update_hdr_charts() -> None:
-    """Update all HDR charts"""
 
-    chart_gii_explorer_latest()
-    chart_histogram_time_series()
 
 

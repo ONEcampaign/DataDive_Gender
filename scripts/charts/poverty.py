@@ -3,6 +3,7 @@
 import pandas as pd
 
 from scripts.config import PATHS
+from scripts.logger import logger
 
 POVERTY = pd.read_csv(f'{PATHS.raw_data}/unwomen_pardee_poverty.csv')
 
@@ -33,6 +34,7 @@ def chart_poverty_change_line() -> None:
 
     df.to_csv(f'{PATHS.output}/poverty_change_line.csv', index=False)
 
+    logger.debug('Update chart poverty_change_line')
 
 
 
