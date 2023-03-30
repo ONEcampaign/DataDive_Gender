@@ -14,11 +14,11 @@ WB_GENDER = pd.read_csv(f"{PATHS.raw_data}/world_bank_gender.csv")
 
 
 laws = [
-    'SG.LAW.EQRM.WK',
+    "SG.LAW.EQRM.WK",
     "SG.LAW.NODC.HR",
-    'SG.GET.JOBS.EQ',
-    'SG.CNT.SIGN.EQ',
-    "SG.PEN.SXHR.EM"
+    "SG.GET.JOBS.EQ",
+    "SG.CNT.SIGN.EQ",
+    "SG.PEN.SXHR.EM",
 ]
 
 
@@ -46,15 +46,15 @@ def make_marimekko(indicators: list) -> pd.DataFrame:
         .pipe(common.latest_value, "value", ["iso_code", "indicator_code"], "year")
         .assign(female_pop=lambda d: d.iso_code.map(common.female_population()))
         .loc[
-        :,
-        [
-            "indicator_name",
-            "entity_name",
-            "year",
-            "value_label",
-            "value",
-            "female_pop",
-        ],
+            :,
+            [
+                "indicator_name",
+                "entity_name",
+                "year",
+                "value_label",
+                "value",
+                "female_pop",
+            ],
         ]
     )
 
@@ -76,31 +76,28 @@ def chart_laws_marimekko() -> None:
     and save to csv
     """
 
-    (
-        make_marimekko(laws).to_csv(
-            f"{PATHS.output}/laws_marimekko.csv", index=False
-        )
-    )
+    (make_marimekko(laws).to_csv(f"{PATHS.output}/laws_marimekko.csv", index=False))
     logger.debug(f"Update chart laws_marimekko")
 
 
 def chart_parliament_participation_beeswarm() -> None:
     """Create a beeswarm chart showing women's participation in parliament"""
 
-    (WB_GENDER[lambda d: d.indicator_code == 'SG.GEN.PARL.ZS']
-     .assign(year=lambda d: pd.to_datetime(d.date).dt.year)
-     .dropna(subset='value')
-     .pipe(common.latest_value, 'value', 'iso_code', 'year')
-     .pipe(common.only_countries, 'iso_code')
-     .assign(continent=lambda d: coco.convert(d.iso_code, to='continent', not_found=np.nan),
-             # female_pop=lambda d: d.iso_code.map(common.female_population()),
-             # gdppc = lambda d: d.iso_code.map(common.gdp_per_capita()),
-             )
-     .pipe(add.add_income_level_column, id_column='iso_code', id_type='iso3')
-     .loc[:, ['continent', 'value', 'income_level', 'entity_name', 'year']]
-     .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
-     )
+    (
+        WB_GENDER[lambda d: d.indicator_code == "SG.GEN.PARL.ZS"]
+        .assign(year=lambda d: pd.to_datetime(d.date).dt.year)
+        .dropna(subset="value")
+        .pipe(common.latest_value, "value", "iso_code", "year")
+        .pipe(common.only_countries, "iso_code")
+        .assign(
+            continent=lambda d: coco.convert(
+                d.iso_code, to="continent", not_found=np.nan
+            ),
+            # female_pop=lambda d: d.iso_code.map(common.female_population()),
+            # gdppc = lambda d: d.iso_code.map(common.gdp_per_capita()),
+        )
+        .pipe(add.add_income_level_column, id_column="iso_code", id_type="iso3")
+        .loc[:, ["continent", "value", "income_level", "entity_name", "year"]]
+        .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
+    )
     logger.debug("update chart parliament_participation_beeswarm")
-
-
-

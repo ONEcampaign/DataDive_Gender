@@ -78,11 +78,11 @@ def clean_country_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame:
 
 def clean_region_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame:
     """Clean regional data dataframe
-    
+
     Args:
         df (pd.DataFrame): dataframe to clean
         mapper (dict): mapper to map variable names and units
-    
+
     Returns:
         clean dataframe with melted to create a year column
     """

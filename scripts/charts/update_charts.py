@@ -1,6 +1,13 @@
 """Pipeline to update charts."""
 
-from scripts.charts import education, hdr, employment, legislation, maternal_mortality, poverty
+from scripts.charts import (
+    education,
+    hdr,
+    employment,
+    legislation,
+    maternal_mortality,
+    poverty,
+)
 from scripts.logger import logger
 
 
@@ -23,6 +30,4 @@ def update_charts() -> None:
 
     poverty.chart_poverty_change_line()
 
-    logger.debug('All charts successfully updated')
-
-
+    logger.debug("All charts successfully updated")
