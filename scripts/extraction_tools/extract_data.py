@@ -7,10 +7,11 @@ from bblocks.import_tools.unzip import read_zipped_csv
 from bblocks.import_tools import ilo
 from bblocks.import_tools import world_bank
 from bblocks.cleaning_tools import clean
+import country_converter as coco
+import numpy as np
 
 from scripts.config import PATHS
 from scripts.logger import logger
-import country_converter as coco
 
 
 # Extract data from UNDP HDR
@@ -159,8 +160,10 @@ def uis_sdg() -> None:
     }
 
     (uis.UIS('SDG')
+     .load_data()
      .get_data()
-     .to_csv(f'{PATHS.raw_data}/uis.csv', index=False)
+     .loc[lambda d: d['INDICATOR_ID'].isin(indicators)]
+     .to_csv(PATHS.raw_data / 'uis.csv', index=False)
      )
     logger.debug("Extracted data from UIS")
 
@@ -210,8 +213,8 @@ def _mmr2020_region_estimates(region_file: str) -> pd.DataFrame:
 
     # clean
     df = (df
-          .rename(columns = {'group': 'region', 'year_mid': 'year', 'X0.1': 'lower',
-                             'X0.9': 'upper', 'X0.5': 'value'})
+          .rename(columns={'group': 'region', 'year_mid': 'year', 'X0.1': 'lower',
+                           'X0.9': 'upper', 'X0.5': 'value'})
           .drop(columns='estimate_version')
           )
 
@@ -224,16 +227,20 @@ def mmr2020() -> None:
      save region estimates to mmr2020_region_estimates.csv
      """
 
-    _mmr2020_country_estimates().to_csv(PATHS.raw_data / 'mmr2020_country_estimates.csv', index=False)
+    _mmr2020_country_estimates().to_csv(PATHS.raw_data / 'mmr2020_country_estimates.csv',
+                                        index=False)
     logger.debug("Extracted country estimates from MMR2020")
 
     (pd.concat([
-        _mmr2020_region_estimates('download_mmr_estimates/aggregates_pub/estimates_World.csv'), # world
-        _mmr2020_region_estimates('download_mmr_estimates/aggregates_pub/estimates_sdg_region.csv'), # regions
-        _mmr2020_region_estimates('download_mmr_estimates/aggregates_pub/estimates_World_Bank_Income.csv'), # sub regions
+        _mmr2020_region_estimates('download_mmr_estimates/aggregates_pub/estimates_World.csv'),
+        # world
+        _mmr2020_region_estimates('download_mmr_estimates/aggregates_pub/estimates_sdg_region.csv'),
+        # regions
+        _mmr2020_region_estimates(
+            'download_mmr_estimates/aggregates_pub/estimates_World_Bank_Income.csv'),  # sub regions
     ])
      .to_csv(PATHS.raw_data / 'mmr2020_region_estimates.csv', index=False)
-    )
+     )
     logger.debug("Extracted region estimates from MMR2020")
 
 
@@ -270,4 +277,3 @@ def update() -> None:
     # ilo_employment()
 
     logger.debug("Successfully extracted data from all sources to raw_data folder")
-
