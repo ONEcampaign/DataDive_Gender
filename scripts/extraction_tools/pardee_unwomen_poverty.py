@@ -100,7 +100,7 @@ def clean_region_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame:
     )
 
 
-def update_unwomen_pardee_poverty() -> None:
+def update() -> None:
     """Pipeline to update UNwomen, Pardee poverty data
 
     Stored as a csv in raw_data/unwomen_pardee_poverty.csv
