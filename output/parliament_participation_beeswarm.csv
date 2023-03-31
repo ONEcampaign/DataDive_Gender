@@ -1,194 +1,194 @@
 continent,value,income_level,entity_name,year
-Asia,27.0161290322581,Low income,Afghanistan,2020
-Africa,30.0,Lower middle income,Angola,2020
-Europe,29.5081967213115,Upper middle income,Albania,2020
-Europe,46.4285714285714,High income,Andorra,2020
-Asia,50.0,High income,United Arab Emirates,2020
-America,40.8560311284047,Upper middle income,Argentina,2020
-Asia,23.4848484848485,Upper middle income,Armenia,2020
-America,11.1111111111111,High income,Antigua and Barbuda,2020
-Oceania,30.4635761589404,High income,Australia,2020
-Europe,39.344262295082,High income,Austria,2020
-Asia,17.3553719008264,Upper middle income,Azerbaijan,2020
-Africa,38.2113821138211,Low income,Burundi,2020
-Europe,41.3333333333333,High income,Belgium,2020
-Africa,7.2289156626506,Lower middle income,Benin,2020
-Africa,6.2992125984252,Low income,Burkina Faso,2020
-Asia,20.9169054441261,Lower middle income,Bangladesh,2020
-Europe,26.6666666666667,Upper middle income,Bulgaria,2020
-Asia,15.0,High income,Bahrain,2020
-America,12.8205128205128,High income,Bahamas,2020
-Europe,26.1904761904762,Upper middle income,Bosnia and Herzegovina,2020
-Europe,40.0,Upper middle income,Belarus,2020
-America,9.67741935483871,Upper middle income,Belize,2020
-America,46.1538461538462,Lower middle income,Bolivia,2020
-America,14.6198830409357,Upper middle income,Brazil,2020
-America,20.0,High income,Barbados,2020
-Asia,9.09090909090909,High income,Brunei Darussalam,2020
-Asia,14.8936170212766,Lower middle income,Bhutan,2020
-Africa,10.7692307692308,Upper middle income,Botswana,2020
-Africa,8.57142857142857,Low income,Central African Republic,2020
-America,28.9940828402367,High income,Canada,2020
-Europe,41.5,High income,Switzerland,2020
-America,22.5806451612903,High income,Chile,2020
-Asia,24.9411764705882,Upper middle income,China,2020
-Africa,11.3725490196078,Lower middle income,Cote d'Ivoire,2020
-Africa,33.8888888888889,Lower middle income,Cameroon,2020
-Africa,12.8,Low income,DR Congo,2020
-Africa,11.2582781456954,Lower middle income,Congo Republic,2020
-America,18.3431952662722,Upper middle income,Colombia,2020
-Africa,16.6666666666667,Lower middle income,Comoros,2020
-Africa,25.0,Lower middle income,Cabo Verde,2020
-America,45.6140350877193,Upper middle income,Costa Rica,2020
-America,53.2231404958678,Upper middle income,Cuba,2020
-Asia,19.6428571428571,High income,Cyprus,2020
-Europe,22.5,High income,Czech Republic,2020
-Europe,31.1706629055007,High income,Germany,2020
-Africa,26.1538461538462,Lower middle income,Djibouti,2020
-America,34.375,Upper middle income,Dominica,2020
-Europe,39.6648044692737,High income,Denmark,2020
-America,27.8947368421053,Upper middle income,Dominican Republic,2020
-Africa,25.7575757575758,Lower middle income,Algeria,2020
-America,39.4160583941606,Upper middle income,Ecuador,2020
-Africa,27.4111675126904,Lower middle income,Egypt,2020
+Asia,27.0161290322581,Low income,Afghanistan,2021
+Africa,29.5454545454545,Lower middle income,Angola,2021
+Europe,35.7142857142857,Upper middle income,Albania,2021
+Europe,46.4285714285714,High income,Andorra,2021
+Asia,50.0,High income,United Arab Emirates,2021
+America,44.7470817120623,Upper middle income,Argentina,2021
+Asia,33.6448598130841,Upper middle income,Armenia,2021
+America,11.1111111111111,High income,Antigua and Barbuda,2021
+Oceania,31.1258278145695,High income,Australia,2021
+Europe,40.4371584699454,High income,Austria,2021
+Asia,18.1818181818182,Upper middle income,Azerbaijan,2021
+Africa,38.2113821138211,Low income,Burundi,2021
+Europe,42.0,High income,Belgium,2021
+Africa,8.43373493975904,Lower middle income,Benin,2021
+Africa,6.2992125984252,Low income,Burkina Faso,2021
+Asia,20.8571428571429,Lower middle income,Bangladesh,2021
+Europe,23.75,Upper middle income,Bulgaria,2021
+Asia,15.0,High income,Bahrain,2021
+America,17.9487179487179,High income,Bahamas,2021
+Europe,26.1904761904762,Upper middle income,Bosnia and Herzegovina,2021
+Europe,40.0,Upper middle income,Belarus,2021
+America,12.5,Upper middle income,Belize,2021
+America,46.1538461538462,Lower middle income,Bolivia,2021
+America,15.2046783625731,Upper middle income,Brazil,2021
+America,20.0,High income,Barbados,2021
+Asia,9.09090909090909,High income,Brunei Darussalam,2021
+Asia,17.0212765957447,Lower middle income,Bhutan,2021
+Africa,10.7692307692308,Upper middle income,Botswana,2021
+Africa,12.8571428571429,Low income,Central African Republic,2021
+America,30.4733727810651,High income,Canada,2021
+Europe,42.5,High income,Switzerland,2021
+America,35.4838709677419,High income,Chile,2021
+Asia,24.9411764705882,Upper middle income,China,2021
+Africa,14.1732283464567,Lower middle income,Cote d'Ivoire,2021
+Africa,33.8888888888889,Lower middle income,Cameroon,2021
+Africa,12.8,Low income,DR Congo,2021
+Africa,11.2582781456954,Lower middle income,Congo Republic,2021
+America,18.8235294117647,Upper middle income,Colombia,2021
+Africa,16.6666666666667,Lower middle income,Comoros,2021
+Africa,38.8888888888889,Lower middle income,Cabo Verde,2021
+America,45.6140350877193,Upper middle income,Costa Rica,2021
+America,53.4129692832764,Upper middle income,Cuba,2021
+Asia,14.2857142857143,High income,Cyprus,2021
+Europe,25.0,High income,Czech Republic,2021
+Europe,34.9184782608696,High income,Germany,2021
+Africa,26.1538461538462,Lower middle income,Djibouti,2021
+America,34.375,Upper middle income,Dominica,2021
+Europe,39.6648044692737,High income,Denmark,2021
+America,27.8947368421053,Upper middle income,Dominican Republic,2021
+Africa,8.10810810810811,Lower middle income,Algeria,2021
+America,39.4160583941606,Upper middle income,Ecuador,2021
+Africa,27.7027027027027,Lower middle income,Egypt,2021
 Africa,22.0,Low income,Eritrea,2019
-Europe,44.0,High income,Spain,2020
-Europe,28.7128712871287,High income,Estonia,2020
-Africa,38.7568555758684,Low income,Ethiopia,2020
-Europe,46.0,High income,Finland,2020
-Oceania,19.6078431372549,Upper middle income,Fiji,2020
-Europe,39.5147313691508,High income,France,2020
-Oceania,0.0,Lower middle income,"Micronesia, Fed. Sts.",2020
-Africa,14.7887323943662,Upper middle income,Gabon,2020
-Europe,33.8461538461538,High income,United Kingdom,2020
-Asia,20.6666666666667,Upper middle income,Georgia,2020
-Africa,13.0909090909091,Lower middle income,Ghana,2020
+Europe,43.4285714285714,High income,Spain,2021
+Europe,25.7425742574257,High income,Estonia,2021
+Africa,42.5882352941177,Low income,Ethiopia,2021
+Europe,46.0,High income,Finland,2021
+Oceania,21.5686274509804,Upper middle income,Fiji,2021
+Europe,39.5147313691508,High income,France,2021
+Oceania,7.14285714285714,Lower middle income,"Micronesia, Fed. Sts.",2021
+Africa,16.1971830985916,Upper middle income,Gabon,2021
+Europe,34.2592592592593,High income,United Kingdom,2021
+Asia,19.3333333333333,Upper middle income,Georgia,2021
+Africa,14.5454545454545,Lower middle income,Ghana,2021
 Africa,16.6666666666667,Low income,Guinea,2020
-Africa,8.62068965517241,Low income,Gambia,2020
-Africa,13.7254901960784,Low income,Guinea-Bissau,2020
-Africa,21.0,Upper middle income,Equatorial Guinea,2020
-Europe,21.6666666666667,High income,Greece,2020
-America,46.6666666666667,Upper middle income,Grenada,2020
-America,19.375,Upper middle income,Guatemala,2020
-America,35.7142857142857,Upper middle income,Guyana,2020
-America,21.09375,Lower middle income,Honduras,2020
-Europe,31.1258278145695,High income,Croatia,2020
+Africa,8.62068965517241,Low income,Gambia,2021
+Africa,13.7254901960784,Low income,Guinea-Bissau,2021
+Africa,23.0,Upper middle income,Equatorial Guinea,2021
+Europe,21.6666666666667,High income,Greece,2021
+America,46.6666666666667,Upper middle income,Grenada,2021
+America,19.375,Upper middle income,Guatemala,2021
+America,35.7142857142857,Upper middle income,Guyana,2021
+America,27.34375,Lower middle income,Honduras,2021
+Europe,31.1258278145695,High income,Croatia,2021
 America,2.54237288135593,Lower middle income,Haiti,2019
-Europe,12.0603015075377,High income,Hungary,2020
-Asia,20.3478260869565,Lower middle income,Indonesia,2020
-Asia,14.3646408839779,Lower middle income,India,2020
-Europe,22.5,High income,Ireland,2020
-Asia,5.59440559440559,Lower middle income,Iran,2020
-Asia,26.4437689969605,Upper middle income,Iraq,2020
-Europe,38.0952380952381,High income,Iceland,2020
-Asia,27.5,High income,Israel,2020
-Europe,35.7142857142857,High income,Italy,2020
-America,28.5714285714286,Upper middle income,Jamaica,2020
-Asia,11.5384615384615,Upper middle income,Jordan,2020
-Asia,9.89247311827957,High income,Japan,2020
-Asia,27.1028037383178,Upper middle income,Kazakhstan,2020
-Africa,21.7765042979943,Lower middle income,Kenya,2020
-Asia,16.5217391304348,Lower middle income,Kyrgyz Republic,2020
-Asia,20.0,Lower middle income,Cambodia,2020
-Oceania,8.88888888888889,Lower middle income,Kiribati,2020
-America,25.0,High income,St. Kitts and Nevis,2020
-Asia,19.0,High income,South Korea,2020
-Asia,6.34920634920635,High income,Kuwait,2020
-Asia,27.5167785234899,Lower middle income,Laos,2020
-Asia,4.6875,Lower middle income,Lebanon,2020
-Africa,12.3287671232877,Low income,Liberia,2020
-Africa,15.9574468085106,Upper middle income,Libya,2020
-America,16.6666666666667,Upper middle income,St. Lucia,2020
-Europe,12.0,High income,Liechtenstein,2020
-Asia,5.38116591928251,Lower middle income,Sri Lanka,2020
-Africa,23.3333333333333,Lower middle income,Lesotho,2020
-Europe,26.9503546099291,High income,Lithuania,2020
-Europe,30.0,High income,Luxembourg,2020
-Europe,30.0,High income,Latvia,2020
-Africa,20.5063291139241,Lower middle income,Morocco,2020
-Europe,33.3333333333333,High income,Monaco,2020
-Europe,24.7524752475248,Upper middle income,Moldova,2020
-Africa,17.8807947019868,Low income,Madagascar,2020
-Asia,4.59770114942529,Upper middle income,Maldives,2020
-America,48.2,Upper middle income,Mexico,2020
-Oceania,6.06060606060606,Upper middle income,Marshall Islands,2020
-Europe,39.1666666666667,Upper middle income,North Macedonia,2020
-Africa,27.891156462585,Low income,Mali,2020
-Europe,13.4328358208955,High income,Malta,2020
-Asia,16.8253968253968,Lower middle income,Myanmar,2020
-Europe,22.2222222222222,Upper middle income,Montenegro,2020
-Asia,17.3333333333333,Lower middle income,Mongolia,2020
-Africa,42.4,Low income,Mozambique,2020
-Africa,20.2614379084967,Lower middle income,Mauritania,2020
-Africa,20.0,Upper middle income,Mauritius,2020
-Africa,22.9166666666667,Low income,Malawi,2020
-Asia,14.8648648648649,Upper middle income,Malaysia,2020
-Africa,43.2692307692308,Upper middle income,Namibia,2020
-Africa,16.9590643274854,Low income,Niger,2020
-Africa,7.22222222222222,Lower middle income,Nigeria,2020
-America,47.2527472527472,Lower middle income,Nicaragua,2020
-Europe,33.3333333333333,High income,Netherlands,2020
-Europe,41.4201183431953,High income,Norway,2020
-Asia,32.7272727272727,Lower middle income,Nepal,2020
-Oceania,10.5263157894737,High income,Nauru,2020
-Oceania,48.3333333333333,High income,New Zealand,2020
-Asia,2.32558139534884,High income,Oman,2020
-Asia,20.1754385964912,Lower middle income,Pakistan,2020
-America,22.5352112676056,High income,Panama,2020
-America,26.1538461538462,Upper middle income,Peru,2020
-Asia,27.9605263157895,Lower middle income,Philippines,2020
-Oceania,6.25,Upper middle income,Palau,2020
-Oceania,0.0,Lower middle income,Papua New Guinea,2020
-Europe,28.695652173913,High income,Poland,2020
-Asia,17.6128093158661,Low income,North Korea,2020
-Europe,40.0,High income,Portugal,2020
-America,16.25,Upper middle income,Paraguay,2020
-Asia,9.75609756097561,High income,Qatar,2020
-Europe,21.8844984802432,High income,Romania,2020
-Europe,15.7777777777778,Upper middle income,Russia,2020
-Africa,61.25,Low income,Rwanda,2020
-Asia,19.8675496688742,High income,Saudi Arabia,2020
+Europe,13.0653266331658,High income,Hungary,2021
+Asia,21.0434782608696,Lower middle income,Indonesia,2021
+Asia,14.4444444444444,Lower middle income,India,2021
+Europe,22.5,High income,Ireland,2021
+Asia,5.59440559440559,Lower middle income,Iran,2021
+Asia,28.8753799392097,Upper middle income,Iraq,2021
+Europe,47.6190476190476,High income,Iceland,2021
+Asia,28.3333333333333,High income,Israel,2021
+Europe,35.7142857142857,High income,Italy,2021
+America,28.5714285714286,Upper middle income,Jamaica,2021
+Asia,11.5384615384615,Upper middle income,Jordan,2021
+Asia,9.67741935483871,High income,Japan,2021
+Asia,27.1028037383178,Upper middle income,Kazakhstan,2021
+Africa,21.6138328530259,Lower middle income,Kenya,2021
+Asia,20.4545454545455,Lower middle income,Kyrgyz Republic,2021
+Asia,21.6,Lower middle income,Cambodia,2021
+Oceania,6.66666666666667,Lower middle income,Kiribati,2021
+America,25.0,High income,St. Kitts and Nevis,2021
+Asia,19.0,High income,South Korea,2021
+Asia,1.53846153846154,High income,Kuwait,2021
+Asia,21.9512195121951,Lower middle income,Laos,2021
+Asia,4.6875,Lower middle income,Lebanon,2021
+Africa,10.958904109589,Low income,Liberia,2021
+Africa,15.9574468085106,Upper middle income,Libya,2021
+America,11.1111111111111,Upper middle income,St. Lucia,2021
+Europe,28.0,High income,Liechtenstein,2021
+Asia,5.38116591928251,Lower middle income,Sri Lanka,2021
+Africa,23.3333333333333,Lower middle income,Lesotho,2021
+Europe,27.6595744680851,High income,Lithuania,2021
+Europe,35.0,High income,Luxembourg,2021
+Europe,29.0,High income,Latvia,2021
+Africa,22.7848101265823,Lower middle income,Morocco,2021
+Europe,33.3333333333333,High income,Monaco,2021
+Europe,39.6039603960396,Upper middle income,Moldova,2021
+Africa,17.8807947019868,Low income,Madagascar,2021
+Asia,4.59770114942529,Upper middle income,Maldives,2021
+America,50.0,Upper middle income,Mexico,2021
+Oceania,6.06060606060606,Upper middle income,Marshall Islands,2021
+Europe,41.6666666666667,Upper middle income,North Macedonia,2021
+Africa,27.2727272727273,Low income,Mali,2021
+Europe,13.4328358208955,High income,Malta,2021
+Asia,15.2941176470588,Lower middle income,Myanmar,2021
+Europe,24.6913580246914,Upper middle income,Montenegro,2021
+Asia,17.1052631578947,Lower middle income,Mongolia,2021
+Africa,42.4,Low income,Mozambique,2021
+Africa,20.2614379084967,Lower middle income,Mauritania,2021
+Africa,20.0,Upper middle income,Mauritius,2021
+Africa,22.9166666666667,Low income,Malawi,2021
+Asia,14.8648648648649,Upper middle income,Malaysia,2021
+Africa,44.2307692307692,Upper middle income,Namibia,2021
+Africa,25.9036144578313,Low income,Niger,2021
+Africa,3.61111111111111,Lower middle income,Nigeria,2021
+America,50.5494505494505,Lower middle income,Nicaragua,2021
+Europe,39.3333333333333,High income,Netherlands,2021
+Europe,44.9704142011834,High income,Norway,2021
+Asia,32.7272727272727,Lower middle income,Nepal,2021
+Oceania,10.5263157894737,High income,Nauru,2021
+Oceania,49.1666666666667,High income,New Zealand,2021
+Asia,2.32558139534884,High income,Oman,2021
+Asia,20.1754385964912,Lower middle income,Pakistan,2021
+America,22.5352112676056,High income,Panama,2021
+America,40.0,Upper middle income,Peru,2021
+Asia,27.9605263157895,Lower middle income,Philippines,2021
+Oceania,6.25,Upper middle income,Palau,2021
+Oceania,0.0,Lower middle income,Papua New Guinea,2021
+Europe,28.322440087146,High income,Poland,2021
+Asia,17.6128093158661,Low income,North Korea,2021
+Europe,40.0,High income,Portugal,2021
+America,16.25,Upper middle income,Paraguay,2021
+Asia,4.44444444444444,High income,Qatar,2021
+Europe,18.5410334346505,High income,Romania,2021
+Europe,16.2222222222222,Upper middle income,Russia,2021
+Africa,61.25,Low income,Rwanda,2021
+Asia,19.8675496688742,High income,Saudi Arabia,2021
 Africa,30.5164319248826,Low income,Sudan,2018
-Africa,43.030303030303,Lower middle income,Senegal,2020
-Asia,29.4736842105263,High income,Singapore,2020
-Oceania,6.38297872340426,Lower middle income,Solomon Islands,2020
-Africa,12.3287671232877,Low income,Sierra Leone,2020
-America,33.3333333333333,Lower middle income,El Salvador,2020
-Europe,33.3333333333333,High income,San Marino,2020
-Africa,24.3636363636364,Low income,Somalia,2020
-Europe,38.8,Upper middle income,Serbia,2020
-Africa,28.4595300261097,Low income,South Sudan,2020
-Africa,23.6363636363636,Lower middle income,Sao Tome and Principe,2020
-America,29.4117647058824,Upper middle income,Suriname,2020
-Europe,22.6666666666667,High income,Slovakia,2020
-Europe,27.7777777777778,High income,Slovenia,2020
-Europe,46.9914040114613,High income,Sweden,2020
-Africa,9.58904109589041,Lower middle income,Eswatini,2020
-Africa,24.2424242424242,High income,Seychelles,2020
-Asia,11.2,Low income,Syria,2020
-Africa,15.4320987654321,Low income,Chad,2020
-Africa,18.6813186813187,Low income,Togo,2020
-Asia,15.7464212678937,Upper middle income,Thailand,2020
-Asia,23.8095238095238,Lower middle income,Tajikistan,2020
-Asia,25.0,Upper middle income,Turkmenistan,2020
-Asia,38.4615384615385,Lower middle income,Timor-Leste,2020
-Oceania,7.40740740740741,Upper middle income,Tonga,2020
-America,26.1904761904762,High income,Trinidad and Tobago,2020
-Africa,24.8847926267281,Lower middle income,Tunisia,2020
-Asia,17.3174872665535,Upper middle income,Türkiye,2020
-Oceania,6.25,Upper middle income,Tuvalu,2020
-Africa,36.71875,Lower middle income,Tanzania,2020
-Africa,34.8583877995643,Low income,Uganda,2020
-Europe,20.8037825059102,Lower middle income,Ukraine,2020
-America,21.2121212121212,High income,Uruguay,2020
-America,27.4647887323944,High income,United States,2020
-Asia,32.0,Lower middle income,Uzbekistan,2020
-America,18.1818181818182,Upper middle income,St. Vincent and the Grenadines,2020
-America,22.1556886227545,,Venezuela,2020
-Asia,26.7206477732794,Lower middle income,Vietnam,2020
-Oceania,0.0,Lower middle income,Vanuatu,2020
-Oceania,10.0,Lower middle income,Samoa,2020
-Asia,0.332225913621262,Low income,Yemen,2020
-Africa,46.75,Upper middle income,South Africa,2020
-Africa,16.7664670658683,Low income,Zambia,2020
-Africa,31.8518518518519,Lower middle income,Zimbabwe,2020
+Africa,43.030303030303,Lower middle income,Senegal,2021
+Asia,29.8076923076923,High income,Singapore,2021
+Oceania,8.0,Lower middle income,Solomon Islands,2021
+Africa,12.3287671232877,Low income,Sierra Leone,2021
+America,27.3809523809524,Lower middle income,El Salvador,2021
+Europe,33.3333333333333,High income,San Marino,2021
+Africa,24.3636363636364,Low income,Somalia,2021
+Europe,39.2,Upper middle income,Serbia,2021
+Africa,32.3636363636364,Low income,South Sudan,2021
+Africa,23.6363636363636,Lower middle income,Sao Tome and Principe,2021
+America,29.4117647058824,Upper middle income,Suriname,2021
+Europe,22.6666666666667,High income,Slovakia,2021
+Europe,26.6666666666667,High income,Slovenia,2021
+Europe,46.9914040114613,High income,Sweden,2021
+Africa,9.58904109589041,Lower middle income,Eswatini,2021
+Africa,22.8571428571429,High income,Seychelles,2021
+Asia,11.2,Low income,Syria,2021
+Africa,32.258064516129,Low income,Chad,2021
+Africa,18.6813186813187,Low income,Togo,2021
+Asia,15.7464212678937,Upper middle income,Thailand,2021
+Asia,23.8095238095238,Lower middle income,Tajikistan,2021
+Asia,25.0,Upper middle income,Turkmenistan,2021
+Asia,38.4615384615385,Lower middle income,Timor-Leste,2021
+Oceania,0.0,Upper middle income,Tonga,2021
+America,26.1904761904762,High income,Trinidad and Tobago,2021
+Africa,26.2672811059908,Lower middle income,Tunisia,2021
+Asia,17.3333333333333,Upper middle income,Türkiye,2021
+Oceania,6.25,Upper middle income,Tuvalu,2021
+Africa,36.8556701030928,Lower middle income,Tanzania,2021
+Africa,33.8129496402878,Low income,Uganda,2021
+Europe,20.8037825059102,Lower middle income,Ukraine,2021
+America,24.2424242424242,High income,Uruguay,2021
+America,27.6497695852535,High income,United States,2021
+Asia,32.6530612244898,Lower middle income,Uzbekistan,2021
+America,18.1818181818182,Upper middle income,St. Vincent and the Grenadines,2021
+America,22.1556886227545,,Venezuela,2021
+Asia,30.2605210420842,Lower middle income,Vietnam,2021
+Oceania,0.0,Lower middle income,Vanuatu,2021
+Oceania,7.84313725490196,Lower middle income,Samoa,2021
+Asia,0.0,Low income,Yemen,2021
+Africa,46.5822784810127,Upper middle income,South Africa,2021
+Africa,15.0602409638554,Low income,Zambia,2021
+Africa,31.8518518518519,Lower middle income,Zimbabwe,2021
