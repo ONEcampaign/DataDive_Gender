@@ -296,8 +296,8 @@ def ilo_employment() -> None:
     logger.debug("Extracted data from ILO")
 
 
-def update() -> None:
-    """ """
+if __name__ == "__main__":
+    """Update raw data from all sources"""
 
     hdr_gii()
     hdr_gdi()

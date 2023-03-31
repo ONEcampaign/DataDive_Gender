@@ -11,8 +11,8 @@ from scripts.charts import (
 from scripts.logger import logger
 
 
-def update_charts() -> None:
-    """Update charts."""
+if __name__ == "__main__":
+    """Update charts"""
 
     education.chart_scatter_attainment()
 
