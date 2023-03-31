@@ -1,10 +1,10 @@
-name: Update Gender DataDive
+name: Update poverty data
 'on':
   workflow_dispatch:
 
 
 jobs:
-  update_datadive:
+  update_poverty:
 
     runs-on: ubuntu-latest
     steps:
