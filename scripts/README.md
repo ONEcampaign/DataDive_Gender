@@ -6,7 +6,7 @@ the analysis.
 The extraction_tools directory contains scripts that are used to extract
 data from several sources and save them to the `raw_data` directory.
 `extract_data.py` extarcts data from all sources that regularly
-update. Only `pardee_unwomen_poverty.py` contains tools to extract poverty
+update. Only `extract_poverty.py` contains tools to extract poverty
 data that will not be updated. Data extraction makes extensive use
 of the packages `bblocks` and `unesco_reader` to facilitate the extraction
 process.

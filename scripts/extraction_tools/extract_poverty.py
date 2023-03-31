@@ -100,7 +100,7 @@ def clean_region_data(df: pd.DataFrame, mapper: dict) -> pd.DataFrame:
     )
 
 
-def update() -> None:
+def update_poverty_data() -> None:
     """Pipeline to update UNwomen, Pardee poverty data
 
     Stored as a csv in raw_data/unwomen_pardee_poverty.csv
@@ -120,3 +120,9 @@ def update() -> None:
         ).to_csv(PATHS.raw_data / "unwomen_pardee_poverty.csv", index=False)
     )
     logger.info("Updated unwomen_pardee_poverty.csv")
+
+
+if __name__ == "__main__":
+    """Update poverty data"""
+
+    update_poverty_data()
