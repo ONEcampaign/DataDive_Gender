@@ -4,8 +4,6 @@ name: Update Gender DataDive
     - cron:  ' 0 9 1 * * '
   workflow_dispatch:
 
-env:
-  NODE_VERSION: '16.x'
 
 jobs:
     update_datadive:
@@ -30,12 +28,12 @@ jobs:
 
           - name: Extract data
             run: |
-              export PYTHONPATH=$PYTHONPATH:$PWD
+              
               python ./scripts/extraction_tools.extract_data.py
 
           - name: Update charts
             run: |
-              export PYTHONPATH=$PYTHONPATH:$PWD
+              
               python ./scripts/charts.update_charts.py
 
           - name: commit changes
