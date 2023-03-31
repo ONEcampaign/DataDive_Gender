@@ -4,6 +4,9 @@ name: Update Gender DataDive
     - cron:  ' 0 9 1 * * '
   workflow_dispatch:
 
+env:
+  NODE_VERSION: '16.x'
+
 jobs:
     update_datadive:
 
