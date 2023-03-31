@@ -32,11 +32,11 @@ jobs:
 
           - name: Extract data
             run: |
-              python ./scripts/extraction_tools.extract_data.py
+              python scripts/extraction_tools.extract_data.py
 
           - name: Update charts
             run: |
-              python ./scripts/charts.update_charts.py
+              python scripts/charts.update_charts.py
 
           - name: commit changes
             run: |
