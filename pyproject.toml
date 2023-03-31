@@ -5,7 +5,7 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "datadive_gender"}]
+packages = [{include = "scripts"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
