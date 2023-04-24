@@ -28,8 +28,12 @@ def chart_unpaid_work():
         )
         .dropna(subset=["country"])
         .loc[:, ["year", "country", "value", "sex"]]
-        .sort_values(by="value", ascending=False)
-        .assign(value_annotation=lambda d: d.value.round(0).astype(int))
+        .assign(
+            hours=lambda d: d.value * 24 / 100,
+            value=lambda d: d.value.round(0).astype(int),
+        )
+        .rename(columns={"value": "percent_of_day"})
+        .sort_values(by="hours", ascending=False)
     )
 
     df.to_csv(f"{PATHS.output}/unpaid_work.csv", index=False)
