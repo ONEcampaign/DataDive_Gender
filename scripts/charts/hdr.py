@@ -65,7 +65,7 @@ def chart_gii_explorer_latest() -> None:
             low_high_income_highlight=lambda d: d.income_level.where(
                 d.income_level.isin(["Low income", "High income"]), np.nan
             ),
-            bin = lambda d: pd.cut(d["value"], bins=np.arange(0, 1.2, 0.2), right=False),
+            bin=lambda d: pd.cut(d["value"], bins=np.arange(0, 1.2, 0.2), right=False),
         )
         .to_csv(f"{PATHS.output}/hdr_gii_bubble_latest.csv", index=False)
     )
