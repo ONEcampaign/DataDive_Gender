@@ -5,6 +5,7 @@ from scripts.logger import logger
 import country_converter as coco
 import numpy as np
 from bblocks.dataframe_tools import add
+import pyreadstat
 
 from scripts.config import PATHS
 from scripts import common
@@ -12,6 +13,9 @@ from scripts import common
 LAWS = pd.read_csv(f"{PATHS.raw_data}/world_bank_law.csv")
 WB_GENDER = pd.read_csv(f"{PATHS.raw_data}/world_bank_gender.csv")
 
+afrobarometer_data, afrobarometer_meta = pyreadstat.read_sav(
+    f"{PATHS.raw_data}/afrobarometer.sav"
+)
 
 laws = [
     "SG.LAW.EQRM.WK",
@@ -101,3 +105,84 @@ def chart_parliament_participation_beeswarm() -> None:
         .to_csv(f"{PATHS.output}/parliament_participation_beeswarm.csv", index=False)
     )
     logger.debug("update chart parliament_participation_beeswarm")
+
+
+def chart_afrobarometer_sentiment() -> None:
+    """Create a chart showing sentiment towards gender equality in politics
+    from Afrobarometer data"""
+
+    (
+        afrobarometer_data[["COUNTRY", "Q101", "Q16"]]
+        .assign(
+            gender=lambda d: d.Q101.map(
+                afrobarometer_meta.value_labels[
+                    afrobarometer_meta.variable_to_label["Q101"]
+                ]
+            ),
+            country=lambda d: d.COUNTRY.map(
+                afrobarometer_meta.value_labels[
+                    afrobarometer_meta.variable_to_label["COUNTRY"]
+                ]
+            ),
+            response=lambda d: d.Q16.map(
+                afrobarometer_meta.value_labels[
+                    afrobarometer_meta.variable_to_label["Q16"]
+                ]
+            ),
+        )
+        .loc[
+            lambda d: d.response.isin(
+                [
+                    "Agree very strongly with 2",
+                    "Agree with 2",
+                    "Agree very strongly with 1",
+                    "Agree with 1",
+                ]
+            ),
+            ["country", "gender", "response"],
+        ]
+        # aggregate and get totals
+        .groupby(["country", "gender", "response"])
+        .size()
+        .reset_index(name="response_count")
+        # pivot for gender
+        .pivot(index=["country", "response"], columns="gender", values="response_count")
+        .fillna(0)
+        .assign(all=lambda d: d.sum(axis=1))
+        .drop(columns="Missing")  # remove values from missing gender var
+        # calculate proportions
+        .assign(
+            female=lambda d: (d.Female / d.groupby(level=0)["Female"].transform("sum"))
+            * 100,
+            male=lambda d: (d.Male / d.groupby(level=0)["Male"].transform("sum")) * 100,
+            total=lambda d: (d["all"] / d.groupby(level=0)["all"].transform("sum"))
+            * 100,
+        )
+        .loc[:, ["female", "male", "total"]]
+        .rename(columns={"total": "all"})
+        .reset_index()
+        # melt and pivot so that responses are columns
+        .melt(id_vars=["country", "response"], value_name="proportion")
+        .pivot(index=["country", "gender"], columns="response", values="proportion")
+        .reset_index()
+        # make values negative for disagree responses
+        .assign(
+            **{
+                "Agree very strongly with 1": lambda d: d["Agree very strongly with 1"]
+                * -1,
+                "Agree with 1": lambda d: d["Agree with 1"] * -1,
+            }
+        )
+        # rename responses
+        .rename(
+            columns={
+                "Agree very strongly with 1": "strongly disagree",
+                "Agree very strongly with 2": "strongly agree",
+                "Agree with 1": "disagree",
+                "Agree with 2": "agree",
+            }
+        )
+        .to_csv(f"{PATHS.output}/afrobarometer_sentiment.csv", index=False)
+    )
+
+    logger.debug("update chart afrobarometer_sentiment")
