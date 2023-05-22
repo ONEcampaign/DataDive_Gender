@@ -29,6 +29,7 @@ The following sources were used in this analysis:
 - UNESCO [Institute for Statistics](https://uis.unesco.org/en/)
 - [UN Women, Pardee Center, UNDP](https://data.unwomen.org/features/poverty-deepens-women-and-girls-according-latest-projections)
 - WHO, UNICEF, UNFPA, World Bank Group and UNDESA/Population Division - [mmr2020](https://mmr2020.srhr.org/)
+- Afrobarometer [Round 7](https://www.afrobarometer.org/survey-resource/merged-round-7-data-34-countries-2019/)
 
 
 
