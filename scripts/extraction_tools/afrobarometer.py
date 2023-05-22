@@ -16,3 +16,9 @@ def get_afrobarometer_data():
         f.write(response.content)
 
     logger.debug(f"Successfully downloaded Afrobarometer data")
+
+
+if __name__ == "__main__":
+    """Update poverty data"""
+
+    get_afrobarometer_data()
